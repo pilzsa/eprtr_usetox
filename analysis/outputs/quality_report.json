@@ -1,0 +1,2354 @@
+{
+  "generated": "2026-10-18",
+  "years": [
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "default_year": 2022,
+  "sources": {
+    "air_csv": "eea_t_ied-eprtr_p_2007-2024_v16_r00/User friendly .csv files/F1_4_Air_Releases_Facilities.csv",
+    "water_csv": "eea_t_ied-eprtr_p_2007-2024_v16_r00/User friendly .csv files/F2_4_Water_Releases_Facilities.csv",
+    "rows": 626362,
+    "air_rows": 372206,
+    "water_rows": 254156,
+    "columns": [
+      "PublicationDate",
+      "countryName",
+      "reportingYear",
+      "EPRTR_SectorCode",
+      "EPRTR_SectorName",
+      "EPRTRAnnexIMainActivity",
+      "FacilityInspireId",
+      "facilityName",
+      "city",
+      "Longitude",
+      "Latitude",
+      "addressConfidentialityReason",
+      "TargetRelease",
+      "Pollutant",
+      "Releases",
+      "confidentialityReason",
+      "medium",
+      "kg",
+      "lon",
+      "lat",
+      "year"
+    ],
+    "air_years": [
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "water_years": [
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ]
+  },
+  "cleaning": {
+    "rows_before": 626362,
+    "exact_duplicate_rows_removed": 28,
+    "rows_after_dedupe": 626334,
+    "rows_sharing_facility_year_medium_pollutant": 0,
+    "extra_rows_summed_by_key": 0,
+    "missing_facility_id": 0,
+    "missing_pollutant": 0,
+    "missing_country": 0,
+    "missing_city": 373,
+    "city_placeholder_dashdash": 10568,
+    "missing_coordinates": 935,
+    "outside_europe_window": 2464,
+    "missing_mass": 53,
+    "negative_mass": 0,
+    "zero_mass": 634,
+    "positive_mass": 625647,
+    "confidential_mass_rows": 53
+  },
+  "year_counts": {
+    "2007": {
+      "air": 23779,
+      "water": 14896
+    },
+    "2008": {
+      "air": 23684,
+      "water": 16138
+    },
+    "2009": {
+      "air": 22653,
+      "water": 15359
+    },
+    "2010": {
+      "air": 22796,
+      "water": 15982
+    },
+    "2011": {
+      "air": 22629,
+      "water": 16015
+    },
+    "2012": {
+      "air": 22231,
+      "water": 16259
+    },
+    "2013": {
+      "air": 22162,
+      "water": 16539
+    },
+    "2014": {
+      "air": 21940,
+      "water": 16604
+    },
+    "2015": {
+      "air": 21825,
+      "water": 16443
+    },
+    "2016": {
+      "air": 21702,
+      "water": 16082
+    },
+    "2017": {
+      "air": 21706,
+      "water": 16596
+    },
+    "2018": {
+      "air": 21995,
+      "water": 14033
+    },
+    "2019": {
+      "air": 20882,
+      "water": 13773
+    },
+    "2020": {
+      "air": 18305,
+      "water": 9987
+    },
+    "2021": {
+      "air": 18128,
+      "water": 10459
+    },
+    "2022": {
+      "air": 17154,
+      "water": 9937
+    },
+    "2023": {
+      "air": 14449,
+      "water": 9370
+    },
+    "2024": {
+      "air": 14158,
+      "water": 9684
+    }
+  },
+  "coordinates": {
+    "rows_missing_or_invalid": 2464,
+    "facilities_without_plottable_point": 199,
+    "facilities_zero_zero": 3,
+    "facilities_outside_window": 59,
+    "window": {
+      "lon": [
+        -32.0,
+        45.0
+      ],
+      "lat": [
+        27.0,
+        72.0
+      ]
+    }
+  },
+  "lau": {
+    "unique_points": 30429,
+    "points_matched": 26395,
+    "points_unmatched": 4034,
+    "facilities_with_lau": 27574,
+    "facilities_without_lau": 4581,
+    "layer": "LAU_RG_01M_2024_3035.gpkg:LAU_RG_01M_2024_3035.gpkg (EPSG:3035, 2024 boundaries)"
+  },
+  "co2_double_count": {
+    "facility_years_reporting_both": 6783,
+    "nested_mass_kg": 4430654765939.605,
+    "note": "CO2 excluding biomass is nested in total CO2; the smaller label is subtracted once per facility-year."
+  },
+  "aggregation": {
+    "source_rows": 626334,
+    "groups_facility_year_medium_pollutant": 626334,
+    "facility_years": 245515,
+    "positive_mass_rows": 625647,
+    "zero_mass_rows": 634,
+    "missing_mass_rows": 53,
+    "negative_mass_rows": 0,
+    "confidential_rows": 53,
+    "unknown_pollutant_labels": []
+  },
+  "outputs": {
+    "facility_year_rows": 245515,
+    "country_year_rows": 542,
+    "pollutant_year_rows": 2213,
+    "facilities_without_lau_rows": 4581
+  },
+  "cities": {
+    "entries": 37237,
+    "with_facilities": 12490,
+    "population_threshold": 1000,
+    "note": "All LAUs containing a facility plus LAUs with POP_2024 >= 1000."
+  },
+  "release_file_records": {
+    "2007": 14092,
+    "2008": 14390,
+    "2009": 14253,
+    "2010": 14226,
+    "2011": 14339,
+    "2012": 14265,
+    "2013": 14470,
+    "2014": 14676,
+    "2015": 14877,
+    "2016": 14886,
+    "2017": 15089,
+    "2018": 14696,
+    "2019": 14130,
+    "2020": 12845,
+    "2021": 12508,
+    "2022": 11650,
+    "2023": 10111,
+    "2024": 10012
+  },
+  "facilities": {
+    "total": 32155,
+    "countries": 32,
+    "with_city": 32044,
+    "with_sector": 31242
+  },
+  "pollutants": {
+    "total": 94,
+    "assessable": 73,
+    "group_indicators": 9,
+    "level_air": {
+      "0": 21,
+      "1": 0,
+      "2": 13,
+      "3": 27,
+      "4": 22,
+      "5": 11
+    },
+    "level_water": {
+      "0": 21,
+      "1": 0,
+      "2": 11,
+      "3": 29,
+      "4": 22,
+      "5": 11
+    },
+    "labels": [
+      "Carbon dioxide (CO2)",
+      "Carbon dioxide (CO2) excluding biomass",
+      "Methane (CH4)",
+      "Nitrous oxide (N2O)",
+      "Sulphur hexafluoride (SF6)",
+      "Hydro-fluorocarbons (HFCS)",
+      "Hydrochlorofluorocarbons (HCFCs)",
+      "Chlorofluorocarbons (CFCs)",
+      "Perfluorocarbons (PFCs)",
+      "Halons",
+      "Nitrogen oxides (NOX)",
+      "Sulphur oxides (SOX)",
+      "Non-methane volatile organic compounds (NMVOC)",
+      "Particulate matter (PM10)",
+      "Fine particulate matter (PM2.5)",
+      "Carbon monoxide (CO)",
+      "Ammonia (NH3)",
+      "Chlorine and inorganic compounds (as HCl)",
+      "Fluorine and inorganic compounds (as HF)",
+      "Hydrogen cyanide (HCN)",
+      "Total nitrogen",
+      "Total phosphorus",
+      "Total organic carbon(as total C or COD/3) (TOC)",
+      "Halogenated organic compounds (as AOX)",
+      "Chlorides (as total Cl)",
+      "Fluorides (as total F)",
+      "Cyanides (as total CN)",
+      "Phenols (as total C)",
+      "Organotin compounds (as total Sn)",
+      "Arsenic and compounds (as As)",
+      "Cadmium and compounds (as Cd)",
+      "Chromium and compounds (as Cr)",
+      "Copper and compounds (as Cu)",
+      "Lead and compounds (as Pb)",
+      "Mercury and compounds (as Hg)",
+      "Nickel and compounds (as Ni)",
+      "Zinc and compounds (as Zn)",
+      "Asbestos",
+      "Benzene",
+      "Ethyl benzene",
+      "Toluene",
+      "Xylenes",
+      "Naphthalene",
+      "Anthracene",
+      "Fluoranthene",
+      "Benzo(g,h,i)perylene",
+      "Polycyclic aromatic hydrocarbons (PAHs)",
+      "Dichloromethane (DCM)",
+      "Trichloromethane",
+      "Tetrachloromethane (TCM)",
+      "1,1,1-trichloroethane (TCE-1,1,1)",
+      "1,1,2,2-tetrachloroethane (TETRACHLOROETHANE-1,1,2,2)",
+      "1,2-dichloroethane (DCE-1,2)",
+      "Trichloroethylene (TRI)",
+      "Tetrachloroethylene",
+      "Vinyl chloride",
+      "Ethylene oxide",
+      "Alachlor",
+      "Aldrin",
+      "Atrazine",
+      "Chlordane",
+      "Chlordecone",
+      "Chlorfenvinphos",
+      "Chlorpyrifos",
+      "DDT (DDT)",
+      "Dieldrin",
+      "Diuron",
+      "Endosulphan",
+      "Endrin",
+      "Heptachlor",
+      "1,2,3,4,5,6-hexachlorocyclohexane (HCH)",
+      "Isodrin",
+      "Isoproturon",
+      "Lindane",
+      "Mirex",
+      "Simazine",
+      "Toxaphene",
+      "Trifluralin",
+      "Pentachlorophenol (PCP)",
+      "Hexachlorobenzene (HCB)",
+      "Hexachlorobutadiene (HCBD)",
+      "Pentachlorobenzene",
+      "Hexabromobiphenyl",
+      "Polychlorinated biphenyls (PCBs)",
+      "Brominated diphenylethers (PBDE)",
+      "PCDD + PCDF (dioxins + furans) (as Teq)",
+      "Chloro-alkanes, C10-C13",
+      "Trichlorobenzenes (TCB)",
+      "Di-(2-ethyl hexyl) phthalate (DEHP)",
+      "Nonylphenol and Nonylphenol ethoxylates",
+      "Octylphenols and Octylphenol ethoxylates",
+      "Tributyltin and compounds",
+      "Triphenyltin and compounds",
+      "CONFIDENTIAL"
+    ],
+    "table": [
+      {
+        "i": 0,
+        "name": "Carbon dioxide (CO2)",
+        "cas": "124-38-9",
+        "category": "climate",
+        "assessable": false,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 0,
+          "water": 0
+        },
+        "flags": "not assessable",
+        "note": "Greenhouse gas; no toxicity classification."
+      },
+      {
+        "i": 1,
+        "name": "Carbon dioxide (CO2) excluding biomass",
+        "cas": "124-38-9",
+        "category": "climate",
+        "assessable": false,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 0,
+          "water": 0
+        },
+        "flags": "not assessable",
+        "note": "Greenhouse gas; no toxicity classification."
+      },
+      {
+        "i": 2,
+        "name": "Methane (CH4)",
+        "cas": "74-82-8",
+        "category": "climate",
+        "assessable": false,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 0,
+          "water": 0
+        },
+        "flags": "not assessable",
+        "note": "Greenhouse gas; no toxicity classification."
+      },
+      {
+        "i": 3,
+        "name": "Nitrous oxide (N2O)",
+        "cas": "10024-97-2",
+        "category": "climate",
+        "assessable": false,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 0,
+          "water": 0
+        },
+        "flags": "not assessable",
+        "note": "Greenhouse gas; no toxicity classification."
+      },
+      {
+        "i": 4,
+        "name": "Sulphur hexafluoride (SF6)",
+        "cas": "2551-62-4",
+        "category": "climate",
+        "assessable": false,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 0,
+          "water": 0
+        },
+        "flags": "not assessable",
+        "note": "Extremely potent greenhouse gas; no toxicity classification."
+      },
+      {
+        "i": 5,
+        "name": "Hydro-fluorocarbons (HFCS)",
+        "cas": null,
+        "category": "climate",
+        "assessable": false,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 0,
+          "water": 0
+        },
+        "flags": "not assessable; no CAS",
+        "note": "Group of greenhouse gases; no single CAS."
+      },
+      {
+        "i": 6,
+        "name": "Hydrochlorofluorocarbons (HCFCs)",
+        "cas": null,
+        "category": "climate",
+        "assessable": false,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 0,
+          "water": 0
+        },
+        "flags": "not assessable; no CAS",
+        "note": "Group of ozone-depleting/greenhouse gases; no single CAS."
+      },
+      {
+        "i": 7,
+        "name": "Chlorofluorocarbons (CFCs)",
+        "cas": null,
+        "category": "climate",
+        "assessable": false,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 0,
+          "water": 0
+        },
+        "flags": "not assessable; no CAS",
+        "note": "Group of ozone-depleting gases; no single CAS."
+      },
+      {
+        "i": 8,
+        "name": "Perfluorocarbons (PFCs)",
+        "cas": null,
+        "category": "climate",
+        "assessable": false,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 0,
+          "water": 0
+        },
+        "flags": "not assessable; no CAS",
+        "note": "Group of greenhouse gases; no single CAS."
+      },
+      {
+        "i": 9,
+        "name": "Halons",
+        "cas": null,
+        "category": "climate",
+        "assessable": false,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 0,
+          "water": 0
+        },
+        "flags": "not assessable; no CAS",
+        "note": "Group of ozone-depleting gases; no single CAS."
+      },
+      {
+        "i": 10,
+        "name": "Nitrogen oxides (NOX)",
+        "cas": null,
+        "category": "aggregate",
+        "assessable": false,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 0,
+          "water": 0
+        },
+        "flags": "not assessable; no CAS",
+        "note": "Aggregate NO+NO2; no single CAS. Not classified to avoid labelling every combustion plant."
+      },
+      {
+        "i": 11,
+        "name": "Sulphur oxides (SOX)",
+        "cas": null,
+        "category": "aggregate",
+        "assessable": false,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 0,
+          "water": 0
+        },
+        "flags": "not assessable; no CAS",
+        "note": "Aggregate SO2+SO3; no single CAS."
+      },
+      {
+        "i": 12,
+        "name": "Non-methane volatile organic compounds (NMVOC)",
+        "cas": null,
+        "category": "aggregate",
+        "assessable": false,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 0,
+          "water": 0
+        },
+        "flags": "not assessable; no CAS",
+        "note": "Aggregate of many substances; composition unknown."
+      },
+      {
+        "i": 13,
+        "name": "Particulate matter (PM10)",
+        "cas": null,
+        "category": "aggregate",
+        "assessable": false,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 0,
+          "water": 0
+        },
+        "flags": "not assessable; no CAS",
+        "note": "Size fraction, not a substance; toxicity depends on composition."
+      },
+      {
+        "i": 14,
+        "name": "Fine particulate matter (PM2.5)",
+        "cas": null,
+        "category": "aggregate",
+        "assessable": false,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 0,
+          "water": 0
+        },
+        "flags": "not assessable; no CAS",
+        "note": "Size fraction, not a substance; toxicity depends on composition."
+      },
+      {
+        "i": 15,
+        "name": "Carbon monoxide (CO)",
+        "cas": "630-08-0",
+        "category": "inorganic gas",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 2,
+          "water": 2
+        },
+        "flags": "",
+        "note": "CLP Acute Tox. 3 (inhalation); not carcinogenic."
+      },
+      {
+        "i": 16,
+        "name": "Ammonia (NH3)",
+        "cas": "7664-41-7",
+        "category": "inorganic gas",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 2,
+          "water": 2
+        },
+        "flags": "",
+        "note": "CLP Acute Tox. 3, Skin Corr. 1B, Aquatic Acute 1."
+      },
+      {
+        "i": 17,
+        "name": "Chlorine and inorganic compounds (as HCl)",
+        "cas": "7647-01-0",
+        "category": "inorganic gas",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "3",
+        "clp_carc": "",
+        "hap": true,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 3,
+          "water": 2
+        },
+        "flags": "EPA HAP (air); IARC 3",
+        "note": "Reported as HCl; CLP Skin Corr. 1B, STOT SE 3."
+      },
+      {
+        "i": 18,
+        "name": "Fluorine and inorganic compounds (as HF)",
+        "cas": "7664-39-3",
+        "category": "inorganic gas",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": true,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 3,
+          "water": 2
+        },
+        "flags": "EPA HAP (air)",
+        "note": "Reported as HF; CLP Acute Tox. 2, Skin Corr. 1A."
+      },
+      {
+        "i": 19,
+        "name": "Hydrogen cyanide (HCN)",
+        "cas": "74-90-8",
+        "category": "inorganic gas",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 2,
+          "water": 2
+        },
+        "flags": "",
+        "note": "CLP Acute Tox. 2, Aquatic Acute 1."
+      },
+      {
+        "i": 20,
+        "name": "Total nitrogen",
+        "cas": null,
+        "category": "aggregate",
+        "assessable": false,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 0,
+          "water": 0
+        },
+        "flags": "not assessable; no CAS",
+        "note": "Nutrient aggregate; no substance-level hazard classification."
+      },
+      {
+        "i": 21,
+        "name": "Total phosphorus",
+        "cas": null,
+        "category": "aggregate",
+        "assessable": false,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 0,
+          "water": 0
+        },
+        "flags": "not assessable; no CAS",
+        "note": "Nutrient aggregate; no substance-level hazard classification."
+      },
+      {
+        "i": 22,
+        "name": "Total organic carbon(as total C or COD/3) (TOC)",
+        "cas": null,
+        "category": "aggregate",
+        "assessable": false,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 0,
+          "water": 0
+        },
+        "flags": "not assessable; no CAS",
+        "note": "Aggregate oxygen-demand parameter; no substance-level hazard classification."
+      },
+      {
+        "i": 23,
+        "name": "Halogenated organic compounds (as AOX)",
+        "cas": null,
+        "category": "aggregate",
+        "assessable": false,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 0,
+          "water": 0
+        },
+        "flags": "not assessable; no CAS",
+        "note": "Adsorbable organically bound halogens; mixture, no single CAS."
+      },
+      {
+        "i": 24,
+        "name": "Chlorides (as total Cl)",
+        "cas": null,
+        "category": "aggregate",
+        "assessable": false,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 0,
+          "water": 0
+        },
+        "flags": "not assessable; no CAS",
+        "note": "Salinity parameter; not a toxicity hazard at the reported level."
+      },
+      {
+        "i": 25,
+        "name": "Fluorides (as total F)",
+        "cas": "16984-48-8",
+        "category": "inorganic ion",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "3",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 2,
+          "water": 2
+        },
+        "flags": "IARC 3",
+        "note": "Fluoride ion; CLP Acute Tox. 3/4 depending on salt."
+      },
+      {
+        "i": 26,
+        "name": "Cyanides (as total CN)",
+        "cas": "57-12-5",
+        "category": "inorganic ion",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 2,
+          "water": 2
+        },
+        "flags": "",
+        "note": "Cyanide ion; CLP Acute Tox. 1/2, Aquatic Acute 1."
+      },
+      {
+        "i": 27,
+        "name": "Phenols (as total C)",
+        "cas": "108-95-2",
+        "category": "indicator",
+        "assessable": true,
+        "indicator": true,
+        "iarc": "3",
+        "clp_carc": "",
+        "hap": true,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 3,
+          "water": 2
+        },
+        "flags": "indicator/group; EPA HAP (air); IARC 3",
+        "note": "Phenol used as indicator for the total-phenol parameter."
+      },
+      {
+        "i": 28,
+        "name": "Organotin compounds (as total Sn)",
+        "cas": "56-35-9",
+        "category": "indicator",
+        "assessable": true,
+        "indicator": true,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": true,
+        "svhc": true,
+        "levels": {
+          "air": 4,
+          "water": 4
+        },
+        "flags": "indicator/group; WFD priority (water); ECHA SVHC",
+        "note": "Tributyltin used as indicator for the organotin group; WFD priority and SVHC."
+      },
+      {
+        "i": 29,
+        "name": "Arsenic and compounds (as As)",
+        "cas": "7440-38-2",
+        "category": "metal",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "1",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 5,
+          "water": 5
+        },
+        "flags": "WFD priority (water); IARC 1",
+        "note": "Arsenic and inorganic arsenic compounds: IARC 1."
+      },
+      {
+        "i": 30,
+        "name": "Cadmium and compounds (as Cd)",
+        "cas": "7440-43-9",
+        "category": "metal",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "1",
+        "clp_carc": "1B",
+        "hap": false,
+        "wfd": true,
+        "svhc": true,
+        "levels": {
+          "air": 5,
+          "water": 5
+        },
+        "flags": "WFD priority (water); ECHA SVHC; IARC 1; CLP Carc. 1B",
+        "note": "Cadmium and compounds: IARC 1, CLP Carc. 1B, WFD priority."
+      },
+      {
+        "i": 31,
+        "name": "Chromium and compounds (as Cr)",
+        "cas": "7440-47-3",
+        "category": "metal",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "3",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 2,
+          "water": 3
+        },
+        "flags": "WFD priority (water); IARC 3",
+        "note": "Total Cr; metallic Cr (IARC 3) used. Cr(VI) is IARC 1 but cannot be separated in EPRTR."
+      },
+      {
+        "i": 32,
+        "name": "Copper and compounds (as Cu)",
+        "cas": "7440-50-8",
+        "category": "metal",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 2,
+          "water": 3
+        },
+        "flags": "WFD priority (water)",
+        "note": "Copper compounds are mainly aquatic hazards."
+      },
+      {
+        "i": 33,
+        "name": "Lead and compounds (as Pb)",
+        "cas": "7439-92-1",
+        "category": "metal",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "2A",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": true,
+        "svhc": true,
+        "levels": {
+          "air": 4,
+          "water": 4
+        },
+        "flags": "WFD priority (water); ECHA SVHC; IARC 2A",
+        "note": "Lead compounds: IARC 2A, CLP Repr. 1A, WFD priority."
+      },
+      {
+        "i": 34,
+        "name": "Mercury and compounds (as Hg)",
+        "cas": "7439-97-6",
+        "category": "metal",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "3",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 2,
+          "water": 3
+        },
+        "flags": "WFD priority (water); IARC 3",
+        "note": "Mercury compounds: IARC 3 for mercury/inorganic, methylmercury 2B; WFD priority hazardous."
+      },
+      {
+        "i": 35,
+        "name": "Nickel and compounds (as Ni)",
+        "cas": "7440-02-0",
+        "category": "metal",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "2B",
+        "clp_carc": "2",
+        "hap": false,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 3,
+          "water": 3
+        },
+        "flags": "WFD priority (water); IARC 2B; CLP Carc. 2",
+        "note": "Metallic Ni (IARC 2B) used; nickel compounds are IARC 1 but cannot be separated."
+      },
+      {
+        "i": 36,
+        "name": "Zinc and compounds (as Zn)",
+        "cas": "7440-66-6",
+        "category": "metal",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 2,
+          "water": 3
+        },
+        "flags": "WFD priority (water)",
+        "note": "Zinc compounds are mainly aquatic hazards."
+      },
+      {
+        "i": 37,
+        "name": "Asbestos",
+        "cas": "1332-21-4",
+        "category": "mineral",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "1",
+        "clp_carc": "",
+        "hap": true,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 5,
+          "water": 5
+        },
+        "flags": "EPA HAP (air); IARC 1",
+        "note": "All forms: IARC 1."
+      },
+      {
+        "i": 38,
+        "name": "Benzene",
+        "cas": "71-43-2",
+        "category": "VOC",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "1",
+        "clp_carc": "1A",
+        "hap": true,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 5,
+          "water": 5
+        },
+        "flags": "EPA HAP (air); IARC 1; CLP Carc. 1A",
+        "note": "IARC 1, CLP Carc. 1A."
+      },
+      {
+        "i": 39,
+        "name": "Ethyl benzene",
+        "cas": "100-41-4",
+        "category": "VOC",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "2B",
+        "clp_carc": "",
+        "hap": true,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 3,
+          "water": 3
+        },
+        "flags": "EPA HAP (air); IARC 2B",
+        "note": "IARC 2B."
+      },
+      {
+        "i": 40,
+        "name": "Toluene",
+        "cas": "108-88-3",
+        "category": "VOC",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "3",
+        "clp_carc": "",
+        "hap": true,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 3,
+          "water": 2
+        },
+        "flags": "EPA HAP (air); IARC 3",
+        "note": "IARC 3; CLP Repr. 2/STOT."
+      },
+      {
+        "i": 41,
+        "name": "Xylenes",
+        "cas": "1330-20-7",
+        "category": "VOC",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "3",
+        "clp_carc": "",
+        "hap": true,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 3,
+          "water": 2
+        },
+        "flags": "EPA HAP (air); IARC 3",
+        "note": "IARC 3; CLP Acute Tox./STOT."
+      },
+      {
+        "i": 42,
+        "name": "Naphthalene",
+        "cas": "91-20-3",
+        "category": "PAH",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "2B",
+        "clp_carc": "2",
+        "hap": true,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 3,
+          "water": 3
+        },
+        "flags": "EPA HAP (air); IARC 2B; CLP Carc. 2",
+        "note": "IARC 2B, CLP Carc. 2."
+      },
+      {
+        "i": 43,
+        "name": "Anthracene",
+        "cas": "120-12-7",
+        "category": "PAH",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "3",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": true,
+        "svhc": true,
+        "levels": {
+          "air": 4,
+          "water": 4
+        },
+        "flags": "WFD priority (water); ECHA SVHC; IARC 3",
+        "note": "IARC 3; aquatic hazard."
+      },
+      {
+        "i": 44,
+        "name": "Fluoranthene",
+        "cas": "206-44-0",
+        "category": "PAH",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "3",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": true,
+        "svhc": true,
+        "levels": {
+          "air": 4,
+          "water": 4
+        },
+        "flags": "WFD priority (water); ECHA SVHC; IARC 3",
+        "note": "IARC 3; WFD priority substance (indicator for PAHs)."
+      },
+      {
+        "i": 45,
+        "name": "Benzo(g,h,i)perylene",
+        "cas": "191-24-2",
+        "category": "PAH",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "3",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": true,
+        "svhc": true,
+        "levels": {
+          "air": 4,
+          "water": 4
+        },
+        "flags": "WFD priority (water); ECHA SVHC; IARC 3",
+        "note": "IARC 3; aquatic hazard."
+      },
+      {
+        "i": 46,
+        "name": "Polycyclic aromatic hydrocarbons (PAHs)",
+        "cas": "50-32-8",
+        "category": "PAH",
+        "assessable": true,
+        "indicator": true,
+        "iarc": "1",
+        "clp_carc": "1B",
+        "hap": false,
+        "wfd": true,
+        "svhc": true,
+        "levels": {
+          "air": 5,
+          "water": 5
+        },
+        "flags": "indicator/group; WFD priority (water); ECHA SVHC; IARC 1; CLP Carc. 1B",
+        "note": "Benzo[a]pyrene used as indicator for the PAH group; IARC 1."
+      },
+      {
+        "i": 47,
+        "name": "Dichloromethane (DCM)",
+        "cas": "75-09-2",
+        "category": "VOC",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "2A",
+        "clp_carc": "2",
+        "hap": true,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 4,
+          "water": 4
+        },
+        "flags": "EPA HAP (air); IARC 2A; CLP Carc. 2",
+        "note": "IARC 2A."
+      },
+      {
+        "i": 48,
+        "name": "Trichloromethane",
+        "cas": "67-66-3",
+        "category": "VOC",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "2B",
+        "clp_carc": "2",
+        "hap": true,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 3,
+          "water": 3
+        },
+        "flags": "EPA HAP (air); IARC 2B; CLP Carc. 2",
+        "note": "IARC 2B."
+      },
+      {
+        "i": 49,
+        "name": "Tetrachloromethane (TCM)",
+        "cas": "56-23-5",
+        "category": "VOC",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "2B",
+        "clp_carc": "2",
+        "hap": true,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 3,
+          "water": 3
+        },
+        "flags": "EPA HAP (air); IARC 2B; CLP Carc. 2",
+        "note": "IARC 2B."
+      },
+      {
+        "i": 50,
+        "name": "1,1,1-trichloroethane (TCE-1,1,1)",
+        "cas": "71-55-6",
+        "category": "VOC",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "3",
+        "clp_carc": "",
+        "hap": true,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 3,
+          "water": 2
+        },
+        "flags": "EPA HAP (air); IARC 3",
+        "note": "IARC 3; ozone-depleting."
+      },
+      {
+        "i": 51,
+        "name": "1,1,2,2-tetrachloroethane (TETRACHLOROETHANE-1,1,2,2)",
+        "cas": "79-34-5",
+        "category": "VOC",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "2B",
+        "clp_carc": "",
+        "hap": true,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 3,
+          "water": 3
+        },
+        "flags": "EPA HAP (air); IARC 2B",
+        "note": "IARC 2B; CLP Acute Tox."
+      },
+      {
+        "i": 52,
+        "name": "1,2-dichloroethane (DCE-1,2)",
+        "cas": "107-06-2",
+        "category": "VOC",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "2A",
+        "clp_carc": "1B",
+        "hap": true,
+        "wfd": false,
+        "svhc": true,
+        "levels": {
+          "air": 4,
+          "water": 4
+        },
+        "flags": "EPA HAP (air); ECHA SVHC; IARC 2A; CLP Carc. 1B",
+        "note": "IARC 2A; CLP Carc. 1B."
+      },
+      {
+        "i": 53,
+        "name": "Trichloroethylene (TRI)",
+        "cas": "79-01-6",
+        "category": "VOC",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "1",
+        "clp_carc": "1B",
+        "hap": true,
+        "wfd": false,
+        "svhc": true,
+        "levels": {
+          "air": 5,
+          "water": 5
+        },
+        "flags": "EPA HAP (air); ECHA SVHC; IARC 1; CLP Carc. 1B",
+        "note": "IARC 1, CLP Carc. 1B."
+      },
+      {
+        "i": 54,
+        "name": "Tetrachloroethylene",
+        "cas": "127-18-4",
+        "category": "VOC",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "2A",
+        "clp_carc": "2",
+        "hap": true,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 4,
+          "water": 4
+        },
+        "flags": "EPA HAP (air); IARC 2A; CLP Carc. 2",
+        "note": "IARC 2A."
+      },
+      {
+        "i": 55,
+        "name": "Vinyl chloride",
+        "cas": "75-01-4",
+        "category": "VOC",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "1",
+        "clp_carc": "1A",
+        "hap": true,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 5,
+          "water": 5
+        },
+        "flags": "EPA HAP (air); IARC 1; CLP Carc. 1A",
+        "note": "IARC 1, CLP Carc. 1A."
+      },
+      {
+        "i": 56,
+        "name": "Ethylene oxide",
+        "cas": "75-21-8",
+        "category": "VOC",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "1",
+        "clp_carc": "1B",
+        "hap": true,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 5,
+          "water": 5
+        },
+        "flags": "EPA HAP (air); IARC 1; CLP Carc. 1B",
+        "note": "IARC 1, CLP Carc. 1B."
+      },
+      {
+        "i": 57,
+        "name": "Alachlor",
+        "cas": "15972-60-8",
+        "category": "pesticide",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "2A",
+        "clp_carc": "2",
+        "hap": false,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 4,
+          "water": 4
+        },
+        "flags": "WFD priority (water); IARC 2A; CLP Carc. 2",
+        "note": "IARC 2A; WFD priority."
+      },
+      {
+        "i": 58,
+        "name": "Aldrin",
+        "cas": "309-00-2",
+        "category": "pesticide",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "3",
+        "clp_carc": "2",
+        "hap": false,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 3,
+          "water": 3
+        },
+        "flags": "WFD priority (water); IARC 3; CLP Carc. 2",
+        "note": "IARC 3; WFD priority."
+      },
+      {
+        "i": 59,
+        "name": "Atrazine",
+        "cas": "1912-24-9",
+        "category": "pesticide",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "2A",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 4,
+          "water": 4
+        },
+        "flags": "WFD priority (water); IARC 2A",
+        "note": "IARC 2A; WFD priority."
+      },
+      {
+        "i": 60,
+        "name": "Chlordane",
+        "cas": "57-74-9",
+        "category": "pesticide",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "2B",
+        "clp_carc": "2",
+        "hap": true,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 3,
+          "water": 3
+        },
+        "flags": "EPA HAP (air); WFD priority (water); IARC 2B; CLP Carc. 2",
+        "note": "IARC 2B; WFD priority."
+      },
+      {
+        "i": 61,
+        "name": "Chlordecone",
+        "cas": "143-50-0",
+        "category": "pesticide",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "2A",
+        "clp_carc": "2",
+        "hap": false,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 4,
+          "water": 4
+        },
+        "flags": "WFD priority (water); IARC 2A; CLP Carc. 2",
+        "note": "IARC 2A; WFD priority."
+      },
+      {
+        "i": 62,
+        "name": "Chlorfenvinphos",
+        "cas": "470-90-6",
+        "category": "pesticide",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 2,
+          "water": 3
+        },
+        "flags": "WFD priority (water)",
+        "note": "CLP Acute Tox.; WFD priority."
+      },
+      {
+        "i": 63,
+        "name": "Chlorpyrifos",
+        "cas": "2921-88-2",
+        "category": "pesticide",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "2A",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 4,
+          "water": 4
+        },
+        "flags": "WFD priority (water); IARC 2A",
+        "note": "IARC 2A; WFD priority."
+      },
+      {
+        "i": 64,
+        "name": "DDT (DDT)",
+        "cas": "50-29-3",
+        "category": "pesticide",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "2A",
+        "clp_carc": "2",
+        "hap": false,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 4,
+          "water": 4
+        },
+        "flags": "WFD priority (water); IARC 2A; CLP Carc. 2",
+        "note": "IARC 2A; WFD priority."
+      },
+      {
+        "i": 65,
+        "name": "Dieldrin",
+        "cas": "60-57-1",
+        "category": "pesticide",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "2A",
+        "clp_carc": "2",
+        "hap": false,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 4,
+          "water": 4
+        },
+        "flags": "WFD priority (water); IARC 2A; CLP Carc. 2",
+        "note": "IARC 2A; WFD priority."
+      },
+      {
+        "i": 66,
+        "name": "Diuron",
+        "cas": "330-54-1",
+        "category": "pesticide",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "2B",
+        "clp_carc": "2",
+        "hap": false,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 3,
+          "water": 3
+        },
+        "flags": "WFD priority (water); IARC 2B; CLP Carc. 2",
+        "note": "IARC 2B/CLP Carc. 2; WFD priority."
+      },
+      {
+        "i": 67,
+        "name": "Endosulphan",
+        "cas": "115-29-7",
+        "category": "pesticide",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 2,
+          "water": 3
+        },
+        "flags": "WFD priority (water)",
+        "note": "WFD priority; CLP Acute Tox./Aquatic."
+      },
+      {
+        "i": 68,
+        "name": "Endrin",
+        "cas": "72-20-8",
+        "category": "pesticide",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "3",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 2,
+          "water": 3
+        },
+        "flags": "WFD priority (water); IARC 3",
+        "note": "IARC 3; WFD priority."
+      },
+      {
+        "i": 69,
+        "name": "Heptachlor",
+        "cas": "76-44-8",
+        "category": "pesticide",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "2B",
+        "clp_carc": "2",
+        "hap": true,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 3,
+          "water": 3
+        },
+        "flags": "EPA HAP (air); WFD priority (water); IARC 2B; CLP Carc. 2",
+        "note": "IARC 2B; WFD priority."
+      },
+      {
+        "i": 70,
+        "name": "1,2,3,4,5,6-hexachlorocyclohexane (HCH)",
+        "cas": "608-73-1",
+        "category": "pesticide",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "2B",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 3,
+          "water": 3
+        },
+        "flags": "WFD priority (water); IARC 2B",
+        "note": "Technical HCH (isomer mixture); IARC 2B; WFD priority. Lindane is reported separately."
+      },
+      {
+        "i": 71,
+        "name": "Isodrin",
+        "cas": "465-73-6",
+        "category": "pesticide",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 2,
+          "water": 3
+        },
+        "flags": "WFD priority (water)",
+        "note": "WFD priority; no IARC/CLP entry found."
+      },
+      {
+        "i": 72,
+        "name": "Isoproturon",
+        "cas": "34123-59-6",
+        "category": "pesticide",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "2",
+        "hap": false,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 3,
+          "water": 3
+        },
+        "flags": "WFD priority (water); CLP Carc. 2",
+        "note": "CLP Carc. 2; WFD priority."
+      },
+      {
+        "i": 73,
+        "name": "Lindane",
+        "cas": "58-89-9",
+        "category": "pesticide",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "1",
+        "clp_carc": "",
+        "hap": true,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 5,
+          "water": 5
+        },
+        "flags": "EPA HAP (air); WFD priority (water); IARC 1",
+        "note": "IARC 1; WFD priority."
+      },
+      {
+        "i": 74,
+        "name": "Mirex",
+        "cas": "2385-85-5",
+        "category": "pesticide",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "2B",
+        "clp_carc": "2",
+        "hap": false,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 3,
+          "water": 3
+        },
+        "flags": "WFD priority (water); IARC 2B; CLP Carc. 2",
+        "note": "IARC 2B; WFD priority."
+      },
+      {
+        "i": 75,
+        "name": "Simazine",
+        "cas": "122-34-9",
+        "category": "pesticide",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "3",
+        "clp_carc": "2",
+        "hap": false,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 3,
+          "water": 3
+        },
+        "flags": "WFD priority (water); IARC 3; CLP Carc. 2",
+        "note": "IARC 3/CLP Carc. 2; WFD priority."
+      },
+      {
+        "i": 76,
+        "name": "Toxaphene",
+        "cas": "8001-35-2",
+        "category": "pesticide",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "2B",
+        "clp_carc": "2",
+        "hap": true,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 3,
+          "water": 3
+        },
+        "flags": "EPA HAP (air); WFD priority (water); IARC 2B; CLP Carc. 2",
+        "note": "IARC 2B; WFD priority."
+      },
+      {
+        "i": 77,
+        "name": "Trifluralin",
+        "cas": "1582-09-8",
+        "category": "pesticide",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "3",
+        "clp_carc": "2",
+        "hap": true,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 3,
+          "water": 3
+        },
+        "flags": "EPA HAP (air); WFD priority (water); IARC 3; CLP Carc. 2",
+        "note": "IARC 3/CLP Carc. 2; WFD priority."
+      },
+      {
+        "i": 78,
+        "name": "Pentachlorophenol (PCP)",
+        "cas": "87-86-5",
+        "category": "pesticide",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "2B",
+        "clp_carc": "2",
+        "hap": true,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 3,
+          "water": 3
+        },
+        "flags": "EPA HAP (air); WFD priority (water); IARC 2B; CLP Carc. 2",
+        "note": "IARC 2B; WFD priority."
+      },
+      {
+        "i": 79,
+        "name": "Hexachlorobenzene (HCB)",
+        "cas": "118-74-1",
+        "category": "POP",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "2B",
+        "clp_carc": "1B",
+        "hap": true,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 4,
+          "water": 4
+        },
+        "flags": "EPA HAP (air); WFD priority (water); IARC 2B; CLP Carc. 1B",
+        "note": "IARC 2B, CLP Carc. 2; WFD priority."
+      },
+      {
+        "i": 80,
+        "name": "Hexachlorobutadiene (HCBD)",
+        "cas": "87-68-3",
+        "category": "POP",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "3",
+        "clp_carc": "",
+        "hap": true,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 3,
+          "water": 3
+        },
+        "flags": "EPA HAP (air); WFD priority (water); IARC 3",
+        "note": "IARC 3/CLP Carc. 2; WFD priority."
+      },
+      {
+        "i": 81,
+        "name": "Pentachlorobenzene",
+        "cas": "608-93-5",
+        "category": "POP",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "2B",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 3,
+          "water": 3
+        },
+        "flags": "WFD priority (water); IARC 2B",
+        "note": "IARC 2B; WFD priority."
+      },
+      {
+        "i": 82,
+        "name": "Hexabromobiphenyl",
+        "cas": "36355-01-8",
+        "category": "POP",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "2B",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 3,
+          "water": 3
+        },
+        "flags": "WFD priority (water); IARC 2B",
+        "note": "IARC 2B; WFD priority."
+      },
+      {
+        "i": 83,
+        "name": "Polychlorinated biphenyls (PCBs)",
+        "cas": "1336-36-3",
+        "category": "POP",
+        "assessable": true,
+        "indicator": true,
+        "iarc": "1",
+        "clp_carc": "",
+        "hap": true,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 5,
+          "water": 5
+        },
+        "flags": "indicator/group; EPA HAP (air); WFD priority (water); IARC 1",
+        "note": "PCB group: IARC 1; WFD priority."
+      },
+      {
+        "i": 84,
+        "name": "Brominated diphenylethers (PBDE)",
+        "cas": "67774-32-7",
+        "category": "POP",
+        "assessable": true,
+        "indicator": true,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": true,
+        "svhc": true,
+        "levels": {
+          "air": 4,
+          "water": 4
+        },
+        "flags": "indicator/group; WFD priority (water); ECHA SVHC",
+        "note": "PBDE group; no single CAS. SVHC/PBT and WFD priority."
+      },
+      {
+        "i": 85,
+        "name": "PCDD + PCDF (dioxins + furans) (as Teq)",
+        "cas": "1746-01-6",
+        "category": "POP",
+        "assessable": true,
+        "indicator": true,
+        "iarc": "1",
+        "clp_carc": "",
+        "hap": true,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 5,
+          "water": 5
+        },
+        "flags": "indicator/group; EPA HAP (air); WFD priority (water); IARC 1",
+        "note": "2,3,7,8-TCDD used as TEQ indicator; IARC 1."
+      },
+      {
+        "i": 86,
+        "name": "Chloro-alkanes, C10-C13",
+        "cas": "85535-84-8",
+        "category": "POP",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "2",
+        "hap": false,
+        "wfd": true,
+        "svhc": true,
+        "levels": {
+          "air": 4,
+          "water": 4
+        },
+        "flags": "WFD priority (water); ECHA SVHC; CLP Carc. 2",
+        "note": "Short-chain chlorinated paraffins; SVHC/PBT; WFD priority."
+      },
+      {
+        "i": 87,
+        "name": "Trichlorobenzenes (TCB)",
+        "cas": "120-82-1",
+        "category": "POP",
+        "assessable": true,
+        "indicator": true,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": true,
+        "wfd": true,
+        "svhc": false,
+        "levels": {
+          "air": 3,
+          "water": 3
+        },
+        "flags": "indicator/group; EPA HAP (air); WFD priority (water)",
+        "note": "1,2,4-Trichlorobenzene used as indicator; WFD priority."
+      },
+      {
+        "i": 88,
+        "name": "Di-(2-ethyl hexyl) phthalate (DEHP)",
+        "cas": "117-81-7",
+        "category": "plasticiser",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "2B",
+        "clp_carc": "1B",
+        "hap": true,
+        "wfd": true,
+        "svhc": true,
+        "levels": {
+          "air": 4,
+          "water": 4
+        },
+        "flags": "EPA HAP (air); WFD priority (water); ECHA SVHC; IARC 2B; CLP Carc. 1B",
+        "note": "IARC 2B, CLP Repr. 1B, SVHC; WFD priority."
+      },
+      {
+        "i": 89,
+        "name": "Nonylphenol and Nonylphenol ethoxylates",
+        "cas": "25154-52-3",
+        "category": "industrial chemical",
+        "assessable": true,
+        "indicator": true,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": true,
+        "svhc": true,
+        "levels": {
+          "air": 4,
+          "water": 4
+        },
+        "flags": "indicator/group; WFD priority (water); ECHA SVHC",
+        "note": "Nonylphenol indicator; SVHC/endocrine disruptor; WFD priority."
+      },
+      {
+        "i": 90,
+        "name": "Octylphenols and Octylphenol ethoxylates",
+        "cas": "140-66-9",
+        "category": "industrial chemical",
+        "assessable": true,
+        "indicator": true,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": true,
+        "svhc": true,
+        "levels": {
+          "air": 4,
+          "water": 4
+        },
+        "flags": "indicator/group; WFD priority (water); ECHA SVHC",
+        "note": "4-tert-octylphenol indicator; SVHC/endocrine disruptor; WFD priority."
+      },
+      {
+        "i": 91,
+        "name": "Tributyltin and compounds",
+        "cas": "56-35-9",
+        "category": "organotin",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": true,
+        "svhc": true,
+        "levels": {
+          "air": 4,
+          "water": 4
+        },
+        "flags": "WFD priority (water); ECHA SVHC",
+        "note": "No IARC entry; SVHC/PBT; WFD priority."
+      },
+      {
+        "i": 92,
+        "name": "Triphenyltin and compounds",
+        "cas": "668-34-8",
+        "category": "organotin",
+        "assessable": true,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": true,
+        "svhc": true,
+        "levels": {
+          "air": 4,
+          "water": 4
+        },
+        "flags": "WFD priority (water); ECHA SVHC",
+        "note": "WFD priority; SVHC."
+      },
+      {
+        "i": 93,
+        "name": "CONFIDENTIAL",
+        "cas": null,
+        "category": "confidential",
+        "assessable": false,
+        "indicator": false,
+        "iarc": "",
+        "clp_carc": "",
+        "hap": false,
+        "wfd": false,
+        "svhc": false,
+        "levels": {
+          "air": 0,
+          "water": 0
+        },
+        "flags": "not assessable; no CAS",
+        "note": "Mass suppressed under E-PRTR Art. 4(2); no value, no substance name."
+      }
+    ]
+  },
+  "hazard_mass": {
+    "positive_groups": 619021,
+    "groups_level_3plus": 181102,
+    "groups_level_2": 165946,
+    "groups_level_1": 0,
+    "groups_level_0": 271973,
+    "confidential_groups": 53,
+    "classified_mass_kg": 58594048749.001816,
+    "total_mass_kg": 31060266958075.645,
+    "co2_nested_mass_kg": 4430654765939.605
+  },
+  "country_facilities": {
+    "Spain": 5450,
+    "France": 4304,
+    "Italy": 3632,
+    "Germany": 3027,
+    "United Kingdom": 2713,
+    "Norway": 1736,
+    "Poland": 1437,
+    "Czechia": 1074,
+    "Hungary": 954,
+    "Belgium": 928,
+    "Denmark": 913,
+    "Netherlands": 864,
+    "Romania": 864,
+    "Portugal": 719,
+    "Finland": 544,
+    "Sweden": 487,
+    "Serbia": 403,
+    "Bulgaria": 305,
+    "Ireland": 291,
+    "Austria": 238,
+    "Lithuania": 234,
+    "Slovakia": 208,
+    "Greece": 153,
+    "Switzerland": 149,
+    "Slovenia": 124,
+    "Estonia": 95,
+    "Cyprus": 87,
+    "Latvia": 71,
+    "Croatia": 47,
+    "Luxembourg": 44,
+    "Iceland": 43,
+    "Malta": 17
+  },
+  "missing_lau_by_country": {
+    "United Kingdom": 2713,
+    "Norway": 1515,
+    "Belgium": 112,
+    "Italy": 67,
+    "France": 60,
+    "Spain": 37,
+    "Denmark": 15,
+    "Ireland": 9,
+    "Germany": 8,
+    "Iceland": 7,
+    "Cyprus": 6,
+    "Greece": 6,
+    "Malta": 6,
+    "Bulgaria": 3,
+    "Croatia": 3,
+    "Portugal": 3,
+    "Sweden": 3,
+    "Finland": 3,
+    "Czechia": 2,
+    "Netherlands": 1,
+    "Romania": 1,
+    "Serbia": 1
+  },
+  "default_year_top": [
+    {
+      "facility": "PGE Górnictwo i Energetyka Konwencjonalna S.A. - Oddział Elektrownia Bełchatów",
+      "country": "Poland",
+      "all_kg": 35189948807.0,
+      "haz_kg": 26060663.0,
+      "max_level": 5
+    },
+    {
+      "facility": "RWE Power AG",
+      "country": "Germany",
+      "all_kg": 24244646744.6,
+      "haz_kg": 3158244.6,
+      "max_level": 3
+    },
+    {
+      "facility": "Kraftwerk Boxberg",
+      "country": "Germany",
+      "all_kg": 19125491317.0,
+      "haz_kg": 6092317.0,
+      "max_level": 5
+    },
+    {
+      "facility": "RWE Power AG Kraftwerk Niederaußem",
+      "country": "Germany",
+      "all_kg": 17014750705.1,
+      "haz_kg": 1816005.1,
+      "max_level": 5
+    },
+    {
+      "facility": "LEAG, Kraftwerk Jänschwalde",
+      "country": "Germany",
+      "all_kg": 15528059113.0,
+      "haz_kg": 8571113.0,
+      "max_level": 5
+    },
+    {
+      "facility": "ENEA Wytwarzanie Spółka z ograniczoną odpowiedzialnością",
+      "country": "Poland",
+      "all_kg": 15527523152.601,
+      "haz_kg": 2536652.601,
+      "max_level": 5
+    },
+    {
+      "facility": "RWE Power AG",
+      "country": "Germany",
+      "all_kg": 15034379994.6,
+      "haz_kg": 6612894.6,
+      "max_level": 5
+    },
+    {
+      "facility": "LEAG Lausitz Energie Kraftwerke AG  Kraftwerk Lippendorf",
+      "country": "Germany",
+      "all_kg": 11919536496.0,
+      "haz_kg": 9596.0,
+      "max_level": 5
+    },
+    {
+      "facility": "PGE Górnictwo i Energetyka Konwencjonalna S.A. - Oddział Elektrownia Turów",
+      "country": "Poland",
+      "all_kg": 11212803085.0,
+      "haz_kg": 1146085.0,
+      "max_level": 3
+    },
+    {
+      "facility": "Maritsa East 2 power station",
+      "country": "Bulgaria",
+      "all_kg": 10956758425.0,
+      "haz_kg": 31358.0,
+      "max_level": 4
+    },
+    {
+      "facility": "LEAG, Kraftwerk Schwarze Pumpe",
+      "country": "Germany",
+      "all_kg": 9649119454.3,
+      "haz_kg": 830754.3,
+      "max_level": 5
+    },
+    {
+      "facility": "PGE Górnictwo i Energetyka Konwencjonalna S.A. - Oddział Elektrownia Opole",
+      "country": "Poland",
+      "all_kg": 9126737852.0,
+      "haz_kg": 993589.0,
+      "max_level": 5
+    },
+    {
+      "facility": "voestalpine Stahl GmbH",
+      "country": "Austria",
+      "all_kg": 8903145020.9,
+      "haz_kg": 86936020.9,
+      "max_level": 5
+    },
+    {
+      "facility": "Salzgitter Flachstahl GmbH",
+      "country": "Germany",
+      "all_kg": 7642691138.0,
+      "haz_kg": 69720998.0,
+      "max_level": 4
+    },
+    {
+      "facility": "Polski Koncern Naftowy ORLEN S.A.",
+      "country": "Poland",
+      "all_kg": 7551899295.0,
+      "haz_kg": 1757044.0,
+      "max_level": 5
+    }
+  ],
+  "notes": [
+    "Mass sums exclude missing and negative values; zero is kept as a reported zero.",
+    "CO2 excluding biomass is nested in total CO2; the smaller label is counted once per facility-year to avoid double counting.",
+    "Classified mass includes only substances with a hazard level >= 2 (CLP/IARC/EPA HAP/WFD).",
+    "Aggregate indicators (NOx, SOx, PM, TOC, total N/P, AOX, chlorides) and climate gases are not assessed.",
+    "LAU join is a strict point-in-polygon test against 2024 LAU boundaries; unmatched facilities stay unlabelled.",
+    "The 2024 LAU layer is used for every year because the dashboard needs one stable geographic reference."
+  ]
+}

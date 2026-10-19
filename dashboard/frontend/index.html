@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>EPRTR Atlas — European air and water pollutant releases</title>
+<meta name="description" content="Interactive map of reported E-PRTR air and water releases from 32 European countries, 2007–2024. Circle colour = hazard level of the reported substances; circle size = released mass. With city search, a year timeline and LAU boundaries.">
+<meta name="author" content="EPRTR Atlas">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%230b7285'/%3E%3Ccircle cx='16' cy='16' r='7' fill='%23f6f8fa'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+<script src="vendor/react.production.min.js"></script>
+<script src="vendor/react-dom.production.min.js"></script>
+<script src="vendor/d3.min.js"></script>
+<script src="lib/geo3035.js"></script>
+<script src="lib/data.js"></script>
+<script src="lib/topo.js"></script>
+<script src="lib/map.js"></script>
+<script src="vendor/babel.min.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<noscript>
+  <div class="notice">
+    <h1>JavaScript is disabled</h1>
+    <p>This dashboard draws the map in the browser with React and d3. The underlying
+    data are still available as files:</p>
+    <ul>
+      <li><a href="../data/facilities.json">facilities.json</a> — one record per facility</li>
+      <li><a href="../data/releases/2022.json">releases/2022.json</a> — one record per facility and year</li>
+      <li><a href="../data/pollutants.json">pollutants.json</a> — hazard classification of every E-PRTR label</li>
+      <li><a href="../data/cities.json">cities.json</a> — LAU search index</li>
+      <li><a href="../../analysis/outputs/quality_report.json">quality_report.json</a> — cleaning and join checks</li>
+    </ul>
+  </div>
+</noscript>
+
+<div id="root" class="app-root">
+  <div class="boot" data-testid="boot">
+    <span class="boot__mark" aria-hidden="true"></span>
+    <div>
+      <p class="boot__title">EPRTR Atlas</p>
+      <p class="boot__text">Loading 32,000 facilities, the city index and LAU boundaries…</p>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+  var root = document.getElementById("root");
+  if (!root) return;
+  var STALL_MS = 20000;
+
+  function show(title, paragraphs) {
+    root.innerHTML = '<div class="notice"><h2>' + title + '</h2>' +
+      '<div>' + paragraphs.join("") + '</div></div>';
+    document.body.dataset.ready = "error";
+  }
+
+  var howTo = '<p>Serve the <code>dashboard/</code> directory, for example with ' +
+    '<code>cd dashboard &amp;&amp; python3 -m http.server 8000</code>, then open ' +
+    '<code>http://localhost:8000/frontend/</code>.</p>';
+
+  if (location.protocol === "file:") {
+    show("A small web server is needed", [
+      '<p>The page was opened from disk (<code>file://</code>). Browsers block the ' +
+      'JSON loads and the JSX compiler in that mode, so the map would stay empty.</p>',
+      howTo
+    ]);
+    return;
+  }
+
+  window.addEventListener("load", function () {
+    window.setTimeout(function () {
+      if (document.body.dataset.ready) return;
+      show("The dashboard did not start", [
+        '<p><code>app.jsx</code> was not loaded or not compiled. Check the browser ' +
+        'console (F12) and make sure all files under <code>frontend/</code> are present.</p>',
+        howTo
+      ]);
+    }, STALL_MS);
+  });
+})();
+</script>
+
+<script type="text/babel" data-presets="react" src="app.jsx"></script>
+</body>
+</html>

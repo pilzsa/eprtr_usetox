@@ -1,0 +1,2214 @@
+p_idx,year,medium,kg,kg_counted,facilities,confidential,facilities_counted,pollutant,level
+0,2007,air,2210580000000.0,2210580000000.0,2268,False,2268,Carbon dioxide (CO2),0
+0,2008,air,2143855000000.0,2143855000000.0,2325,False,2325,Carbon dioxide (CO2),0
+0,2009,air,1974788000000.0,1974788000000.0,2253,False,2253,Carbon dioxide (CO2),0
+0,2010,air,2068919000000.0,2068919000000.0,2340,False,2340,Carbon dioxide (CO2),0
+0,2011,air,1961266000000.0,1961266000000.0,2308,False,2308,Carbon dioxide (CO2),0
+0,2012,air,1950809000000.0,1950809000000.0,2281,False,2281,Carbon dioxide (CO2),0
+0,2013,air,1886371000000.0,1886371000000.0,2222,False,2222,Carbon dioxide (CO2),0
+0,2014,air,1833850000000.0,1833850000000.0,2169,False,2169,Carbon dioxide (CO2),0
+0,2015,air,1800615000000.0,1800615000000.0,2150,False,2150,Carbon dioxide (CO2),0
+0,2016,air,1751579000000.0,1751579000000.0,2157,False,2157,Carbon dioxide (CO2),0
+0,2017,air,1759949000000.0,1759949000000.0,2182,False,2182,Carbon dioxide (CO2),0
+0,2018,air,1675288586284.8677,1675288586284.8677,2179,False,2179,Carbon dioxide (CO2),0
+0,2019,air,1545996060301.7402,1545996060301.7402,2139,False,2139,Carbon dioxide (CO2),0
+0,2020,air,1244097767264.8064,1244097767264.8064,1908,False,1907,Carbon dioxide (CO2),0
+0,2021,air,1331186575174.6453,1331186575174.6453,1911,False,1906,Carbon dioxide (CO2),0
+0,2022,air,1328506897516.411,1328506897516.411,1842,False,1838,Carbon dioxide (CO2),0
+0,2023,air,1075946998615.5946,1075946998615.5946,1609,False,1607,Carbon dioxide (CO2),0
+0,2024,air,993396062565.257,993396062565.257,1600,False,1596,Carbon dioxide (CO2),0
+1,2007,air,125374406000.0,351000000.0,188,False,4,Carbon dioxide (CO2) excluding biomass,0
+1,2008,air,125742379000.0,43000000.0,198,False,2,Carbon dioxide (CO2) excluding biomass,0
+1,2009,air,206285815542.9,0.0,358,False,0,Carbon dioxide (CO2) excluding biomass,0
+1,2010,air,294029214099.0,5000000.0,449,False,1,Carbon dioxide (CO2) excluding biomass,0
+1,2011,air,356187448200.0,15000000.0,479,False,3,Carbon dioxide (CO2) excluding biomass,0
+1,2012,air,377908076800.0,8750000000.0,483,False,5,Carbon dioxide (CO2) excluding biomass,0
+1,2013,air,360275609000.0,1124000000.0,487,False,6,Carbon dioxide (CO2) excluding biomass,0
+1,2014,air,329776158000.0,2374000000.0,477,False,10,Carbon dioxide (CO2) excluding biomass,0
+1,2015,air,312294808750.0,21000000.0,484,False,5,Carbon dioxide (CO2) excluding biomass,0
+1,2016,air,331692245510.0031,109000000.0,492,False,9,Carbon dioxide (CO2) excluding biomass,0
+1,2017,air,294470728199.0,84000000.0,480,False,9,Carbon dioxide (CO2) excluding biomass,0
+1,2018,air,387694420703.63586,1140669991.1,472,False,13,Carbon dioxide (CO2) excluding biomass,0
+1,2019,air,253782100174.5237,615056727.0,370,False,1,Carbon dioxide (CO2) excluding biomass,0
+1,2020,air,171757626853.67694,1288217584.0,298,False,4,Carbon dioxide (CO2) excluding biomass,0
+1,2021,air,181810486256.16016,1652623024.688082,319,False,4,Carbon dioxide (CO2) excluding biomass,0
+1,2022,air,178936238584.63464,1731798310.221261,307,False,11,Carbon dioxide (CO2) excluding biomass,0
+1,2023,air,90985401350.874,1434671804.924,240,False,11,Carbon dioxide (CO2) excluding biomass,0
+1,2024,air,74002696494.13,1612056137.0,227,False,11,Carbon dioxide (CO2) excluding biomass,0
+2,2007,air,2335334000.0,2335334000.0,1606,False,1606,Methane (CH4),0
+2,2008,air,2328954000.0,2328954000.0,1674,False,1674,Methane (CH4),0
+2,2009,air,2191767000.0,2191767000.0,1643,False,1643,Methane (CH4),0
+2,2010,air,2110186000.0,2110186000.0,1658,False,1658,Methane (CH4),0
+2,2011,air,2049200000.0,2049200000.0,1629,False,1629,Methane (CH4),0
+2,2012,air,2024668000.0,2024668000.0,1607,False,1607,Methane (CH4),0
+2,2013,air,1976553000.0,1976553000.0,1641,False,1641,Methane (CH4),0
+2,2014,air,1876425000.0,1876425000.0,1635,False,1635,Methane (CH4),0
+2,2015,air,1804238000.0,1804238000.0,1559,False,1559,Methane (CH4),0
+2,2016,air,1711764000.0,1711764000.0,1562,False,1562,Methane (CH4),0
+2,2017,air,1642014000.0,1642014000.0,1567,False,1567,Methane (CH4),0
+2,2018,air,1686293637.0032,1686293637.0032,1507,False,1507,Methane (CH4),0
+2,2019,air,1407655837.7983,1407655837.7983,1500,False,1498,Methane (CH4),0
+2,2020,air,1125957848.4077,1125957848.4077,1158,False,1155,Methane (CH4),0
+2,2021,air,1069236288.1187,1069236288.1187,1100,False,1097,Methane (CH4),0
+2,2022,air,1020071214.8453,1020071214.8453,1051,False,1047,Methane (CH4),0
+2,2023,air,951476253.27588,951476253.27588,916,False,912,Methane (CH4),0
+2,2024,air,953629621.84908,953629621.84908,1047,False,1045,Methane (CH4),0
+3,2007,air,167738800.0,167738800.0,665,False,665,Nitrous oxide (N2O),0
+3,2008,air,143070800.0,143070800.0,667,False,667,Nitrous oxide (N2O),0
+3,2009,air,115042500.0,115042500.0,635,False,635,Nitrous oxide (N2O),0
+3,2010,air,81220000.0,81220000.0,638,False,638,Nitrous oxide (N2O),0
+3,2011,air,58441300.0,58441300.0,658,False,658,Nitrous oxide (N2O),0
+3,2012,air,55580900.0,55580900.0,638,False,638,Nitrous oxide (N2O),0
+3,2013,air,53054100.0,53054100.0,645,False,645,Nitrous oxide (N2O),0
+3,2014,air,48047800.0,48047800.0,572,False,572,Nitrous oxide (N2O),0
+3,2015,air,47685100.0,47685100.0,587,False,587,Nitrous oxide (N2O),0
+3,2016,air,46058500.0,46058500.0,600,False,600,Nitrous oxide (N2O),0
+3,2017,air,51828200.0,51828200.0,561,False,561,Nitrous oxide (N2O),0
+3,2018,air,48321078.71394,48321078.71394,569,False,569,Nitrous oxide (N2O),0
+3,2019,air,50057855.46408,50057855.46408,552,False,552,Nitrous oxide (N2O),0
+3,2020,air,35912372.148,35912372.148,420,False,420,Nitrous oxide (N2O),0
+3,2021,air,33766191.7925,33766191.7925,448,False,448,Nitrous oxide (N2O),0
+3,2022,air,27666335.113044,27666335.113044,436,False,436,Nitrous oxide (N2O),0
+3,2023,air,22155478.30936,22155478.30936,408,False,408,Nitrous oxide (N2O),0
+3,2024,air,67789332.32291,67789332.32291,423,False,423,Nitrous oxide (N2O),0
+4,2007,air,35410.6,35410.6,30,False,30,Sulphur hexafluoride (SF6),0
+4,2008,air,27361.0,27361.0,34,False,34,Sulphur hexafluoride (SF6),0
+4,2009,air,23416.9,23416.9,35,False,35,Sulphur hexafluoride (SF6),0
+4,2010,air,23044.4,23044.4,39,False,39,Sulphur hexafluoride (SF6),0
+4,2011,air,80941.8,80941.8,39,False,39,Sulphur hexafluoride (SF6),0
+4,2012,air,17191.2,17191.2,36,False,36,Sulphur hexafluoride (SF6),0
+4,2013,air,16265.2,16265.2,30,False,30,Sulphur hexafluoride (SF6),0
+4,2014,air,12149.5,12149.5,30,False,30,Sulphur hexafluoride (SF6),0
+4,2015,air,7432.4,7432.4,20,False,20,Sulphur hexafluoride (SF6),0
+4,2016,air,9576.6,9576.6,23,False,23,Sulphur hexafluoride (SF6),0
+4,2017,air,10953.3,10953.3,24,False,24,Sulphur hexafluoride (SF6),0
+4,2018,air,13717.77,13717.77,29,False,29,Sulphur hexafluoride (SF6),0
+4,2019,air,12431.21,12431.21,30,False,30,Sulphur hexafluoride (SF6),0
+4,2020,air,6569.194998,6569.194998,18,False,18,Sulphur hexafluoride (SF6),0
+4,2021,air,6970.170002,6970.170002,20,False,20,Sulphur hexafluoride (SF6),0
+4,2022,air,5534.609998,5534.609998,16,False,16,Sulphur hexafluoride (SF6),0
+4,2023,air,3847.250002,3847.250002,14,False,14,Sulphur hexafluoride (SF6),0
+4,2024,air,5088.08,5088.08,13,False,13,Sulphur hexafluoride (SF6),0
+5,2007,air,1403207.0,1403207.0,209,False,209,Hydro-fluorocarbons (HFCS),0
+5,2008,air,1264767.0,1264767.0,220,False,220,Hydro-fluorocarbons (HFCS),0
+5,2009,air,1221829.0,1221829.0,238,False,238,Hydro-fluorocarbons (HFCS),0
+5,2010,air,1218618.0,1218618.0,259,False,259,Hydro-fluorocarbons (HFCS),0
+5,2011,air,1105605.0,1105605.0,291,False,291,Hydro-fluorocarbons (HFCS),0
+5,2012,air,890395.0,890395.0,312,False,312,Hydro-fluorocarbons (HFCS),0
+5,2013,air,914194.0,914194.0,322,False,322,Hydro-fluorocarbons (HFCS),0
+5,2014,air,921853.0,921853.0,330,False,330,Hydro-fluorocarbons (HFCS),0
+5,2015,air,650513.0,650513.0,379,False,379,Hydro-fluorocarbons (HFCS),0
+5,2016,air,528171.0,528171.0,377,False,377,Hydro-fluorocarbons (HFCS),0
+5,2017,air,734228.0,734228.0,383,False,383,Hydro-fluorocarbons (HFCS),0
+5,2018,air,790071.103,790071.103,417,False,417,Hydro-fluorocarbons (HFCS),0
+5,2019,air,539990.8267,539990.8267,392,False,392,Hydro-fluorocarbons (HFCS),0
+5,2020,air,344168.87,344168.87,318,False,318,Hydro-fluorocarbons (HFCS),0
+5,2021,air,313989.61,313989.61,303,False,302,Hydro-fluorocarbons (HFCS),0
+5,2022,air,281032.58,281032.58,308,False,307,Hydro-fluorocarbons (HFCS),0
+5,2023,air,11563149.1726,11563149.1726,277,False,274,Hydro-fluorocarbons (HFCS),0
+5,2024,air,250084.0326,250084.0326,251,False,249,Hydro-fluorocarbons (HFCS),0
+6,2007,air,1063157.57,1063157.57,704,False,704,Hydrochlorofluorocarbons (HCFCs),0
+6,2008,air,1027308.4400000001,1027308.4400000001,750,False,750,Hydrochlorofluorocarbons (HCFCs),0
+6,2009,air,775354.09,775354.09,761,False,761,Hydrochlorofluorocarbons (HCFCs),0
+6,2010,air,580699.57,580699.57,638,False,638,Hydrochlorofluorocarbons (HCFCs),0
+6,2011,air,518765.76,518765.76,583,False,583,Hydrochlorofluorocarbons (HCFCs),0
+6,2012,air,419309.45,419309.45,549,False,549,Hydrochlorofluorocarbons (HCFCs),0
+6,2013,air,333690.56,333690.56,542,False,542,Hydrochlorofluorocarbons (HCFCs),0
+6,2014,air,309492.11,309492.11,497,False,497,Hydrochlorofluorocarbons (HCFCs),0
+6,2015,air,218479.0,218479.0,337,False,337,Hydrochlorofluorocarbons (HCFCs),0
+6,2016,air,214796.76,214796.76,310,False,310,Hydrochlorofluorocarbons (HCFCs),0
+6,2017,air,140612.47,140612.47,300,False,300,Hydrochlorofluorocarbons (HCFCs),0
+6,2018,air,82614.8017,82614.8017,262,False,262,Hydrochlorofluorocarbons (HCFCs),0
+6,2019,air,73956.437303,73956.437303,227,False,227,Hydrochlorofluorocarbons (HCFCs),0
+6,2020,air,72164.292798,72164.292798,64,False,61,Hydrochlorofluorocarbons (HCFCs),0
+6,2021,air,54367.4998,54367.4998,63,False,60,Hydrochlorofluorocarbons (HCFCs),0
+6,2022,air,60774.989,60774.989,66,False,64,Hydrochlorofluorocarbons (HCFCs),0
+6,2023,air,61330.3891,61330.3891,60,False,57,Hydrochlorofluorocarbons (HCFCs),0
+6,2024,air,30317.759599999998,30317.759599999998,53,False,50,Hydrochlorofluorocarbons (HCFCs),0
+7,2007,air,185982.17,185982.17,286,False,286,Chlorofluorocarbons (CFCs),0
+7,2008,air,120223.68000000001,120223.68000000001,292,False,292,Chlorofluorocarbons (CFCs),0
+7,2009,air,84252.36,84252.36,284,False,284,Chlorofluorocarbons (CFCs),0
+7,2010,air,87314.97,87314.97,289,False,289,Chlorofluorocarbons (CFCs),0
+7,2011,air,65311.2,65311.2,287,False,287,Chlorofluorocarbons (CFCs),0
+7,2012,air,61865.9,61865.9,276,False,276,Chlorofluorocarbons (CFCs),0
+7,2013,air,54782.34,54782.34,273,False,273,Chlorofluorocarbons (CFCs),0
+7,2014,air,48708.99,48708.99,267,False,267,Chlorofluorocarbons (CFCs),0
+7,2015,air,51662.729999999996,51662.729999999996,265,False,265,Chlorofluorocarbons (CFCs),0
+7,2016,air,49478.7,49478.7,261,False,261,Chlorofluorocarbons (CFCs),0
+7,2017,air,35508.950000000004,35508.950000000004,254,False,254,Chlorofluorocarbons (CFCs),0
+7,2018,air,59718.4158,59718.4158,233,False,233,Chlorofluorocarbons (CFCs),0
+7,2019,air,47710.423002,47710.423002,212,False,212,Chlorofluorocarbons (CFCs),0
+7,2020,air,6393.8780019999995,6393.8780019999995,38,False,38,Chlorofluorocarbons (CFCs),0
+7,2021,air,8660.604403,8660.604403,34,False,34,Chlorofluorocarbons (CFCs),0
+7,2022,air,7982.267997,7982.267997,50,False,50,Chlorofluorocarbons (CFCs),0
+7,2023,air,13658.616001999999,13658.616001999999,48,False,48,Chlorofluorocarbons (CFCs),0
+7,2024,air,5201.2498,5201.2498,40,False,40,Chlorofluorocarbons (CFCs),0
+8,2007,air,683907.0,683907.0,51,False,51,Perfluorocarbons (PFCs),0
+8,2008,air,627736.0,627736.0,52,False,52,Perfluorocarbons (PFCs),0
+8,2009,air,344679.0,344679.0,48,False,48,Perfluorocarbons (PFCs),0
+8,2010,air,392137.0,392137.0,47,False,47,Perfluorocarbons (PFCs),0
+8,2011,air,420197.0,420197.0,42,False,42,Perfluorocarbons (PFCs),0
+8,2012,air,364474.0,364474.0,43,False,43,Perfluorocarbons (PFCs),0
+8,2013,air,414344.0,414344.0,40,False,40,Perfluorocarbons (PFCs),0
+8,2014,air,370641.0,370641.0,36,False,36,Perfluorocarbons (PFCs),0
+8,2015,air,360751.0,360751.0,36,False,36,Perfluorocarbons (PFCs),0
+8,2016,air,49735290.0,49735290.0,39,False,39,Perfluorocarbons (PFCs),0
+8,2017,air,30434767.0,30434767.0,37,False,37,Perfluorocarbons (PFCs),0
+8,2018,air,39427142.0,39427142.0,29,False,29,Perfluorocarbons (PFCs),0
+8,2019,air,45766607.0,45766607.0,29,False,29,Perfluorocarbons (PFCs),0
+8,2020,air,43290084.115,43290084.115,24,False,24,Perfluorocarbons (PFCs),0
+8,2021,air,47128843.0,47128843.0,25,False,25,Perfluorocarbons (PFCs),0
+8,2022,air,38865216.7,38865216.7,23,False,23,Perfluorocarbons (PFCs),0
+8,2023,air,64700.0,64700.0,17,False,17,Perfluorocarbons (PFCs),0
+8,2024,air,77617.3,77617.3,19,False,19,Perfluorocarbons (PFCs),0
+9,2007,air,8872.0,8872.0,10,False,10,Halons,0
+9,2008,air,8630.67,8630.67,8,False,8,Halons,0
+9,2009,air,9463.54,9463.54,14,False,14,Halons,0
+9,2010,air,12377.15,12377.15,11,False,11,Halons,0
+9,2011,air,13273.15,13273.15,10,False,10,Halons,0
+9,2012,air,11710.289999999999,11710.289999999999,12,False,12,Halons,0
+9,2013,air,10879.74,10879.74,6,False,6,Halons,0
+9,2014,air,9301.07,9301.07,9,False,9,Halons,0
+9,2015,air,5411.88,5411.88,8,False,8,Halons,0
+9,2016,air,3974.62,3974.62,11,False,11,Halons,0
+9,2017,air,4004.56,4004.56,6,False,6,Halons,0
+9,2018,air,5131.0,5131.0,7,False,7,Halons,0
+9,2019,air,5033.6,5033.6,4,False,4,Halons,0
+9,2020,air,6596.0,6596.0,5,False,5,Halons,0
+9,2021,air,5004.49,5004.49,5,False,5,Halons,0
+9,2022,air,2937.95,2937.95,4,False,4,Halons,0
+9,2023,air,2689.35,2689.35,4,False,4,Halons,0
+9,2024,air,4644.220002,4644.220002,4,False,4,Halons,0
+10,2007,air,3416008000.0,3416008000.0,2876,False,2876,Nitrogen oxides (NOX),0
+10,2008,air,2993136000.0,2993136000.0,2837,False,2837,Nitrogen oxides (NOX),0
+10,2009,air,2644190000.0,2644190000.0,2726,False,2726,Nitrogen oxides (NOX),0
+10,2010,air,2559788000.0,2559788000.0,2756,False,2756,Nitrogen oxides (NOX),0
+10,2011,air,2518539000.0,2518539000.0,2669,False,2669,Nitrogen oxides (NOX),0
+10,2012,air,2466063000.0,2466063000.0,2579,False,2579,Nitrogen oxides (NOX),0
+10,2013,air,2293686000.0,2293686000.0,2524,False,2524,Nitrogen oxides (NOX),0
+10,2014,air,2115301000.0,2115301000.0,2466,False,2466,Nitrogen oxides (NOX),0
+10,2015,air,2013786000.0,2013786000.0,2391,False,2391,Nitrogen oxides (NOX),0
+10,2016,air,1820551000.0,1820551000.0,2433,False,2433,Nitrogen oxides (NOX),0
+10,2017,air,1763471000.0,1763471000.0,2431,False,2431,Nitrogen oxides (NOX),0
+10,2017,water,112000.0,112000.0,1,False,1,Nitrogen oxides (NOX),0
+10,2018,air,1581936594.42114,1581936594.42114,2405,False,2405,Nitrogen oxides (NOX),0
+10,2019,air,1387683294.73077,1387683294.73077,2348,False,2348,Nitrogen oxides (NOX),0
+10,2020,air,1094256628.86088,1094256628.86088,2021,False,2020,Nitrogen oxides (NOX),0
+10,2021,air,1159249149.5696,1159249149.5696,2045,False,2040,Nitrogen oxides (NOX),0
+10,2022,air,1108007400.7934,1108007400.7934,1995,False,1988,Nitrogen oxides (NOX),0
+10,2023,air,886321121.32889,886321121.32889,1679,False,1676,Nitrogen oxides (NOX),0
+10,2024,air,837897007.056464,837897007.056464,1609,False,1606,Nitrogen oxides (NOX),0
+11,2007,air,5597065000.0,5597065000.0,1539,False,1539,Sulphur oxides (SOX),0
+11,2008,air,4261653000.0,4261653000.0,1432,False,1432,Sulphur oxides (SOX),0
+11,2009,air,3780894000.0,3780894000.0,1353,False,1353,Sulphur oxides (SOX),0
+11,2010,air,3344200000.0,3344200000.0,1336,False,1336,Sulphur oxides (SOX),0
+11,2011,air,3310105000.0,3310105000.0,1291,False,1291,Sulphur oxides (SOX),0
+11,2011,water,411300.0,411300.0,2,False,2,Sulphur oxides (SOX),0
+11,2012,air,2939591000.0,2939591000.0,1227,False,1227,Sulphur oxides (SOX),0
+11,2013,air,2472455000.0,2472455000.0,1180,False,1180,Sulphur oxides (SOX),0
+11,2014,air,2247050000.0,2247050000.0,1106,False,1106,Sulphur oxides (SOX),0
+11,2014,water,1926000.0,1926000.0,2,False,2,Sulphur oxides (SOX),0
+11,2015,air,2066340000.0,2066340000.0,1067,False,1067,Sulphur oxides (SOX),0
+11,2015,water,1441500.0,1441500.0,3,False,3,Sulphur oxides (SOX),0
+11,2016,air,1715950000.0,1715950000.0,1019,False,1019,Sulphur oxides (SOX),0
+11,2016,water,1368900.0,1368900.0,3,False,3,Sulphur oxides (SOX),0
+11,2017,air,1769328000.0,1769328000.0,1001,False,1001,Sulphur oxides (SOX),0
+11,2017,water,1271200.0,1271200.0,3,False,3,Sulphur oxides (SOX),0
+11,2018,air,1515894728.23401,1515894728.23401,1026,False,1026,Sulphur oxides (SOX),0
+11,2019,air,1234362840.387864,1234362840.387864,979,False,979,Sulphur oxides (SOX),0
+11,2020,air,1058843530.31567,1058843530.31567,850,False,843,Sulphur oxides (SOX),0
+11,2021,air,1007067219.57322,1007067219.57322,852,False,845,Sulphur oxides (SOX),0
+11,2022,air,1012048698.544898,1012048698.544898,843,False,839,Sulphur oxides (SOX),0
+11,2023,air,834238500.7915521,834238500.7915521,637,False,634,Sulphur oxides (SOX),0
+11,2024,air,676210612.88019,676210612.88019,582,False,579,Sulphur oxides (SOX),0
+12,2007,air,715120000.0,715120000.0,1043,False,1043,Non-methane volatile organic compounds (NMVOC),0
+12,2008,air,596198000.0,596198000.0,1004,False,1004,Non-methane volatile organic compounds (NMVOC),0
+12,2009,air,511656000.0,511656000.0,919,False,919,Non-methane volatile organic compounds (NMVOC),0
+12,2010,air,491216000.0,491216000.0,930,False,930,Non-methane volatile organic compounds (NMVOC),0
+12,2011,air,466784000.0,466784000.0,908,False,908,Non-methane volatile organic compounds (NMVOC),0
+12,2012,air,457326000.0,457326000.0,896,False,896,Non-methane volatile organic compounds (NMVOC),0
+12,2013,air,447293000.0,447293000.0,905,False,905,Non-methane volatile organic compounds (NMVOC),0
+12,2014,air,453848000.0,453848000.0,899,False,899,Non-methane volatile organic compounds (NMVOC),0
+12,2015,air,449112000.0,449112000.0,849,False,849,Non-methane volatile organic compounds (NMVOC),0
+12,2016,air,428298000.0,428298000.0,812,False,812,Non-methane volatile organic compounds (NMVOC),0
+12,2017,air,429362000.0,429362000.0,807,False,807,Non-methane volatile organic compounds (NMVOC),0
+12,2018,air,366242780.6287,366242780.6287,853,False,853,Non-methane volatile organic compounds (NMVOC),0
+12,2019,air,346886140.6338,346886140.6338,814,False,814,Non-methane volatile organic compounds (NMVOC),0
+12,2020,air,244216614.2236,244216614.2236,690,False,689,Non-methane volatile organic compounds (NMVOC),0
+12,2021,air,235494034.5089,235494034.5089,674,False,672,Non-methane volatile organic compounds (NMVOC),0
+12,2022,air,226327151.378883,226327151.378883,655,False,650,Non-methane volatile organic compounds (NMVOC),0
+12,2023,air,202516104.911071,202516104.911071,570,False,567,Non-methane volatile organic compounds (NMVOC),0
+12,2024,air,186646927.685492,186646927.685492,554,False,552,Non-methane volatile organic compounds (NMVOC),0
+13,2007,air,260214600.0,260214600.0,777,False,777,Particulate matter (PM10),0
+13,2007,water,52.0,52.0,1,False,1,Particulate matter (PM10),0
+13,2008,air,202724100.0,202724100.0,706,False,706,Particulate matter (PM10),0
+13,2009,air,165188900.0,165188900.0,549,False,549,Particulate matter (PM10),0
+13,2010,air,166291900.0,166291900.0,570,False,570,Particulate matter (PM10),0
+13,2011,air,178562200.0,178562200.0,526,False,526,Particulate matter (PM10),0
+13,2012,air,148930900.0,148930900.0,503,False,503,Particulate matter (PM10),0
+13,2013,air,138823800.0,138823800.0,502,False,502,Particulate matter (PM10),0
+13,2014,air,120002100.0,120002100.0,473,False,473,Particulate matter (PM10),0
+13,2015,air,98916500.0,98916500.0,435,False,435,Particulate matter (PM10),0
+13,2016,air,88147500.0,88147500.0,397,False,397,Particulate matter (PM10),0
+13,2017,air,83324800.0,83324800.0,394,False,394,Particulate matter (PM10),0
+13,2018,air,81296715.77234,81296715.77234,428,False,428,Particulate matter (PM10),0
+13,2019,air,64609054.187559,64609054.187559,371,False,370,Particulate matter (PM10),0
+13,2020,air,51520494.603872,51520494.603872,344,False,340,Particulate matter (PM10),0
+13,2021,air,51816234.199582,51816234.199582,345,False,338,Particulate matter (PM10),0
+13,2022,air,46679906.689531,46679906.689531,346,False,342,Particulate matter (PM10),0
+13,2023,air,39466129.752,39466129.752,256,False,253,Particulate matter (PM10),0
+13,2024,air,35029490.2068,35029490.2068,238,False,236,Particulate matter (PM10),0
+14,2018,air,152910.0,152910.0,2,False,2,Fine particulate matter (PM2.5),0
+14,2019,air,502800.0,502800.0,4,False,4,Fine particulate matter (PM2.5),0
+14,2020,air,154910.0,154910.0,4,False,3,Fine particulate matter (PM2.5),0
+14,2021,air,209252.95,209252.95,9,False,9,Fine particulate matter (PM2.5),0
+14,2022,air,289547.26,289547.26,8,False,8,Fine particulate matter (PM2.5),0
+14,2023,air,202110.47,202110.47,9,False,9,Fine particulate matter (PM2.5),0
+14,2024,air,128.8,128.8,5,False,5,Fine particulate matter (PM2.5),0
+15,2007,air,4246007000.0,4246007000.0,675,False,675,Carbon monoxide (CO),2
+15,2008,air,3891428000.0,3891428000.0,630,False,630,Carbon monoxide (CO),2
+15,2008,water,0.411,0.411,1,False,1,Carbon monoxide (CO),2
+15,2009,air,2830153000.0,2830153000.0,551,False,551,Carbon monoxide (CO),2
+15,2010,air,3270895000.0,3270895000.0,564,False,564,Carbon monoxide (CO),2
+15,2011,air,3428654000.0,3428654000.0,550,False,550,Carbon monoxide (CO),2
+15,2012,air,3221360000.0,3221360000.0,524,False,524,Carbon monoxide (CO),2
+15,2013,air,3285757000.0,3285757000.0,517,False,517,Carbon monoxide (CO),2
+15,2014,air,3318494000.0,3318494000.0,509,False,509,Carbon monoxide (CO),2
+15,2015,air,3172074000.0,3172074000.0,512,False,512,Carbon monoxide (CO),2
+15,2016,air,3021574000.0,3021574000.0,510,False,510,Carbon monoxide (CO),2
+15,2017,air,2927717000.0,2927717000.0,517,False,517,Carbon monoxide (CO),2
+15,2018,air,3089542211.1611,3089542211.1611,589,False,589,Carbon monoxide (CO),2
+15,2019,air,2980166767.61549,2980166767.61549,577,False,577,Carbon monoxide (CO),2
+15,2020,air,2410228419.2729,2410228419.2729,474,False,473,Carbon monoxide (CO),2
+15,2021,air,2911320624.556052,2911320624.556052,493,False,491,Carbon monoxide (CO),2
+15,2022,air,2378990194.794385,2378990194.794385,478,False,476,Carbon monoxide (CO),2
+15,2023,air,1788688794.726507,1788688794.726507,358,False,358,Carbon monoxide (CO),2
+15,2024,air,1808336552.764392,1808336552.764392,345,False,345,Carbon monoxide (CO),2
+16,2007,air,198557500.0,198557500.0,5450,False,5450,Ammonia (NH3),2
+16,2007,water,100.0,100.0,1,False,1,Ammonia (NH3),2
+16,2008,air,193835000.0,193835000.0,5645,False,5645,Ammonia (NH3),2
+16,2008,water,74350.0,74350.0,2,False,2,Ammonia (NH3),2
+16,2009,air,190460000.0,190460000.0,5799,False,5799,Ammonia (NH3),2
+16,2009,water,15131.43204703,15131.43204703,5,False,5,Ammonia (NH3),2
+16,2010,air,181751000.0,181751000.0,5789,False,5789,Ammonia (NH3),2
+16,2010,water,15227.0,15227.0,2,False,2,Ammonia (NH3),2
+16,2011,air,193291200.0,193291200.0,6023,False,6023,Ammonia (NH3),2
+16,2011,water,15430.0,15430.0,2,False,2,Ammonia (NH3),2
+16,2012,air,194549700.0,194549700.0,6149,False,6149,Ammonia (NH3),2
+16,2012,water,14981.0,14981.0,2,False,2,Ammonia (NH3),2
+16,2013,air,203882800.0,203882800.0,6433,False,6433,Ammonia (NH3),2
+16,2013,water,19024.1,19024.1,2,False,2,Ammonia (NH3),2
+16,2014,air,216627800.0,216627800.0,6739,False,6739,Ammonia (NH3),2
+16,2014,water,23845.2,23845.2,2,False,2,Ammonia (NH3),2
+16,2015,air,217322000.0,217322000.0,7092,False,7092,Ammonia (NH3),2
+16,2015,water,15514.0,15514.0,2,False,2,Ammonia (NH3),2
+16,2016,air,223063300.0,223063300.0,7123,False,7123,Ammonia (NH3),2
+16,2016,water,21957.0,21957.0,4,False,4,Ammonia (NH3),2
+16,2017,air,234709800.0,234709800.0,7341,False,7341,Ammonia (NH3),2
+16,2017,water,22037.0,22037.0,2,False,2,Ammonia (NH3),2
+16,2018,air,236958900.099049,236958900.099049,7647,False,7647,Ammonia (NH3),2
+16,2019,air,219022145.847,219022145.847,7213,False,7212,Ammonia (NH3),2
+16,2020,air,203632673.37262,203632673.37262,6997,False,6995,Ammonia (NH3),2
+16,2020,water,131.0,131.0,1,False,1,Ammonia (NH3),2
+16,2021,air,193286620.288,193286620.288,6744,False,6742,Ammonia (NH3),2
+16,2021,water,180.0,180.0,1,False,1,Ammonia (NH3),2
+16,2022,air,172137452.7425,172137452.7425,5985,False,5984,Ammonia (NH3),2
+16,2022,water,236.0,236.0,1,False,1,Ammonia (NH3),2
+16,2023,air,141307319.005,141307319.005,5113,False,5112,Ammonia (NH3),2
+16,2023,water,377.0,377.0,1,False,1,Ammonia (NH3),2
+16,2024,air,139989228.250188,139989228.250188,5041,False,5040,Ammonia (NH3),2
+16,2024,water,265.5,265.5,1,False,1,Ammonia (NH3),2
+17,2007,air,38408300.0,38408300.0,573,False,573,Chlorine and inorganic compounds (as HCl),3
+17,2008,air,39525100.0,39525100.0,538,False,538,Chlorine and inorganic compounds (as HCl),3
+17,2009,air,34385500.0,34385500.0,446,False,446,Chlorine and inorganic compounds (as HCl),3
+17,2010,air,35916300.0,35916300.0,457,False,457,Chlorine and inorganic compounds (as HCl),3
+17,2011,air,33721500.0,33721500.0,451,False,451,Chlorine and inorganic compounds (as HCl),3
+17,2012,air,34589500.0,34589500.0,404,False,404,Chlorine and inorganic compounds (as HCl),3
+17,2013,air,33996700.0,33996700.0,394,False,394,Chlorine and inorganic compounds (as HCl),3
+17,2014,air,29010300.0,29010300.0,370,False,370,Chlorine and inorganic compounds (as HCl),3
+17,2015,air,30213400.0,30213400.0,367,False,367,Chlorine and inorganic compounds (as HCl),3
+17,2016,air,23079600.0,23079600.0,360,False,360,Chlorine and inorganic compounds (as HCl),3
+17,2017,air,20093100.0,20093100.0,342,False,342,Chlorine and inorganic compounds (as HCl),3
+17,2017,water,462.0,462.0,1,False,1,Chlorine and inorganic compounds (as HCl),2
+17,2018,air,28601723.16954,28601723.16954,348,False,348,Chlorine and inorganic compounds (as HCl),3
+17,2018,water,83.5,83.5,1,False,1,Chlorine and inorganic compounds (as HCl),2
+17,2019,air,18862877.43583,18862877.43583,348,False,348,Chlorine and inorganic compounds (as HCl),3
+17,2020,air,14043853.00278,14043853.00278,272,False,267,Chlorine and inorganic compounds (as HCl),3
+17,2021,air,14621108.2391,14621108.2391,292,False,287,Chlorine and inorganic compounds (as HCl),3
+17,2022,air,12298754.07889,12298754.07889,270,False,267,Chlorine and inorganic compounds (as HCl),3
+17,2023,air,9736570.28,9736570.28,217,False,214,Chlorine and inorganic compounds (as HCl),3
+17,2023,water,0.0,0.0,1,False,0,Chlorine and inorganic compounds (as HCl),2
+17,2024,air,8845619.01,8845619.01,208,False,206,Chlorine and inorganic compounds (as HCl),3
+17,2024,water,0.0,0.0,1,False,0,Chlorine and inorganic compounds (as HCl),2
+18,2007,air,14195670.0,14195670.0,425,False,425,Fluorine and inorganic compounds (as HF),3
+18,2008,air,12407320.0,12407320.0,394,False,394,Fluorine and inorganic compounds (as HF),3
+18,2009,air,9443270.0,9443270.0,291,False,291,Fluorine and inorganic compounds (as HF),3
+18,2010,air,8286570.0,8286570.0,284,False,284,Fluorine and inorganic compounds (as HF),3
+18,2011,air,7685760.0,7685760.0,281,False,281,Fluorine and inorganic compounds (as HF),3
+18,2012,air,8260360.0,8260360.0,228,False,228,Fluorine and inorganic compounds (as HF),3
+18,2013,air,7076280.0,7076280.0,209,False,209,Fluorine and inorganic compounds (as HF),3
+18,2014,air,5396750.0,5396750.0,190,False,190,Fluorine and inorganic compounds (as HF),3
+18,2015,air,5442600.0,5442600.0,191,False,191,Fluorine and inorganic compounds (as HF),3
+18,2016,air,4474890.0,4474890.0,186,False,186,Fluorine and inorganic compounds (as HF),3
+18,2017,air,3899910.0,3899910.0,171,False,171,Fluorine and inorganic compounds (as HF),3
+18,2018,air,4300754.94315,4300754.94315,171,False,171,Fluorine and inorganic compounds (as HF),3
+18,2019,air,3441728.62629,3441728.62629,155,False,155,Fluorine and inorganic compounds (as HF),3
+18,2020,air,2420316.70885,2420316.70885,123,False,117,Fluorine and inorganic compounds (as HF),3
+18,2021,air,2347107.58596,2347107.58596,122,False,115,Fluorine and inorganic compounds (as HF),3
+18,2022,air,1969654.344946,1969654.344946,116,False,112,Fluorine and inorganic compounds (as HF),3
+18,2023,air,1232205.2832,1232205.2832,81,False,79,Fluorine and inorganic compounds (as HF),3
+18,2024,air,1424419.29,1424419.29,66,False,64,Fluorine and inorganic compounds (as HF),3
+19,2007,air,163066.0,163066.0,69,False,69,Hydrogen cyanide (HCN),2
+19,2008,air,185219.0,185219.0,82,False,82,Hydrogen cyanide (HCN),2
+19,2009,air,145644.0,145644.0,70,False,70,Hydrogen cyanide (HCN),2
+19,2010,air,147756.0,147756.0,71,False,71,Hydrogen cyanide (HCN),2
+19,2011,air,142810.0,142810.0,74,False,74,Hydrogen cyanide (HCN),2
+19,2012,air,222473.0,222473.0,73,False,73,Hydrogen cyanide (HCN),2
+19,2013,air,282047.0,282047.0,63,False,63,Hydrogen cyanide (HCN),2
+19,2014,air,158641.0,158641.0,62,False,62,Hydrogen cyanide (HCN),2
+19,2015,air,242724.0,242724.0,60,False,60,Hydrogen cyanide (HCN),2
+19,2016,air,193521.0,193521.0,56,False,56,Hydrogen cyanide (HCN),2
+19,2017,air,345913.0,345913.0,55,False,55,Hydrogen cyanide (HCN),2
+19,2017,water,0.087,0.087,1,False,1,Hydrogen cyanide (HCN),2
+19,2018,air,221122.9273,221122.9273,67,False,67,Hydrogen cyanide (HCN),2
+19,2018,water,0.08,0.08,1,False,1,Hydrogen cyanide (HCN),2
+19,2019,air,352768.1567,352768.1567,62,False,62,Hydrogen cyanide (HCN),2
+19,2020,air,361789.0,361789.0,51,False,51,Hydrogen cyanide (HCN),2
+19,2021,air,371148.6,371148.6,48,False,48,Hydrogen cyanide (HCN),2
+19,2022,air,575927.4,575927.4,61,False,61,Hydrogen cyanide (HCN),2
+19,2023,air,416997.7,416997.7,52,False,52,Hydrogen cyanide (HCN),2
+19,2024,air,352693.7633,352693.7633,52,False,52,Hydrogen cyanide (HCN),2
+20,2007,air,29400.0,29400.0,1,False,1,Total nitrogen,0
+20,2007,water,442726100.0,442726100.0,1392,False,1392,Total nitrogen,0
+20,2008,air,39700.0,39700.0,1,False,1,Total nitrogen,0
+20,2008,water,585881900.0,585881900.0,1494,False,1494,Total nitrogen,0
+20,2009,air,21900.0,21900.0,1,False,1,Total nitrogen,0
+20,2009,water,440827000.0,440827000.0,1529,False,1529,Total nitrogen,0
+20,2010,air,31500.0,31500.0,1,False,1,Total nitrogen,0
+20,2010,water,464317100.0,464317100.0,1560,False,1560,Total nitrogen,0
+20,2011,air,49900.0,49900.0,1,False,1,Total nitrogen,0
+20,2011,water,445739300.0,445739300.0,1552,False,1552,Total nitrogen,0
+20,2012,air,56900.0,56900.0,1,False,1,Total nitrogen,0
+20,2012,water,454817300.0,454817300.0,1676,False,1676,Total nitrogen,0
+20,2013,water,466951800.0,466951800.0,1690,False,1690,Total nitrogen,0
+20,2014,water,465207100.0,465207100.0,1654,False,1654,Total nitrogen,0
+20,2015,water,457440600.0,457440600.0,1695,False,1695,Total nitrogen,0
+20,2016,water,449484600.0,449484600.0,1664,False,1664,Total nitrogen,0
+20,2017,water,477815300.0,477815300.0,1748,False,1748,Total nitrogen,0
+20,2018,water,413287689.979716,413287689.979716,1314,False,1314,Total nitrogen,0
+20,2019,water,398410719.978327,398410719.978327,1304,False,1299,Total nitrogen,0
+20,2020,air,191.0,191.0,1,False,1,Total nitrogen,0
+20,2020,water,276394518.2038,276394518.2038,1034,False,1033,Total nitrogen,0
+20,2021,air,286.0,286.0,1,False,1,Total nitrogen,0
+20,2021,water,284279230.3242,284279230.3242,1044,False,1019,Total nitrogen,0
+20,2022,air,191.0,191.0,1,False,1,Total nitrogen,0
+20,2022,water,272580887.519,272580887.519,994,False,991,Total nitrogen,0
+20,2023,air,95.5,95.5,1,False,1,Total nitrogen,0
+20,2023,water,254502983.788,254502983.788,911,False,911,Total nitrogen,0
+20,2024,air,191.0,191.0,1,False,1,Total nitrogen,0
+20,2024,water,260329801.778,260329801.778,935,False,935,Total nitrogen,0
+21,2007,water,48402260.0,48402260.0,1461,False,1461,Total phosphorus,0
+21,2008,water,51336560.0,51336560.0,1546,False,1546,Total phosphorus,0
+21,2009,water,47344350.0,47344350.0,1525,False,1525,Total phosphorus,0
+21,2010,water,49581550.0,49581550.0,1551,False,1551,Total phosphorus,0
+21,2011,water,45538140.0,45538140.0,1557,False,1557,Total phosphorus,0
+21,2012,water,50674410.0,50674410.0,1597,False,1597,Total phosphorus,0
+21,2013,water,48175660.0,48175660.0,1612,False,1612,Total phosphorus,0
+21,2014,water,47458090.0,47458090.0,1673,False,1673,Total phosphorus,0
+21,2015,water,48292530.0,48292530.0,1671,False,1671,Total phosphorus,0
+21,2016,water,46340400.0,46340400.0,1634,False,1634,Total phosphorus,0
+21,2017,water,51598660.0,51598660.0,1700,False,1700,Total phosphorus,0
+21,2018,water,36230625.329935,36230625.329935,1075,False,1075,Total phosphorus,0
+21,2019,water,37300694.162575,37300694.162575,1111,False,1106,Total phosphorus,0
+21,2020,water,21743468.4356,21743468.4356,835,False,834,Total phosphorus,0
+21,2021,water,21479986.9336,21479986.9336,827,False,802,Total phosphorus,0
+21,2022,water,22679295.8927,22679295.8927,820,False,818,Total phosphorus,0
+21,2023,water,19966324.686,19966324.686,740,False,739,Total phosphorus,0
+21,2024,water,20785087.8675,20785087.8675,753,False,751,Total phosphorus,0
+22,2007,air,55648.9,55648.9,17,False,17,Total organic carbon(as total C or COD/3) (TOC),0
+22,2007,water,799556800.0,799556800.0,1814,False,1814,Total organic carbon(as total C or COD/3) (TOC),0
+22,2008,air,47938.77,47938.77,20,False,20,Total organic carbon(as total C or COD/3) (TOC),0
+22,2008,water,849148400.0,849148400.0,1963,False,1963,Total organic carbon(as total C or COD/3) (TOC),0
+22,2009,air,51353.4000001,51353.4000001,23,False,23,Total organic carbon(as total C or COD/3) (TOC),0
+22,2009,water,812187000.0,812187000.0,1927,False,1927,Total organic carbon(as total C or COD/3) (TOC),0
+22,2010,air,62395.799999999996,62395.799999999996,25,False,25,Total organic carbon(as total C or COD/3) (TOC),0
+22,2010,water,777080200.0,777080200.0,1952,False,1952,Total organic carbon(as total C or COD/3) (TOC),0
+22,2011,air,61439.5,61439.5,25,False,25,Total organic carbon(as total C or COD/3) (TOC),0
+22,2011,water,781211000.0,781211000.0,1989,False,1989,Total organic carbon(as total C or COD/3) (TOC),0
+22,2012,air,51790.2,51790.2,25,False,25,Total organic carbon(as total C or COD/3) (TOC),0
+22,2012,water,810735900.0,810735900.0,2030,False,2030,Total organic carbon(as total C or COD/3) (TOC),0
+22,2013,air,80640.1,80640.1,26,False,26,Total organic carbon(as total C or COD/3) (TOC),0
+22,2013,water,817308900.0,817308900.0,2053,False,2053,Total organic carbon(as total C or COD/3) (TOC),0
+22,2014,air,85854.0,85854.0,27,False,27,Total organic carbon(as total C or COD/3) (TOC),0
+22,2014,water,787070200.0,787070200.0,2031,False,2031,Total organic carbon(as total C or COD/3) (TOC),0
+22,2015,air,89175.5,89175.5,27,False,27,Total organic carbon(as total C or COD/3) (TOC),0
+22,2015,water,804420400.0,804420400.0,2035,False,2035,Total organic carbon(as total C or COD/3) (TOC),0
+22,2016,air,77107.9,77107.9,27,False,27,Total organic carbon(as total C or COD/3) (TOC),0
+22,2016,water,770419200.0,770419200.0,2003,False,2003,Total organic carbon(as total C or COD/3) (TOC),0
+22,2017,air,204644.8,204644.8,29,False,29,Total organic carbon(as total C or COD/3) (TOC),0
+22,2017,water,780590700.0,780590700.0,2070,False,2070,Total organic carbon(as total C or COD/3) (TOC),0
+22,2018,air,118000.0,118000.0,1,False,1,Total organic carbon(as total C or COD/3) (TOC),0
+22,2018,water,519677712.938029,519677712.938029,1450,False,1450,Total organic carbon(as total C or COD/3) (TOC),0
+22,2019,air,96.3,96.3,1,False,1,Total organic carbon(as total C or COD/3) (TOC),0
+22,2019,water,521502554.594023,521502554.594023,1503,False,1503,Total organic carbon(as total C or COD/3) (TOC),0
+22,2020,water,382657703.705,382657703.705,1189,False,1187,Total organic carbon(as total C or COD/3) (TOC),0
+22,2021,air,9000.0,9000.0,1,False,1,Total organic carbon(as total C or COD/3) (TOC),0
+22,2021,water,395736903.11800003,395736903.11800003,1131,False,1127,Total organic carbon(as total C or COD/3) (TOC),0
+22,2022,air,3476.0,3476.0,1,False,1,Total organic carbon(as total C or COD/3) (TOC),0
+22,2022,water,368102381.707,368102381.707,1092,False,1090,Total organic carbon(as total C or COD/3) (TOC),0
+22,2023,air,2988.0,2988.0,1,False,1,Total organic carbon(as total C or COD/3) (TOC),0
+22,2023,water,305896522.409,305896522.409,923,False,923,Total organic carbon(as total C or COD/3) (TOC),0
+22,2024,air,60552.74,60552.74,2,False,2,Total organic carbon(as total C or COD/3) (TOC),0
+22,2024,water,357052979.99944997,357052979.99944997,1016,False,1016,Total organic carbon(as total C or COD/3) (TOC),0
+23,2007,water,4191050.0,4191050.0,342,False,342,Halogenated organic compounds (as AOX),0
+23,2008,water,3828430.0,3828430.0,369,False,369,Halogenated organic compounds (as AOX),0
+23,2009,water,3334450.0,3334450.0,341,False,341,Halogenated organic compounds (as AOX),0
+23,2010,water,4228040.0,4228040.0,381,False,381,Halogenated organic compounds (as AOX),0
+23,2011,water,3774830.0,3774830.0,389,False,389,Halogenated organic compounds (as AOX),0
+23,2012,water,4306170.0,4306170.0,433,False,433,Halogenated organic compounds (as AOX),0
+23,2013,water,3906880.0,3906880.0,424,False,424,Halogenated organic compounds (as AOX),0
+23,2014,water,4136420.0,4136420.0,430,False,430,Halogenated organic compounds (as AOX),0
+23,2015,water,4305710.0,4305710.0,402,False,402,Halogenated organic compounds (as AOX),0
+23,2016,water,3387580.0,3387580.0,365,False,365,Halogenated organic compounds (as AOX),0
+23,2017,air,0.07,0.07,1,False,1,Halogenated organic compounds (as AOX),0
+23,2017,water,3388120.0,3388120.0,370,False,370,Halogenated organic compounds (as AOX),0
+23,2018,water,3259663.1875,3259663.1875,342,False,342,Halogenated organic compounds (as AOX),0
+23,2019,water,3732976.3674,3732976.3674,341,False,341,Halogenated organic compounds (as AOX),0
+23,2020,water,2608446.3987,2608446.3987,214,False,214,Halogenated organic compounds (as AOX),0
+23,2021,water,2447746.767252,2447746.767252,218,False,218,Halogenated organic compounds (as AOX),0
+23,2022,water,2356675.2498,2356675.2498,211,False,211,Halogenated organic compounds (as AOX),0
+23,2023,water,2194883.48455,2194883.48455,193,False,193,Halogenated organic compounds (as AOX),0
+23,2024,water,2243181.652511,2243181.652511,218,False,217,Halogenated organic compounds (as AOX),0
+24,2007,water,19652160000.0,19652160000.0,523,False,523,Chlorides (as total Cl),0
+24,2008,water,17616010000.0,17616010000.0,574,False,574,Chlorides (as total Cl),0
+24,2009,water,15144360000.0,15144360000.0,551,False,551,Chlorides (as total Cl),0
+24,2010,water,17237380000.0,17237380000.0,591,False,591,Chlorides (as total Cl),0
+24,2011,water,20631250000.0,20631250000.0,617,False,617,Chlorides (as total Cl),0
+24,2012,water,18832660000.0,18832660000.0,608,False,608,Chlorides (as total Cl),0
+24,2013,water,19756200000.0,19756200000.0,624,False,624,Chlorides (as total Cl),0
+24,2014,air,2530.0,2530.0,1,False,1,Chlorides (as total Cl),0
+24,2014,water,18611860000.0,18611860000.0,627,False,627,Chlorides (as total Cl),0
+24,2015,air,41.0,41.0,1,False,1,Chlorides (as total Cl),0
+24,2015,water,17211880000.0,17211880000.0,612,False,612,Chlorides (as total Cl),0
+24,2016,air,46.0,46.0,1,False,1,Chlorides (as total Cl),0
+24,2016,water,16777240000.0,16777240000.0,598,False,598,Chlorides (as total Cl),0
+24,2017,air,27.0,27.0,1,False,1,Chlorides (as total Cl),0
+24,2017,water,18715490000.0,18715490000.0,608,False,608,Chlorides (as total Cl),0
+24,2018,water,15786999362.126,15786999362.126,597,False,597,Chlorides (as total Cl),0
+24,2019,water,17376457098.647,17376457098.647,616,False,616,Chlorides (as total Cl),0
+24,2020,water,15180570901.975,15180570901.975,509,False,509,Chlorides (as total Cl),0
+24,2021,water,16232292390.927,16232292390.927,544,False,544,Chlorides (as total Cl),0
+24,2022,water,14342538090.295,14342538090.295,531,False,531,Chlorides (as total Cl),0
+24,2023,water,14157045754.937,14157045754.937,497,False,496,Chlorides (as total Cl),0
+24,2024,water,12792927879.86,12792927879.86,496,False,495,Chlorides (as total Cl),0
+25,2007,air,559196.1,559196.1,14,False,14,Fluorides (as total F),2
+25,2007,water,11479530.0,11479530.0,432,False,432,Fluorides (as total F),2
+25,2008,air,518616.0,518616.0,14,False,14,Fluorides (as total F),2
+25,2008,water,12853570.0,12853570.0,466,False,466,Fluorides (as total F),2
+25,2009,air,383848.4,383848.4,15,False,15,Fluorides (as total F),2
+25,2009,water,8491620.0,8491620.0,438,False,438,Fluorides (as total F),2
+25,2010,air,341742.0,341742.0,13,False,13,Fluorides (as total F),2
+25,2010,water,9340000.0,9340000.0,470,False,470,Fluorides (as total F),2
+25,2011,air,353973.0,353973.0,13,False,13,Fluorides (as total F),2
+25,2011,water,12048650.0,12048650.0,498,False,498,Fluorides (as total F),2
+25,2012,air,365028.0,365028.0,14,False,14,Fluorides (as total F),2
+25,2012,water,12181790.0,12181790.0,513,False,513,Fluorides (as total F),2
+25,2013,air,402200.5,402200.5,15,False,15,Fluorides (as total F),2
+25,2013,water,10699680.0,10699680.0,518,False,518,Fluorides (as total F),2
+25,2014,air,448738.0,448738.0,15,False,15,Fluorides (as total F),2
+25,2014,water,10659930.0,10659930.0,529,False,529,Fluorides (as total F),2
+25,2015,air,421765.1,421765.1,15,False,15,Fluorides (as total F),2
+25,2015,water,10624180.0,10624180.0,527,False,527,Fluorides (as total F),2
+25,2016,air,421577.0,421577.0,16,False,16,Fluorides (as total F),2
+25,2016,water,10399990.0,10399990.0,506,False,506,Fluorides (as total F),2
+25,2017,air,435968.0,435968.0,16,False,16,Fluorides (as total F),2
+25,2017,water,11553290.0,11553290.0,533,False,533,Fluorides (as total F),2
+25,2018,water,15791472.60181,15791472.60181,503,False,503,Fluorides (as total F),2
+25,2019,water,9051339.59775,9051339.59775,503,False,503,Fluorides (as total F),2
+25,2020,water,8779147.4516,8779147.4516,362,False,362,Fluorides (as total F),2
+25,2021,water,7417820.5086199995,7417820.5086199995,364,False,364,Fluorides (as total F),2
+25,2022,water,7062871.98254,7062871.98254,352,False,352,Fluorides (as total F),2
+25,2023,water,6483811.1987,6483811.1987,331,False,331,Fluorides (as total F),2
+25,2024,water,6571578.024,6571578.024,346,False,346,Fluorides (as total F),2
+26,2007,water,202461.40866,202461.40866,188,False,188,Cyanides (as total CN),2
+26,2008,water,178263.6,178263.6,192,False,192,Cyanides (as total CN),2
+26,2009,water,172428.263337,172428.263337,191,False,191,Cyanides (as total CN),2
+26,2010,water,204203.59,204203.59,205,False,205,Cyanides (as total CN),2
+26,2011,water,148856.49,148856.49,211,False,211,Cyanides (as total CN),2
+26,2012,water,176038.44,176038.44,209,False,209,Cyanides (as total CN),2
+26,2013,water,145025.77,145025.77,202,False,202,Cyanides (as total CN),2
+26,2014,water,118846.7,118846.7,188,False,188,Cyanides (as total CN),2
+26,2015,water,164788.84,164788.84,201,False,201,Cyanides (as total CN),2
+26,2016,water,108900.694755,108900.694755,180,False,180,Cyanides (as total CN),2
+26,2017,water,116060.39,116060.39,196,False,196,Cyanides (as total CN),2
+26,2018,water,84669.0433,84669.0433,178,False,178,Cyanides (as total CN),2
+26,2019,water,91985.237505,91985.237505,173,False,173,Cyanides (as total CN),2
+26,2020,water,69412.460601,69412.460601,134,False,134,Cyanides (as total CN),2
+26,2021,water,97555.660504,97555.660504,138,False,138,Cyanides (as total CN),2
+26,2022,water,110044.094405,110044.094405,128,False,128,Cyanides (as total CN),2
+26,2023,water,109447.40899899999,109447.40899899999,121,False,120,Cyanides (as total CN),2
+26,2024,water,107164.752203,107164.752203,143,False,143,Cyanides (as total CN),2
+27,2007,air,40520.2,40520.2,8,False,8,Phenols (as total C),3
+27,2007,water,1006631.0,1006631.0,409,False,409,Phenols (as total C),2
+27,2008,air,33975.0,33975.0,6,False,6,Phenols (as total C),3
+27,2008,water,923656.8,923656.8,436,False,436,Phenols (as total C),2
+27,2009,air,27769.0,27769.0,6,False,6,Phenols (as total C),3
+27,2009,water,682733.9,682733.9,389,False,389,Phenols (as total C),2
+27,2010,air,28076.0,28076.0,6,False,6,Phenols (as total C),3
+27,2010,water,1034103.5,1034103.5,411,False,411,Phenols (as total C),2
+27,2011,air,26599.2,26599.2,6,False,6,Phenols (as total C),3
+27,2011,water,705738.1,705738.1,400,False,400,Phenols (as total C),2
+27,2012,air,31617.3,31617.3,6,False,6,Phenols (as total C),3
+27,2012,water,761664.5,761664.5,429,False,429,Phenols (as total C),2
+27,2013,air,26304.1,26304.1,6,False,6,Phenols (as total C),3
+27,2013,water,908919.3,908919.3,427,False,427,Phenols (as total C),2
+27,2014,air,22319.9,22319.9,7,False,7,Phenols (as total C),3
+27,2014,water,970877.3,970877.3,475,False,475,Phenols (as total C),2
+27,2015,air,25331.4,25331.4,7,False,7,Phenols (as total C),3
+27,2015,water,1049553.3,1049553.3,476,False,476,Phenols (as total C),2
+27,2016,air,24370.1,24370.1,7,False,7,Phenols (as total C),3
+27,2016,water,842191.6,842191.6,448,False,448,Phenols (as total C),2
+27,2017,air,14068.1,14068.1,6,False,6,Phenols (as total C),3
+27,2017,water,841688.3,841688.3,448,False,448,Phenols (as total C),2
+27,2018,water,563756.3603000001,563756.3603000001,428,False,428,Phenols (as total C),2
+27,2019,water,557367.3628,557367.3628,421,False,421,Phenols (as total C),2
+27,2020,water,295253.142313,295253.142313,276,False,276,Phenols (as total C),2
+27,2021,water,267893.68886,267893.68886,309,False,309,Phenols (as total C),2
+27,2022,water,165370.760794,165370.760794,286,False,285,Phenols (as total C),2
+27,2023,water,184597.062088,184597.062088,255,False,255,Phenols (as total C),2
+27,2024,water,145631.442125,145631.442125,268,False,268,Phenols (as total C),2
+28,2007,water,2869.1,2869.1,9,False,9,Organotin compounds (as total Sn),4
+28,2008,water,2720.3,2720.3,11,False,11,Organotin compounds (as total Sn),4
+28,2009,water,6437.5,6437.5,5,False,5,Organotin compounds (as total Sn),4
+28,2010,water,879.6,879.6,4,False,4,Organotin compounds (as total Sn),4
+28,2011,water,7688.3,7688.3,4,False,4,Organotin compounds (as total Sn),4
+28,2012,water,227.0,227.0,3,False,3,Organotin compounds (as total Sn),4
+28,2013,water,259.0,259.0,2,False,2,Organotin compounds (as total Sn),4
+28,2014,water,66.5,66.5,1,False,1,Organotin compounds (as total Sn),4
+28,2015,water,1350.5,1350.5,5,False,5,Organotin compounds (as total Sn),4
+28,2016,water,873.0,873.0,1,False,1,Organotin compounds (as total Sn),4
+28,2017,water,2727.0,2727.0,2,False,2,Organotin compounds (as total Sn),4
+28,2018,water,2593.815,2593.815,10,False,10,Organotin compounds (as total Sn),4
+28,2019,water,1954.897,1954.897,3,False,3,Organotin compounds (as total Sn),4
+28,2020,water,1736.7975,1736.7975,7,False,7,Organotin compounds (as total Sn),4
+28,2021,water,1843.01,1843.01,6,False,6,Organotin compounds (as total Sn),4
+28,2022,water,1049.4475,1049.4475,4,False,4,Organotin compounds (as total Sn),4
+28,2023,water,2395.7588,2395.7588,4,False,4,Organotin compounds (as total Sn),4
+28,2024,water,1705.2582,1705.2582,5,False,5,Organotin compounds (as total Sn),4
+29,2007,air,49700.0,49700.0,311,False,311,Arsenic and compounds (as As),5
+29,2007,water,52056.68,52056.68,635,False,635,Arsenic and compounds (as As),5
+29,2008,air,43438.6,43438.6,291,False,291,Arsenic and compounds (as As),5
+29,2008,water,56906.35,56906.35,725,False,725,Arsenic and compounds (as As),5
+29,2009,air,30621.8,30621.8,250,False,250,Arsenic and compounds (as As),5
+29,2009,water,53264.97,53264.97,702,False,702,Arsenic and compounds (as As),5
+29,2010,air,34073.8,34073.8,238,False,238,Arsenic and compounds (as As),5
+29,2010,water,96000.68,96000.68,760,False,760,Arsenic and compounds (as As),5
+29,2011,air,34071.8,34071.8,238,False,238,Arsenic and compounds (as As),5
+29,2011,water,103237.06999999999,103237.06999999999,778,False,778,Arsenic and compounds (as As),5
+29,2012,air,31442.8,31442.8,231,False,231,Arsenic and compounds (as As),5
+29,2012,water,88464.01,88464.01,762,False,762,Arsenic and compounds (as As),5
+29,2013,air,30736.600000000002,30736.600000000002,217,False,217,Arsenic and compounds (as As),5
+29,2013,water,85444.69,85444.69,759,False,759,Arsenic and compounds (as As),5
+29,2014,air,28120.9,28120.9,204,False,204,Arsenic and compounds (as As),5
+29,2014,water,80278.08,80278.08,744,False,744,Arsenic and compounds (as As),5
+29,2015,air,24251.6,24251.6,196,False,196,Arsenic and compounds (as As),5
+29,2015,water,52744.31,52744.31,781,False,781,Arsenic and compounds (as As),5
+29,2016,air,26024.8,26024.8,183,False,183,Arsenic and compounds (as As),5
+29,2016,water,82003.56,82003.56,782,False,782,Arsenic and compounds (as As),5
+29,2017,air,24307.5,24307.5,160,False,160,Arsenic and compounds (as As),5
+29,2017,water,70133.56,70133.56,829,False,829,Arsenic and compounds (as As),5
+29,2018,air,53219.19947,53219.19947,158,False,158,Arsenic and compounds (as As),5
+29,2018,water,81515.07175,81515.07175,766,False,766,Arsenic and compounds (as As),5
+29,2019,air,15250.255642,15250.255642,136,False,136,Arsenic and compounds (as As),5
+29,2019,water,114194.213939,114194.213939,813,False,813,Arsenic and compounds (as As),5
+29,2020,air,10414.639908,10414.639908,126,False,123,Arsenic and compounds (as As),5
+29,2020,water,56890.689658,56890.689658,632,False,629,Arsenic and compounds (as As),5
+29,2021,air,18045.844223,18045.844223,128,False,125,Arsenic and compounds (as As),5
+29,2021,water,56004.772427,56004.772427,681,False,677,Arsenic and compounds (as As),5
+29,2022,air,15125.733398999999,15125.733398999999,131,False,128,Arsenic and compounds (as As),5
+29,2022,water,72264.646012,72264.646012,663,False,657,Arsenic and compounds (as As),5
+29,2023,air,5834.314301,5834.314301,85,False,85,Arsenic and compounds (as As),5
+29,2023,water,61610.790461,61610.790461,656,False,655,Arsenic and compounds (as As),5
+29,2024,air,6080.918701,6080.918701,93,False,93,Arsenic and compounds (as As),5
+29,2024,water,68813.052541,68813.052541,665,False,664,Arsenic and compounds (as As),5
+30,2007,air,17379.7,17379.7,345,False,345,Cadmium and compounds (as Cd),5
+30,2007,water,16591.55,16591.55,382,False,382,Cadmium and compounds (as Cd),5
+30,2008,air,19030.0,19030.0,303,False,303,Cadmium and compounds (as Cd),5
+30,2008,water,21328.1,21328.1,388,False,388,Cadmium and compounds (as Cd),5
+30,2009,air,12989.2,12989.2,244,False,244,Cadmium and compounds (as Cd),5
+30,2009,water,24830.170000000002,24830.170000000002,353,False,353,Cadmium and compounds (as Cd),5
+30,2010,air,13170.2,13170.2,231,False,231,Cadmium and compounds (as Cd),5
+30,2010,water,18778.07,18778.07,369,False,369,Cadmium and compounds (as Cd),5
+30,2011,air,10829.2,10829.2,210,False,210,Cadmium and compounds (as Cd),5
+30,2011,water,19508.84,19508.84,368,False,368,Cadmium and compounds (as Cd),5
+30,2012,air,10992.4,10992.4,197,False,197,Cadmium and compounds (as Cd),5
+30,2012,water,22144.33,22144.33,366,False,366,Cadmium and compounds (as Cd),5
+30,2013,air,9518.6,9518.6,179,False,179,Cadmium and compounds (as Cd),5
+30,2013,water,21653.7,21653.7,365,False,365,Cadmium and compounds (as Cd),5
+30,2014,air,9451.5,9451.5,177,False,177,Cadmium and compounds (as Cd),5
+30,2014,water,19007.19,19007.19,367,False,367,Cadmium and compounds (as Cd),5
+30,2015,air,8601.5,8601.5,172,False,172,Cadmium and compounds (as Cd),5
+30,2015,water,14222.34,14222.34,329,False,329,Cadmium and compounds (as Cd),5
+30,2016,air,11076.6,11076.6,193,False,193,Cadmium and compounds (as Cd),5
+30,2016,water,13619.630000000001,13619.630000000001,307,False,307,Cadmium and compounds (as Cd),5
+30,2017,air,9447.6,9447.6,178,False,178,Cadmium and compounds (as Cd),5
+30,2017,water,13889.89,13889.89,311,False,311,Cadmium and compounds (as Cd),5
+30,2018,air,10583.02068,10583.02068,199,False,199,Cadmium and compounds (as Cd),5
+30,2018,water,15701.1598,15701.1598,339,False,339,Cadmium and compounds (as Cd),5
+30,2019,air,11494.923338,11494.923338,195,False,195,Cadmium and compounds (as Cd),5
+30,2019,water,14195.259202,14195.259202,309,False,309,Cadmium and compounds (as Cd),5
+30,2020,air,6901.681107,6901.681107,162,False,159,Cadmium and compounds (as Cd),5
+30,2020,water,15516.158201,15516.158201,264,False,261,Cadmium and compounds (as Cd),5
+30,2021,air,5722.798589,5722.798589,175,False,172,Cadmium and compounds (as Cd),5
+30,2021,water,25716.649401,25716.649401,269,False,263,Cadmium and compounds (as Cd),5
+30,2022,air,5920.692058,5920.692058,169,False,168,Cadmium and compounds (as Cd),5
+30,2022,water,11996.187002,11996.187002,247,False,242,Cadmium and compounds (as Cd),5
+30,2023,air,4881.434805,4881.434805,133,False,133,Cadmium and compounds (as Cd),5
+30,2023,water,34134.213701,34134.213701,235,False,233,Cadmium and compounds (as Cd),5
+30,2024,air,5288.131904,5288.131904,131,False,131,Cadmium and compounds (as Cd),5
+30,2024,water,15603.276911,15603.276911,239,False,237,Cadmium and compounds (as Cd),5
+31,2007,air,137762.0,137762.0,236,False,236,Chromium and compounds (as Cr),2
+31,2007,water,665690.1,665690.1,463,False,463,Chromium and compounds (as Cr),3
+31,2008,air,120766.0,120766.0,212,False,212,Chromium and compounds (as Cr),2
+31,2008,water,633066.6,633066.6,431,False,431,Chromium and compounds (as Cr),3
+31,2009,air,80661.0,80661.0,176,False,176,Chromium and compounds (as Cr),2
+31,2009,water,501623.60000000003,501623.60000000003,411,False,411,Chromium and compounds (as Cr),3
+31,2010,air,104835.0,104835.0,187,False,187,Chromium and compounds (as Cr),2
+31,2010,water,672365.9,672365.9,432,False,432,Chromium and compounds (as Cr),3
+31,2011,air,76183.0,76183.0,169,False,169,Chromium and compounds (as Cr),2
+31,2011,water,523640.6,523640.6,417,False,417,Chromium and compounds (as Cr),3
+31,2012,air,85951.0,85951.0,176,False,176,Chromium and compounds (as Cr),2
+31,2012,water,522031.10000000003,522031.10000000003,393,False,393,Chromium and compounds (as Cr),3
+31,2013,air,74830.0,74830.0,145,False,145,Chromium and compounds (as Cr),2
+31,2013,water,565438.4,565438.4,410,False,410,Chromium and compounds (as Cr),3
+31,2014,air,73550.0,73550.0,140,False,140,Chromium and compounds (as Cr),2
+31,2014,water,486974.39999999997,486974.39999999997,386,False,386,Chromium and compounds (as Cr),3
+31,2015,air,60625.0,60625.0,148,False,148,Chromium and compounds (as Cr),2
+31,2015,water,307195.5,307195.5,354,False,354,Chromium and compounds (as Cr),3
+31,2016,air,64533.0,64533.0,143,False,143,Chromium and compounds (as Cr),2
+31,2016,water,107090.3,107090.3,365,False,365,Chromium and compounds (as Cr),3
+31,2017,air,57012.0,57012.0,127,False,127,Chromium and compounds (as Cr),2
+31,2017,water,834481.1,834481.1,399,False,399,Chromium and compounds (as Cr),3
+31,2018,air,85763.65090000001,85763.65090000001,142,False,142,Chromium and compounds (as Cr),2
+31,2018,water,151628.3059,151628.3059,374,False,374,Chromium and compounds (as Cr),3
+31,2019,air,60822.392358,60822.392358,131,False,131,Chromium and compounds (as Cr),2
+31,2019,water,184403.964703,184403.964703,367,False,367,Chromium and compounds (as Cr),3
+31,2020,air,28403.3332,28403.3332,103,False,100,Chromium and compounds (as Cr),2
+31,2020,water,109267.614399,109267.614399,310,False,307,Chromium and compounds (as Cr),3
+31,2021,air,47586.55175,47586.55175,121,False,119,Chromium and compounds (as Cr),2
+31,2021,water,153261.156956,153261.156956,334,False,326,Chromium and compounds (as Cr),3
+31,2022,air,67291.292,67291.292,126,False,126,Chromium and compounds (as Cr),2
+31,2022,water,122597.422805,122597.422805,302,False,296,Chromium and compounds (as Cr),3
+31,2023,air,36374.4926,36374.4926,96,False,96,Chromium and compounds (as Cr),2
+31,2023,water,94970.143851,94970.143851,271,False,268,Chromium and compounds (as Cr),3
+31,2024,air,76664.5788,76664.5788,85,False,85,Chromium and compounds (as Cr),2
+31,2024,water,118925.379964,118925.379964,276,False,273,Chromium and compounds (as Cr),3
+32,2007,air,163362.0,163362.0,215,False,215,Copper and compounds (as Cu),2
+32,2007,water,412507.2,412507.2,934,False,934,Copper and compounds (as Cu),3
+32,2008,air,162843.0,162843.0,221,False,221,Copper and compounds (as Cu),2
+32,2008,water,458039.4,458039.4,998,False,998,Copper and compounds (as Cu),3
+32,2009,air,128321.0,128321.0,180,False,180,Copper and compounds (as Cu),2
+32,2009,water,408139.8,408139.8,930,False,930,Copper and compounds (as Cu),3
+32,2010,air,123364.0,123364.0,178,False,178,Copper and compounds (as Cu),2
+32,2010,water,583454.6,583454.6,956,False,956,Copper and compounds (as Cu),3
+32,2011,air,120287.0,120287.0,174,False,174,Copper and compounds (as Cu),2
+32,2011,water,512508.7,512508.7,969,False,969,Copper and compounds (as Cu),3
+32,2012,air,104899.0,104899.0,186,False,186,Copper and compounds (as Cu),2
+32,2012,water,507437.3,507437.3,1000,False,1000,Copper and compounds (as Cu),3
+32,2013,air,93528.0,93528.0,163,False,163,Copper and compounds (as Cu),2
+32,2013,water,618022.4,618022.4,1001,False,1001,Copper and compounds (as Cu),3
+32,2014,air,90095.0,90095.0,154,False,154,Copper and compounds (as Cu),2
+32,2014,water,492203.4,492203.4,961,False,961,Copper and compounds (as Cu),3
+32,2015,air,86088.0,86088.0,149,False,149,Copper and compounds (as Cu),2
+32,2015,water,540328.8,540328.8,953,False,953,Copper and compounds (as Cu),3
+32,2016,air,79600.0,79600.0,157,False,157,Copper and compounds (as Cu),2
+32,2016,water,378071.5,378071.5,949,False,949,Copper and compounds (as Cu),3
+32,2017,air,90360.0,90360.0,148,False,148,Copper and compounds (as Cu),2
+32,2017,water,912782.7,912782.7,952,False,952,Copper and compounds (as Cu),3
+32,2018,air,83768.6105,83768.6105,164,False,164,Copper and compounds (as Cu),2
+32,2018,water,333339.32855,333339.32855,864,False,864,Copper and compounds (as Cu),3
+32,2019,air,80845.946,80845.946,154,False,154,Copper and compounds (as Cu),2
+32,2019,water,319351.023442,319351.023442,856,False,856,Copper and compounds (as Cu),3
+32,2020,air,67768.407,67768.407,136,False,133,Copper and compounds (as Cu),2
+32,2020,water,213769.442565,213769.442565,614,False,611,Copper and compounds (as Cu),3
+32,2021,air,67015.41482,67015.41482,134,False,132,Copper and compounds (as Cu),2
+32,2021,water,308587.295637,308587.295637,677,False,672,Copper and compounds (as Cu),3
+32,2022,air,74555.04533,74555.04533,129,False,129,Copper and compounds (as Cu),2
+32,2022,water,219494.328756,219494.328756,614,False,610,Copper and compounds (as Cu),3
+32,2023,air,56123.6924,56123.6924,118,False,118,Copper and compounds (as Cu),2
+32,2023,water,256998.610448,256998.610448,613,False,611,Copper and compounds (as Cu),3
+32,2024,air,50328.8451,50328.8451,93,False,93,Copper and compounds (as Cu),2
+32,2024,water,209419.670699,209419.670699,642,False,639,Copper and compounds (as Cu),3
+33,2007,air,560333.0,560333.0,288,False,288,Lead and compounds (as Pb),4
+33,2007,water,276519.8,276519.8,655,False,655,Lead and compounds (as Pb),4
+33,2008,air,493552.0,493552.0,258,False,258,Lead and compounds (as Pb),4
+33,2008,water,149144.0,149144.0,669,False,669,Lead and compounds (as Pb),4
+33,2009,air,315565.0,315565.0,195,False,195,Lead and compounds (as Pb),4
+33,2009,water,191162.1,191162.1,593,False,593,Lead and compounds (as Pb),4
+33,2010,air,401429.0,401429.0,191,False,191,Lead and compounds (as Pb),4
+33,2010,water,186647.1,186647.1,627,False,627,Lead and compounds (as Pb),4
+33,2011,air,312185.0,312185.0,188,False,188,Lead and compounds (as Pb),4
+33,2011,water,203908.8,203908.8,625,False,625,Lead and compounds (as Pb),4
+33,2012,air,314364.0,314364.0,178,False,178,Lead and compounds (as Pb),4
+33,2012,water,171079.4,171079.4,591,False,591,Lead and compounds (as Pb),4
+33,2013,air,299715.0,299715.0,173,False,173,Lead and compounds (as Pb),4
+33,2013,water,176557.6,176557.6,607,False,607,Lead and compounds (as Pb),4
+33,2014,air,293442.0,293442.0,171,False,171,Lead and compounds (as Pb),4
+33,2014,water,172527.4,172527.4,583,False,583,Lead and compounds (as Pb),4
+33,2015,air,253961.0,253961.0,161,False,161,Lead and compounds (as Pb),4
+33,2015,water,118907.4,118907.4,530,False,530,Lead and compounds (as Pb),4
+33,2016,air,283264.0,283264.0,151,False,151,Lead and compounds (as Pb),4
+33,2016,water,79852.1,79852.1,489,False,489,Lead and compounds (as Pb),4
+33,2017,air,286998.0,286998.0,156,False,156,Lead and compounds (as Pb),4
+33,2017,water,86380.6,86380.6,493,False,493,Lead and compounds (as Pb),4
+33,2018,air,247675.034566,247675.034566,156,False,156,Lead and compounds (as Pb),4
+33,2018,water,84707.8056,84707.8056,495,False,495,Lead and compounds (as Pb),4
+33,2019,air,154011.360309,154011.360309,142,False,142,Lead and compounds (as Pb),4
+33,2019,water,89928.264587,89928.264587,482,False,482,Lead and compounds (as Pb),4
+33,2020,air,73278.958428,73278.958428,110,False,107,Lead and compounds (as Pb),4
+33,2020,water,100467.384708,100467.384708,358,False,355,Lead and compounds (as Pb),4
+33,2021,air,95771.90632,95771.90632,117,False,113,Lead and compounds (as Pb),4
+33,2021,water,89390.632482,89390.632482,398,False,391,Lead and compounds (as Pb),4
+33,2022,air,89301.54194,89301.54194,117,False,116,Lead and compounds (as Pb),4
+33,2022,water,71677.817703,71677.817703,349,False,345,Lead and compounds (as Pb),4
+33,2023,air,64972.2919,64972.2919,85,False,85,Lead and compounds (as Pb),4
+33,2023,water,74102.731484,74102.731484,355,False,353,Lead and compounds (as Pb),4
+33,2024,air,64523.6303,64523.6303,89,False,89,Lead and compounds (as Pb),4
+33,2024,water,76999.515048,76999.515048,343,False,341,Lead and compounds (as Pb),4
+34,2007,air,37267.2,37267.2,520,False,520,Mercury and compounds (as Hg),2
+34,2007,water,11137.64,11137.64,436,False,436,Mercury and compounds (as Hg),3
+34,2008,air,38515.9,38515.9,531,False,531,Mercury and compounds (as Hg),2
+34,2008,water,5694.23,5694.23,480,False,480,Mercury and compounds (as Hg),3
+34,2009,air,31492.0,31492.0,489,False,489,Mercury and compounds (as Hg),2
+34,2009,water,5166.29,5166.29,424,False,424,Mercury and compounds (as Hg),3
+34,2010,air,30652.9,30652.9,510,False,510,Mercury and compounds (as Hg),2
+34,2010,water,4361.32,4361.32,441,False,441,Mercury and compounds (as Hg),3
+34,2011,air,30257.7,30257.7,507,False,507,Mercury and compounds (as Hg),2
+34,2011,water,4768.97,4768.97,403,False,403,Mercury and compounds (as Hg),3
+34,2012,air,28374.0,28374.0,473,False,473,Mercury and compounds (as Hg),2
+34,2012,water,6321.27,6321.27,417,False,417,Mercury and compounds (as Hg),3
+34,2013,air,25446.6,25446.6,462,False,462,Mercury and compounds (as Hg),2
+34,2013,water,4566.93,4566.93,406,False,406,Mercury and compounds (as Hg),3
+34,2014,air,25517.7,25517.7,454,False,454,Mercury and compounds (as Hg),2
+34,2014,water,5137.91,5137.91,364,False,364,Mercury and compounds (as Hg),3
+34,2015,air,25704.9,25704.9,446,False,446,Mercury and compounds (as Hg),2
+34,2015,water,4024.0299999999997,4024.0299999999997,341,False,341,Mercury and compounds (as Hg),3
+34,2016,air,27413.0,27413.0,441,False,441,Mercury and compounds (as Hg),2
+34,2016,water,3902.26,3902.26,339,False,339,Mercury and compounds (as Hg),3
+34,2017,air,25996.8,25996.8,414,False,414,Mercury and compounds (as Hg),2
+34,2017,water,3764.96,3764.96,334,False,334,Mercury and compounds (as Hg),3
+34,2018,air,23437.25945,23437.25945,391,False,391,Mercury and compounds (as Hg),2
+34,2018,water,3010.74555,3010.74555,300,False,300,Mercury and compounds (as Hg),3
+34,2019,air,21803.568453,21803.568453,353,False,353,Mercury and compounds (as Hg),2
+34,2019,water,2288.614,2288.614,290,False,290,Mercury and compounds (as Hg),3
+34,2020,air,17102.317627,17102.317627,321,False,317,Mercury and compounds (as Hg),2
+34,2020,water,2087.5104,2087.5104,243,False,241,Mercury and compounds (as Hg),3
+34,2021,air,17655.046749,17655.046749,320,False,316,Mercury and compounds (as Hg),2
+34,2021,water,2015.730456,2015.730456,262,False,260,Mercury and compounds (as Hg),3
+34,2022,air,16289.117719,16289.117719,327,False,325,Mercury and compounds (as Hg),2
+34,2022,water,1791.1099,1791.1099,246,False,244,Mercury and compounds (as Hg),3
+34,2023,air,10677.641039,10677.641039,253,False,251,Mercury and compounds (as Hg),2
+34,2023,water,1945.986834,1945.986834,241,False,240,Mercury and compounds (as Hg),3
+34,2024,air,9232.582861,9232.582861,212,False,209,Mercury and compounds (as Hg),2
+34,2024,water,2396.680621,2396.680621,245,False,244,Mercury and compounds (as Hg),3
+35,2007,air,365949.4,365949.4,583,False,583,Nickel and compounds (as Ni),3
+35,2007,water,393949.3,393949.3,1117,False,1117,Nickel and compounds (as Ni),3
+35,2008,air,385738.2,385738.2,546,False,546,Nickel and compounds (as Ni),3
+35,2008,water,332079.4,332079.4,1178,False,1178,Nickel and compounds (as Ni),3
+35,2009,air,299089.4,299089.4,473,False,473,Nickel and compounds (as Ni),3
+35,2009,water,309602.6,309602.6,1141,False,1141,Nickel and compounds (as Ni),3
+35,2010,air,287397.4,287397.4,457,False,457,Nickel and compounds (as Ni),3
+35,2010,water,318184.3,318184.3,1162,False,1162,Nickel and compounds (as Ni),3
+35,2011,air,244810.1,244810.1,415,False,415,Nickel and compounds (as Ni),3
+35,2011,water,299882.5,299882.5,1162,False,1162,Nickel and compounds (as Ni),3
+35,2012,air,250033.4,250033.4,413,False,413,Nickel and compounds (as Ni),3
+35,2012,water,280210.8,280210.8,1151,False,1151,Nickel and compounds (as Ni),3
+35,2013,air,200124.6,200124.6,371,False,371,Nickel and compounds (as Ni),3
+35,2013,water,318014.9,318014.9,1179,False,1179,Nickel and compounds (as Ni),3
+35,2014,air,166534.7,166534.7,359,False,359,Nickel and compounds (as Ni),3
+35,2014,water,335338.1,335338.1,1199,False,1199,Nickel and compounds (as Ni),3
+35,2015,air,159601.4,159601.4,360,False,360,Nickel and compounds (as Ni),3
+35,2015,water,235918.8,235918.8,1149,False,1149,Nickel and compounds (as Ni),3
+35,2016,air,154376.3,154376.3,334,False,334,Nickel and compounds (as Ni),3
+35,2016,water,220368.1,220368.1,1166,False,1166,Nickel and compounds (as Ni),3
+35,2017,air,146370.6,146370.6,305,False,305,Nickel and compounds (as Ni),3
+35,2017,water,260554.2,260554.2,1211,False,1211,Nickel and compounds (as Ni),3
+35,2018,air,135403.08791,135403.08791,294,False,294,Nickel and compounds (as Ni),3
+35,2018,water,235077.7161,235077.7161,1161,False,1161,Nickel and compounds (as Ni),3
+35,2019,air,115794.089309,115794.089309,274,False,274,Nickel and compounds (as Ni),3
+35,2019,water,213296.681811,213296.681811,1087,False,1087,Nickel and compounds (as Ni),3
+35,2020,air,99069.013865,99069.013865,248,False,245,Nickel and compounds (as Ni),3
+35,2020,water,162306.052531,162306.052531,901,False,897,Nickel and compounds (as Ni),3
+35,2021,air,102508.485109,102508.485109,258,False,255,Nickel and compounds (as Ni),3
+35,2021,water,195109.4214,195109.4214,994,False,989,Nickel and compounds (as Ni),3
+35,2022,air,115320.216807,115320.216807,260,False,259,Nickel and compounds (as Ni),3
+35,2022,water,179199.092615,179199.092615,923,False,918,Nickel and compounds (as Ni),3
+35,2023,air,113507.712596,113507.712596,216,False,216,Nickel and compounds (as Ni),3
+35,2023,water,158506.253363,158506.253363,904,False,900,Nickel and compounds (as Ni),3
+35,2024,air,72148.065932,72148.065932,195,False,195,Nickel and compounds (as Ni),3
+35,2024,water,173897.932573,173897.932573,919,False,916,Nickel and compounds (as Ni),3
+36,2007,air,1350745.0,1350745.0,512,False,512,Zinc and compounds (as Zn),2
+36,2007,water,2271432.0,2271432.0,1776,False,1776,Zinc and compounds (as Zn),3
+36,2008,air,1187109.0,1187109.0,505,False,505,Zinc and compounds (as Zn),2
+36,2008,water,2052156.0,2052156.0,1959,False,1959,Zinc and compounds (as Zn),3
+36,2009,air,872515.0,872515.0,447,False,447,Zinc and compounds (as Zn),2
+36,2009,water,2466538.0,2466538.0,1964,False,1964,Zinc and compounds (as Zn),3
+36,2010,air,941303.0,941303.0,480,False,480,Zinc and compounds (as Zn),2
+36,2010,water,2561973.0,2561973.0,1928,False,1928,Zinc and compounds (as Zn),3
+36,2011,air,906216.0,906216.0,445,False,445,Zinc and compounds (as Zn),2
+36,2011,water,2072069.0,2072069.0,1961,False,1961,Zinc and compounds (as Zn),3
+36,2012,air,888822.0,888822.0,422,False,422,Zinc and compounds (as Zn),2
+36,2012,water,2153408.0,2153408.0,2010,False,2010,Zinc and compounds (as Zn),3
+36,2013,air,743021.0,743021.0,414,False,414,Zinc and compounds (as Zn),2
+36,2013,water,2370245.0,2370245.0,2030,False,2030,Zinc and compounds (as Zn),3
+36,2014,air,708598.0,708598.0,410,False,410,Zinc and compounds (as Zn),2
+36,2014,water,2138671.0,2138671.0,2056,False,2056,Zinc and compounds (as Zn),3
+36,2015,air,679890.0,679890.0,387,False,387,Zinc and compounds (as Zn),2
+36,2015,water,1914555.0,1914555.0,2078,False,2078,Zinc and compounds (as Zn),3
+36,2016,air,642448.0,642448.0,389,False,389,Zinc and compounds (as Zn),2
+36,2016,water,1880973.0,1880973.0,2019,False,2019,Zinc and compounds (as Zn),3
+36,2017,air,615097.0,615097.0,387,False,387,Zinc and compounds (as Zn),2
+36,2017,water,1898784.0,1898784.0,2083,False,2083,Zinc and compounds (as Zn),3
+36,2018,air,838877.675441,838877.675441,388,False,388,Zinc and compounds (as Zn),2
+36,2018,water,1757838.27946,1757838.27946,1454,False,1454,Zinc and compounds (as Zn),3
+36,2019,air,662217.0332,662217.0332,366,False,366,Zinc and compounds (as Zn),2
+36,2019,water,1690809.74637,1690809.74637,1456,False,1455,Zinc and compounds (as Zn),3
+36,2020,air,474873.7908,474873.7908,322,False,321,Zinc and compounds (as Zn),2
+36,2020,water,1366348.2675,1366348.2675,1146,False,1143,Zinc and compounds (as Zn),3
+36,2021,air,557339.27302,557339.27302,339,False,337,Zinc and compounds (as Zn),2
+36,2021,water,1460458.544672,1460458.544672,1180,False,1175,Zinc and compounds (as Zn),3
+36,2022,air,597512.03238,597512.03238,347,False,347,Zinc and compounds (as Zn),2
+36,2022,water,1100254.85114,1100254.85114,1131,False,1126,Zinc and compounds (as Zn),3
+36,2023,air,478047.1128,478047.1128,308,False,308,Zinc and compounds (as Zn),2
+36,2023,water,1069847.445654,1069847.445654,1089,False,1086,Zinc and compounds (as Zn),3
+36,2024,air,386293.7545,386293.7545,275,False,275,Zinc and compounds (as Zn),2
+36,2024,water,1154968.558758,1154968.558758,1094,False,1091,Zinc and compounds (as Zn),3
+37,2007,water,356.44,356.44,91,False,91,Asbestos,5
+37,2008,air,2.0,2.0,1,False,1,Asbestos,5
+37,2008,water,388.39,388.39,109,False,109,Asbestos,5
+37,2009,water,247.01000000000002,247.01000000000002,83,False,83,Asbestos,5
+37,2010,water,359.27,359.27,103,False,103,Asbestos,5
+37,2011,water,361.03999999999996,361.03999999999996,103,False,103,Asbestos,5
+37,2012,air,1.14,1.14,1,False,1,Asbestos,5
+37,2012,water,416.75,416.75,115,False,115,Asbestos,5
+37,2013,air,1.77,1.77,1,False,1,Asbestos,5
+37,2013,water,377.55,377.55,108,False,108,Asbestos,5
+37,2014,air,1.59,1.59,1,False,1,Asbestos,5
+37,2014,water,410.86,410.86,111,False,111,Asbestos,5
+37,2015,water,390.29,390.29,104,False,104,Asbestos,5
+37,2016,water,388.58,388.58,107,False,107,Asbestos,5
+37,2017,water,348.31,348.31,102,False,102,Asbestos,5
+37,2018,water,360.14,360.14,111,False,111,Asbestos,5
+37,2019,water,364.28000000000003,364.28000000000003,108,False,108,Asbestos,5
+37,2023,water,10.6,10.6,1,False,1,Asbestos,5
+38,2007,air,4669650.0,4669650.0,319,False,319,Benzene,5
+38,2007,water,2577627.7,2577627.7,109,False,109,Benzene,5
+38,2008,air,4133560.0,4133560.0,321,False,321,Benzene,5
+38,2008,water,2641575.1,2641575.1,116,False,116,Benzene,5
+38,2009,air,3533460.0,3533460.0,285,False,285,Benzene,5
+38,2009,water,2314604.7,2314604.7,117,False,117,Benzene,5
+38,2010,air,3418920.0,3418920.0,294,False,294,Benzene,5
+38,2010,water,2278693.96,2278693.96,119,False,119,Benzene,5
+38,2011,air,3057230.0,3057230.0,291,False,291,Benzene,5
+38,2011,water,1871906.2,1871906.2,102,False,102,Benzene,5
+38,2012,air,3012860.0,3012860.0,304,False,304,Benzene,5
+38,2012,water,1871804.7,1871804.7,98,False,98,Benzene,5
+38,2013,air,2692640.0,2692640.0,295,False,295,Benzene,5
+38,2013,water,3395341.9,3395341.9,102,False,102,Benzene,5
+38,2014,air,2910320.0,2910320.0,290,False,290,Benzene,5
+38,2014,water,2136467.2,2136467.2,97,False,97,Benzene,5
+38,2015,air,2982360.0,2982360.0,265,False,265,Benzene,5
+38,2015,water,2143277.3,2143277.3,106,False,106,Benzene,5
+38,2016,air,2791710.0,2791710.0,264,False,264,Benzene,5
+38,2016,water,2094681.0,2094681.0,103,False,103,Benzene,5
+38,2017,air,2705730.0,2705730.0,277,False,277,Benzene,5
+38,2017,water,2459172.4,2459172.4,101,False,101,Benzene,5
+38,2018,air,2559825.7671,2559825.7671,269,False,269,Benzene,5
+38,2018,water,1278892.04,1278892.04,77,False,77,Benzene,5
+38,2019,air,2339972.7060000002,2339972.7060000002,252,False,252,Benzene,5
+38,2019,water,1211768.7,1211768.7,69,False,68,Benzene,5
+38,2020,air,1659455.232,1659455.232,229,False,228,Benzene,5
+38,2020,water,1166.6,1166.6,7,False,6,Benzene,5
+38,2021,air,1531237.482,1531237.482,229,False,228,Benzene,5
+38,2021,water,3187.09,3187.09,4,False,4,Benzene,5
+38,2022,air,1336366.7529,1336366.7529,238,False,238,Benzene,5
+38,2022,water,1291.400502,1291.400502,4,False,4,Benzene,5
+38,2023,air,1476413.1585,1476413.1585,207,False,207,Benzene,5
+38,2023,water,1161.256102,1161.256102,5,False,4,Benzene,5
+38,2024,air,1390776.7683,1390776.7683,192,False,192,Benzene,5
+38,2024,water,1332.3400000000001,1332.3400000000001,4,False,4,Benzene,5
+39,2007,water,117917.94,117917.94,77,False,77,Ethyl benzene,3
+39,2008,water,125122.21,125122.21,74,False,74,Ethyl benzene,3
+39,2009,water,149058.5,149058.5,88,False,88,Ethyl benzene,3
+39,2010,water,172795.41,172795.41,91,False,91,Ethyl benzene,3
+39,2011,water,105851.25,105851.25,76,False,76,Ethyl benzene,3
+39,2012,water,136944.225,136944.225,76,False,76,Ethyl benzene,3
+39,2013,air,885.0,885.0,1,False,1,Ethyl benzene,3
+39,2013,water,149629.16,149629.16,72,False,72,Ethyl benzene,3
+39,2014,water,137946.54,137946.54,72,False,72,Ethyl benzene,3
+39,2015,air,912.0,912.0,1,False,1,Ethyl benzene,3
+39,2015,water,127492.38,127492.38,73,False,73,Ethyl benzene,3
+39,2016,water,126060.1,126060.1,67,False,67,Ethyl benzene,3
+39,2017,water,127726.20999999999,127726.20999999999,72,False,72,Ethyl benzene,3
+39,2018,water,105723.5,105723.5,41,False,41,Ethyl benzene,3
+39,2019,water,142775.7,142775.7,44,False,42,Ethyl benzene,3
+39,2020,water,171.699997,171.699997,4,False,4,Ethyl benzene,3
+39,2021,water,967.0,967.0,1,False,1,Ethyl benzene,3
+39,2022,water,3614.9353,3614.9353,3,False,3,Ethyl benzene,3
+39,2023,water,948.7560980000001,948.7560980000001,4,False,3,Ethyl benzene,3
+39,2024,water,1155.4,1155.4,3,False,3,Ethyl benzene,3
+40,2007,air,81070.0,81070.0,2,False,2,Toluene,3
+40,2007,water,1945286.1,1945286.1,110,False,110,Toluene,2
+40,2008,water,1897349.2,1897349.2,112,False,112,Toluene,2
+40,2009,water,1763419.0,1763419.0,112,False,112,Toluene,2
+40,2010,water,1714327.2,1714327.2,113,False,113,Toluene,2
+40,2011,water,1636170.614,1636170.614,101,False,101,Toluene,2
+40,2012,water,1577042.93,1577042.93,100,False,100,Toluene,2
+40,2013,air,413398.0,413398.0,11,False,11,Toluene,3
+40,2013,water,1898952.7,1898952.7,99,False,99,Toluene,2
+40,2014,air,17700.0,17700.0,1,False,1,Toluene,3
+40,2014,water,1640869.2,1640869.2,95,False,95,Toluene,2
+40,2015,air,452003.0001,452003.0001,9,False,9,Toluene,3
+40,2015,water,2234376.1,2234376.1,104,False,104,Toluene,2
+40,2016,air,91700.0002,91700.0002,2,False,2,Toluene,3
+40,2016,water,1722055.0,1722055.0,96,False,96,Toluene,2
+40,2017,air,294.0,294.0,1,False,1,Toluene,3
+40,2017,water,1794433.5,1794433.5,96,False,96,Toluene,2
+40,2018,water,857209.17,857209.17,68,False,68,Toluene,2
+40,2019,water,979955.299998,979955.299998,64,False,63,Toluene,2
+40,2020,water,1044.900002,1044.900002,5,False,5,Toluene,2
+40,2021,water,2636.301,2636.301,7,False,7,Toluene,2
+40,2022,water,2337.8778,2337.8778,8,False,8,Toluene,2
+40,2023,water,53902.2261,53902.2261,6,False,5,Toluene,2
+40,2024,water,2674.9,2674.9,5,False,5,Toluene,2
+41,2007,water,507239.47,507239.47,101,False,101,Xylenes,2
+41,2008,water,480990.5,480990.5,102,False,102,Xylenes,2
+41,2009,water,620108.4,620108.4,104,False,104,Xylenes,2
+41,2010,water,584002.3,584002.3,107,False,107,Xylenes,2
+41,2011,water,505071.2,505071.2,96,False,96,Xylenes,2
+41,2012,water,540805.329,540805.329,89,False,89,Xylenes,2
+41,2013,air,123040.0,123040.0,2,False,2,Xylenes,3
+41,2013,water,574935.1,574935.1,87,False,87,Xylenes,2
+41,2014,water,453095.4,453095.4,87,False,87,Xylenes,2
+41,2015,air,166070.0,166070.0,2,False,2,Xylenes,3
+41,2015,water,702459.4,702459.4,97,False,97,Xylenes,2
+41,2016,water,548612.2,548612.2,86,False,86,Xylenes,2
+41,2017,water,562827.1,562827.1,90,False,90,Xylenes,2
+41,2018,water,335622.62,335622.62,61,False,61,Xylenes,2
+41,2019,water,252241.1,252241.1,57,False,56,Xylenes,2
+41,2020,water,1253.8700000000001,1253.8700000000001,5,False,5,Xylenes,2
+41,2021,water,1912.98,1912.98,4,False,4,Xylenes,2
+41,2022,water,1532.4332029999998,1532.4332029999998,5,False,5,Xylenes,2
+41,2023,water,1315.2,1315.2,5,False,5,Xylenes,2
+41,2024,water,2229.6,2229.6,4,False,4,Xylenes,2
+42,2007,air,186172.0,186172.0,83,False,83,Naphthalene,3
+42,2007,water,75988.4,75988.4,73,False,73,Naphthalene,3
+42,2008,air,195434.0,195434.0,83,False,83,Naphthalene,3
+42,2008,water,190047.8,190047.8,79,False,79,Naphthalene,3
+42,2009,air,944902.0,944902.0,80,False,80,Naphthalene,3
+42,2009,water,123823.1,123823.1,70,False,70,Naphthalene,3
+42,2010,air,133818.0,133818.0,70,False,70,Naphthalene,3
+42,2010,water,156312.6,156312.6,77,False,77,Naphthalene,3
+42,2011,air,125665.0,125665.0,75,False,75,Naphthalene,3
+42,2011,water,82472.0,82472.0,69,False,69,Naphthalene,3
+42,2012,air,87814.0,87814.0,80,False,80,Naphthalene,3
+42,2012,water,93997.5,93997.5,73,False,73,Naphthalene,3
+42,2013,air,93609.0,93609.0,87,False,87,Naphthalene,3
+42,2013,water,217805.9,217805.9,209,False,209,Naphthalene,3
+42,2014,air,86807.0,86807.0,86,False,86,Naphthalene,3
+42,2014,water,200888.5,200888.5,221,False,221,Naphthalene,3
+42,2015,air,74460.0,74460.0,85,False,85,Naphthalene,3
+42,2015,water,156417.9,156417.9,220,False,220,Naphthalene,3
+42,2016,air,63820.0,63820.0,80,False,80,Naphthalene,3
+42,2016,water,170122.8,170122.8,219,False,219,Naphthalene,3
+42,2017,air,78463.0,78463.0,81,False,81,Naphthalene,3
+42,2017,water,145395.5,145395.5,213,False,213,Naphthalene,3
+42,2018,air,55901.2,55901.2,61,False,61,Naphthalene,3
+42,2018,water,94912.649,94912.649,190,False,190,Naphthalene,3
+42,2019,air,49714.54,49714.54,56,False,56,Naphthalene,3
+42,2019,water,81687.564,81687.564,161,False,161,Naphthalene,3
+42,2020,air,40137.721,40137.721,40,False,40,Naphthalene,3
+42,2020,water,202.39,202.39,7,False,7,Naphthalene,3
+42,2021,air,52822.769,52822.769,40,False,40,Naphthalene,3
+42,2021,water,706.990002,706.990002,10,False,10,Naphthalene,3
+42,2022,air,91762.21,91762.21,42,False,41,Naphthalene,3
+42,2022,water,244.510003,244.510003,7,False,7,Naphthalene,3
+42,2023,air,62114.92,62114.92,39,False,39,Naphthalene,3
+42,2023,water,93.1,93.1,4,False,4,Naphthalene,3
+42,2024,air,56495.7583,56495.7583,38,False,38,Naphthalene,3
+42,2024,water,817.239697,817.239697,12,False,12,Naphthalene,3
+43,2007,air,8919.0,8919.0,8,False,8,Anthracene,4
+43,2007,water,2138.42,2138.42,38,False,38,Anthracene,4
+43,2008,air,9452.0,9452.0,8,False,8,Anthracene,4
+43,2008,water,1228.62,1228.62,30,False,30,Anthracene,4
+43,2009,air,42881.5,42881.5,8,False,8,Anthracene,4
+43,2009,water,114.09,114.09,37,False,37,Anthracene,4
+43,2010,air,5422.8,5422.8,9,False,9,Anthracene,4
+43,2010,water,269.66,269.66,56,False,56,Anthracene,4
+43,2011,air,6327.2,6327.2,11,False,11,Anthracene,4
+43,2011,water,353.58,353.58,51,False,51,Anthracene,4
+43,2012,air,7633.0,7633.0,11,False,11,Anthracene,4
+43,2012,water,166.07,166.07,51,False,51,Anthracene,4
+43,2013,air,8047.6,8047.6,12,False,12,Anthracene,4
+43,2013,water,349.53,349.53,95,False,95,Anthracene,4
+43,2014,air,5382.6,5382.6,10,False,10,Anthracene,4
+43,2014,water,381.06,381.06,93,False,93,Anthracene,4
+43,2015,air,3525.5,3525.5,9,False,9,Anthracene,4
+43,2015,water,360.55,360.55,84,False,84,Anthracene,4
+43,2016,air,2887.1,2887.1,7,False,7,Anthracene,4
+43,2016,water,387.65999999999997,387.65999999999997,87,False,87,Anthracene,4
+43,2017,air,3030.7,3030.7,7,False,7,Anthracene,4
+43,2017,water,674.97,674.97,90,False,90,Anthracene,4
+43,2018,air,745.4,745.4,4,False,4,Anthracene,4
+43,2018,water,3153.779,3153.779,92,False,92,Anthracene,4
+43,2019,air,455.7,455.7,4,False,4,Anthracene,4
+43,2019,water,2891.87,2891.87,104,False,104,Anthracene,4
+43,2020,water,32.21,32.21,5,False,5,Anthracene,4
+43,2021,air,2931.8,2931.8,2,False,2,Anthracene,4
+43,2021,water,30.709999999999997,30.709999999999997,7,False,7,Anthracene,4
+43,2022,air,3112.0,3112.0,3,False,3,Anthracene,4
+43,2022,water,71.76,71.76,5,False,5,Anthracene,4
+43,2023,air,5989.46,5989.46,2,False,2,Anthracene,4
+43,2023,water,19.89,19.89,5,False,5,Anthracene,4
+43,2024,air,6821.2,6821.2,4,False,4,Anthracene,4
+43,2024,water,490.2767,490.2767,15,False,15,Anthracene,4
+44,2007,water,11798.45,11798.45,44,False,44,Fluoranthene,4
+44,2008,water,8569.359999999999,8569.359999999999,54,False,54,Fluoranthene,4
+44,2009,water,7179.919999999999,7179.919999999999,51,False,51,Fluoranthene,4
+44,2010,air,2762.59,2762.59,8,False,8,Fluoranthene,4
+44,2010,water,433.57,433.57,62,False,62,Fluoranthene,4
+44,2011,air,3194.71,3194.71,9,False,9,Fluoranthene,4
+44,2011,water,554.51,554.51,57,False,57,Fluoranthene,4
+44,2012,air,2400.39,2400.39,10,False,10,Fluoranthene,4
+44,2012,water,601.74,601.74,68,False,68,Fluoranthene,4
+44,2013,air,3099.57,3099.57,11,False,11,Fluoranthene,4
+44,2013,water,995.17,995.17,64,False,64,Fluoranthene,4
+44,2014,air,3193.56,3193.56,10,False,10,Fluoranthene,4
+44,2014,water,1227.81,1227.81,58,False,58,Fluoranthene,4
+44,2015,air,2807.13,2807.13,16,False,16,Fluoranthene,4
+44,2015,water,1262.7,1262.7,61,False,61,Fluoranthene,4
+44,2016,air,2901.038,2901.038,22,False,22,Fluoranthene,4
+44,2016,water,819.05,819.05,58,False,58,Fluoranthene,4
+44,2017,air,3040.5878000000002,3040.5878000000002,25,False,25,Fluoranthene,4
+44,2017,water,1013.14,1013.14,59,False,59,Fluoranthene,4
+44,2018,water,384.8257,384.8257,71,False,71,Fluoranthene,4
+44,2019,water,239.6362,239.6362,55,False,55,Fluoranthene,4
+44,2020,water,803.2723000000001,803.2723000000001,27,False,27,Fluoranthene,4
+44,2021,water,694.224,694.224,26,False,26,Fluoranthene,4
+44,2022,water,946.6491000000001,946.6491000000001,18,False,18,Fluoranthene,4
+44,2023,water,420.8325,420.8325,17,False,17,Fluoranthene,4
+44,2024,water,510.1967,510.1967,19,False,19,Fluoranthene,4
+45,2007,air,1017.654,1017.654,9,False,9,"Benzo(g,h,i)perylene",4
+45,2007,water,289.27,289.27,15,False,15,"Benzo(g,h,i)perylene",4
+45,2008,air,1339.46525,1339.46525,12,False,12,"Benzo(g,h,i)perylene",4
+45,2008,water,612.91,612.91,20,False,20,"Benzo(g,h,i)perylene",4
+45,2009,air,685.666913,685.666913,10,False,10,"Benzo(g,h,i)perylene",4
+45,2009,water,163.71,163.71,20,False,20,"Benzo(g,h,i)perylene",4
+45,2010,air,1462.998214,1462.998214,17,False,17,"Benzo(g,h,i)perylene",4
+45,2010,water,155.4,155.4,21,False,21,"Benzo(g,h,i)perylene",4
+45,2011,air,1484.179613,1484.179613,19,False,19,"Benzo(g,h,i)perylene",4
+45,2011,water,287.29,287.29,24,False,24,"Benzo(g,h,i)perylene",4
+45,2012,air,1132.540121,1132.540121,21,False,21,"Benzo(g,h,i)perylene",4
+45,2012,water,232.97,232.97,32,False,32,"Benzo(g,h,i)perylene",4
+45,2013,air,918.4950399999999,918.4950399999999,18,False,18,"Benzo(g,h,i)perylene",4
+45,2013,water,432.99,432.99,35,False,35,"Benzo(g,h,i)perylene",4
+45,2014,air,676.0953219999999,676.0953219999999,18,False,18,"Benzo(g,h,i)perylene",4
+45,2014,water,178.8,178.8,36,False,36,"Benzo(g,h,i)perylene",4
+45,2015,air,597.1677999999999,597.1677999999999,22,False,22,"Benzo(g,h,i)perylene",4
+45,2015,water,214.66,214.66,42,False,42,"Benzo(g,h,i)perylene",4
+45,2016,air,564.12223,564.12223,34,False,34,"Benzo(g,h,i)perylene",4
+45,2016,water,185.54,185.54,36,False,36,"Benzo(g,h,i)perylene",4
+45,2017,air,398.4006,398.4006,33,False,33,"Benzo(g,h,i)perylene",4
+45,2017,water,198.55,198.55,40,False,40,"Benzo(g,h,i)perylene",4
+45,2018,air,0.95637,0.95637,9,False,9,"Benzo(g,h,i)perylene",4
+45,2018,water,164.525,164.525,54,False,54,"Benzo(g,h,i)perylene",4
+45,2019,air,0.76323,0.76323,9,False,9,"Benzo(g,h,i)perylene",4
+45,2019,water,137.93,137.93,51,False,51,"Benzo(g,h,i)perylene",4
+45,2020,air,0.84548,0.84548,8,False,8,"Benzo(g,h,i)perylene",4
+45,2020,water,63.79,63.79,16,False,16,"Benzo(g,h,i)perylene",4
+45,2021,water,68.25,68.25,17,False,17,"Benzo(g,h,i)perylene",4
+45,2022,water,66.4723,66.4723,13,False,13,"Benzo(g,h,i)perylene",4
+45,2023,water,62.2431,62.2431,11,False,11,"Benzo(g,h,i)perylene",4
+45,2024,water,498.373,498.373,17,False,17,"Benzo(g,h,i)perylene",4
+46,2007,air,191616.4,191616.4,121,False,121,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2007,water,8629.57,8629.57,79,False,79,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2008,air,145462.7,145462.7,129,False,129,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2008,water,6363.95,6363.95,83,False,83,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2009,air,71952.9,71952.9,118,False,118,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2009,water,4831.54,4831.54,66,False,66,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2010,air,94878.7,94878.7,118,False,118,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2010,water,3879.87,3879.87,50,False,50,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2011,air,91511.6,91511.6,118,False,118,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2011,water,3469.9,3469.9,49,False,49,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2012,air,59436.700000000004,59436.700000000004,89,False,89,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2012,water,5431.84,5431.84,44,False,44,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2013,air,38493.0,38493.0,86,False,86,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2013,water,4023.97,4023.97,70,False,70,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2014,air,35318.4,35318.4,76,False,76,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2014,water,3218.96,3218.96,68,False,68,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2015,air,55101.4,55101.4,87,False,87,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2015,water,1828.3700000000001,1828.3700000000001,64,False,64,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2016,air,48733.3,48733.3,70,False,70,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2016,water,2611.59,2611.59,61,False,61,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2017,air,48039.3,48039.3,71,False,71,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2017,water,2616.98,2616.98,57,False,57,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2018,air,41270.208118,41270.208118,70,False,70,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2018,water,3384.21382,3384.21382,70,False,70,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2019,air,28552.403313,28552.403313,60,False,60,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2019,water,4499.09,4499.09,67,False,67,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2020,air,18464.6912,18464.6912,43,False,41,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2020,water,750.8639000000001,750.8639000000001,34,False,34,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2021,air,18968.428598,18968.428598,58,False,57,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2021,water,109234.2559,109234.2559,38,False,38,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2022,air,33607.603652,33607.603652,52,False,51,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2022,water,2263.9874,2263.9874,28,False,27,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2023,air,33039.914698,33039.914698,44,False,43,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2023,water,1525.765171,1525.765171,26,False,26,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2024,air,42040.835298,42040.835298,50,False,49,Polycyclic aromatic hydrocarbons (PAHs),5
+46,2024,water,1091.831388,1091.831388,27,False,27,Polycyclic aromatic hydrocarbons (PAHs),5
+47,2007,air,4481450.0,4481450.0,161,False,161,Dichloromethane (DCM),4
+47,2007,water,45308.7,45308.7,90,False,90,Dichloromethane (DCM),4
+47,2008,air,3511730.0,3511730.0,148,False,148,Dichloromethane (DCM),4
+47,2008,water,13690.699999999999,13690.699999999999,95,False,95,Dichloromethane (DCM),4
+47,2009,air,3340640.0,3340640.0,143,False,143,Dichloromethane (DCM),4
+47,2009,water,16263.7,16263.7,67,False,67,Dichloromethane (DCM),4
+47,2010,air,2402160.0,2402160.0,132,False,132,Dichloromethane (DCM),4
+47,2010,water,10407.2,10407.2,76,False,76,Dichloromethane (DCM),4
+47,2011,air,2673480.0,2673480.0,124,False,124,Dichloromethane (DCM),4
+47,2011,water,12998.6,12998.6,71,False,71,Dichloromethane (DCM),4
+47,2012,air,2940220.0,2940220.0,115,False,115,Dichloromethane (DCM),4
+47,2012,water,10782.300000000001,10782.300000000001,83,False,83,Dichloromethane (DCM),4
+47,2013,air,2858870.0,2858870.0,112,False,112,Dichloromethane (DCM),4
+47,2013,water,15009.5,15009.5,81,False,81,Dichloromethane (DCM),4
+47,2014,air,2892920.0,2892920.0,108,False,108,Dichloromethane (DCM),4
+47,2014,water,13520.9,13520.9,72,False,72,Dichloromethane (DCM),4
+47,2015,air,2895010.0,2895010.0,98,False,98,Dichloromethane (DCM),4
+47,2015,water,12995.699999999999,12995.699999999999,72,False,72,Dichloromethane (DCM),4
+47,2016,air,2788600.0,2788600.0,93,False,93,Dichloromethane (DCM),4
+47,2016,water,5768.9,5768.9,62,False,62,Dichloromethane (DCM),4
+47,2017,air,2437940.0,2437940.0,90,False,90,Dichloromethane (DCM),4
+47,2017,water,7926.6,7926.6,49,False,49,Dichloromethane (DCM),4
+47,2018,air,2664942.8017,2664942.8017,79,False,79,Dichloromethane (DCM),4
+47,2018,water,5822.481699999999,5822.481699999999,58,False,58,Dichloromethane (DCM),4
+47,2019,air,1693815.58,1693815.58,74,False,74,Dichloromethane (DCM),4
+47,2019,water,9984.266501,9984.266501,54,False,54,Dichloromethane (DCM),4
+47,2020,air,2048270.72,2048270.72,69,False,69,Dichloromethane (DCM),4
+47,2020,water,4184.5395,4184.5395,33,False,33,Dichloromethane (DCM),4
+47,2021,air,2000164.58,2000164.58,63,False,62,Dichloromethane (DCM),4
+47,2021,water,4878.9985,4878.9985,36,False,36,Dichloromethane (DCM),4
+47,2022,air,1271742.21,1271742.21,67,False,66,Dichloromethane (DCM),4
+47,2022,water,3280.867699,3280.867699,38,False,38,Dichloromethane (DCM),4
+47,2023,air,1132067.04,1132067.04,57,False,57,Dichloromethane (DCM),4
+47,2023,water,2601.464424,2601.464424,34,False,34,Dichloromethane (DCM),4
+47,2024,air,1255225.897816,1255225.897816,55,False,55,Dichloromethane (DCM),4
+47,2024,water,4641.937399,4641.937399,30,False,30,Dichloromethane (DCM),4
+48,2007,air,225835.0,225835.0,40,False,40,Trichloromethane,3
+48,2007,water,26140.0,26140.0,127,False,127,Trichloromethane,3
+48,2008,air,164326.0,164326.0,35,False,35,Trichloromethane,3
+48,2008,water,20489.0,20489.0,136,False,136,Trichloromethane,3
+48,2009,air,272768.0,272768.0,32,False,32,Trichloromethane,3
+48,2009,water,14212.3,14212.3,96,False,96,Trichloromethane,3
+48,2010,air,206492.0,206492.0,28,False,28,Trichloromethane,3
+48,2010,water,16085.3,16085.3,103,False,103,Trichloromethane,3
+48,2011,air,151199.0,151199.0,33,False,33,Trichloromethane,3
+48,2011,water,13053.0,13053.0,104,False,104,Trichloromethane,3
+48,2012,air,159943.0,159943.0,31,False,31,Trichloromethane,3
+48,2012,water,10971.2,10971.2,105,False,105,Trichloromethane,3
+48,2013,air,147011.0,147011.0,27,False,27,Trichloromethane,3
+48,2013,water,12551.4,12551.4,105,False,105,Trichloromethane,3
+48,2014,air,142073.0,142073.0,27,False,27,Trichloromethane,3
+48,2014,water,10867.699999999999,10867.699999999999,111,False,111,Trichloromethane,3
+48,2015,air,162950.0,162950.0,24,False,24,Trichloromethane,3
+48,2015,water,9064.1,9064.1,100,False,100,Trichloromethane,3
+48,2016,air,140387.0,140387.0,24,False,24,Trichloromethane,3
+48,2016,water,12108.4,12108.4,91,False,91,Trichloromethane,3
+48,2017,air,97389.0,97389.0,28,False,28,Trichloromethane,3
+48,2017,water,10494.6,10494.6,98,False,98,Trichloromethane,3
+48,2018,air,102773.0,102773.0,25,False,25,Trichloromethane,3
+48,2018,water,10443.45,10443.45,102,False,102,Trichloromethane,3
+48,2019,air,182662.0,182662.0,25,False,25,Trichloromethane,3
+48,2019,water,7778.039403,7778.039403,96,False,96,Trichloromethane,3
+48,2020,air,165076.0,165076.0,22,False,22,Trichloromethane,3
+48,2020,water,7506.219297,7506.219297,57,False,57,Trichloromethane,3
+48,2021,air,101702.7907,101702.7907,25,False,25,Trichloromethane,3
+48,2021,water,8902.728598,8902.728598,56,False,56,Trichloromethane,3
+48,2022,air,84643.544,84643.544,25,False,25,Trichloromethane,3
+48,2022,water,7655.2933,7655.2933,63,False,63,Trichloromethane,3
+48,2023,air,102911.042,102911.042,18,False,18,Trichloromethane,3
+48,2023,water,7513.293796,7513.293796,65,False,65,Trichloromethane,3
+48,2024,air,122015.5288,122015.5288,20,False,20,Trichloromethane,3
+48,2024,water,9166.925999,9166.925999,69,False,69,Trichloromethane,3
+49,2007,air,53366.0,53366.0,15,False,15,Tetrachloromethane (TCM),3
+49,2007,water,2179.5499999999997,2179.5499999999997,44,False,44,Tetrachloromethane (TCM),3
+49,2008,air,63065.0,63065.0,16,False,16,Tetrachloromethane (TCM),3
+49,2008,water,1993.3100000000002,1993.3100000000002,47,False,47,Tetrachloromethane (TCM),3
+49,2009,air,57632.0,57632.0,15,False,15,Tetrachloromethane (TCM),3
+49,2009,water,1935.72,1935.72,38,False,38,Tetrachloromethane (TCM),3
+49,2010,air,48447.0,48447.0,12,False,12,Tetrachloromethane (TCM),3
+49,2010,water,3240.63,3240.63,35,False,35,Tetrachloromethane (TCM),3
+49,2011,air,169746.0,169746.0,15,False,15,Tetrachloromethane (TCM),3
+49,2011,water,2458.4900000000002,2458.4900000000002,44,False,44,Tetrachloromethane (TCM),3
+49,2012,air,64348.0,64348.0,17,False,17,Tetrachloromethane (TCM),3
+49,2012,water,2466.1,2466.1,49,False,49,Tetrachloromethane (TCM),3
+49,2013,air,51379.0,51379.0,16,False,16,Tetrachloromethane (TCM),3
+49,2013,water,2021.03,2021.03,41,False,41,Tetrachloromethane (TCM),3
+49,2014,air,29773.0,29773.0,14,False,14,Tetrachloromethane (TCM),3
+49,2014,water,1946.3,1946.3,40,False,40,Tetrachloromethane (TCM),3
+49,2015,air,29386.0,29386.0,14,False,14,Tetrachloromethane (TCM),3
+49,2015,water,539.4300000000001,539.4300000000001,44,False,44,Tetrachloromethane (TCM),3
+49,2016,air,21242.0,21242.0,12,False,12,Tetrachloromethane (TCM),3
+49,2016,water,1521.8500000000001,1521.8500000000001,43,False,43,Tetrachloromethane (TCM),3
+49,2017,air,25315.0,25315.0,11,False,11,Tetrachloromethane (TCM),3
+49,2017,water,1515.8999999999999,1515.8999999999999,42,False,42,Tetrachloromethane (TCM),3
+49,2018,air,15513.0,15513.0,11,False,11,Tetrachloromethane (TCM),3
+49,2018,water,2219.7531,2219.7531,56,False,56,Tetrachloromethane (TCM),3
+49,2019,air,18637.0,18637.0,13,False,13,Tetrachloromethane (TCM),3
+49,2019,water,2533.457401,2533.457401,55,False,55,Tetrachloromethane (TCM),3
+49,2020,air,20896.0,20896.0,14,False,14,Tetrachloromethane (TCM),3
+49,2020,water,1260.686399,1260.686399,30,False,30,Tetrachloromethane (TCM),3
+49,2021,air,24625.0,24625.0,12,False,12,Tetrachloromethane (TCM),3
+49,2021,water,1642.920999,1642.920999,37,False,37,Tetrachloromethane (TCM),3
+49,2022,air,17529.0,17529.0,11,False,11,Tetrachloromethane (TCM),3
+49,2022,water,1454.478,1454.478,31,False,31,Tetrachloromethane (TCM),3
+49,2023,air,20045.0,20045.0,14,False,14,Tetrachloromethane (TCM),3
+49,2023,water,1119.988999,1119.988999,33,False,33,Tetrachloromethane (TCM),3
+49,2024,air,13944.0,13944.0,12,False,12,Tetrachloromethane (TCM),3
+49,2024,water,1623.1663990000002,1623.1663990000002,44,False,44,Tetrachloromethane (TCM),3
+50,2007,air,92311.0,92311.0,13,False,13,"1,1,1-trichloroethane (TCE-1,1,1)",3
+50,2007,water,0.007610000299999999,0.007610000299999999,3,False,3,"1,1,1-trichloroethane (TCE-1,1,1)",2
+50,2008,air,66257.0,66257.0,20,False,20,"1,1,1-trichloroethane (TCE-1,1,1)",3
+50,2008,water,2e-10,2e-10,1,False,1,"1,1,1-trichloroethane (TCE-1,1,1)",2
+50,2009,air,52686.0,52686.0,22,False,22,"1,1,1-trichloroethane (TCE-1,1,1)",3
+50,2009,water,2.5e-10,2.5e-10,1,False,1,"1,1,1-trichloroethane (TCE-1,1,1)",2
+50,2010,air,62105.0,62105.0,24,False,24,"1,1,1-trichloroethane (TCE-1,1,1)",3
+50,2010,water,8.67e-10,8.67e-10,4,False,4,"1,1,1-trichloroethane (TCE-1,1,1)",2
+50,2011,air,49280.0,49280.0,21,False,21,"1,1,1-trichloroethane (TCE-1,1,1)",3
+50,2011,water,2e-10,2e-10,1,False,1,"1,1,1-trichloroethane (TCE-1,1,1)",2
+50,2012,air,42020.0,42020.0,30,False,30,"1,1,1-trichloroethane (TCE-1,1,1)",3
+50,2012,water,1.41e-09,1.41e-09,9,False,9,"1,1,1-trichloroethane (TCE-1,1,1)",2
+50,2013,air,35172.0,35172.0,27,False,27,"1,1,1-trichloroethane (TCE-1,1,1)",3
+50,2014,air,27719.0,27719.0,21,False,21,"1,1,1-trichloroethane (TCE-1,1,1)",3
+50,2014,water,0.0536,0.0536,2,False,2,"1,1,1-trichloroethane (TCE-1,1,1)",2
+50,2015,air,14775.0,14775.0,21,False,21,"1,1,1-trichloroethane (TCE-1,1,1)",3
+50,2015,water,0.21897,0.21897,8,False,8,"1,1,1-trichloroethane (TCE-1,1,1)",2
+50,2016,air,32231.0,32231.0,16,False,16,"1,1,1-trichloroethane (TCE-1,1,1)",3
+50,2016,water,0.18925,0.18925,4,False,4,"1,1,1-trichloroethane (TCE-1,1,1)",2
+50,2017,air,33341.0,33341.0,19,False,19,"1,1,1-trichloroethane (TCE-1,1,1)",3
+50,2017,water,0.18064,0.18064,4,False,4,"1,1,1-trichloroethane (TCE-1,1,1)",2
+50,2018,air,31885.763,31885.763,15,False,15,"1,1,1-trichloroethane (TCE-1,1,1)",3
+50,2019,air,5684.0,5684.0,11,False,11,"1,1,1-trichloroethane (TCE-1,1,1)",3
+50,2020,air,23754.2647,23754.2647,4,False,4,"1,1,1-trichloroethane (TCE-1,1,1)",3
+50,2021,air,27646.938,27646.938,3,False,3,"1,1,1-trichloroethane (TCE-1,1,1)",3
+50,2022,air,22197.5302,22197.5302,3,False,3,"1,1,1-trichloroethane (TCE-1,1,1)",3
+50,2023,air,40900.1249,40900.1249,4,False,4,"1,1,1-trichloroethane (TCE-1,1,1)",3
+50,2024,air,9316.9303,9316.9303,4,False,4,"1,1,1-trichloroethane (TCE-1,1,1)",3
+51,2007,air,3036.3,3036.3,6,False,6,"1,1,2,2-tetrachloroethane (TETRACHLOROETHANE-1,1,2,2)",3
+51,2008,air,27188.4,27188.4,7,False,7,"1,1,2,2-tetrachloroethane (TETRACHLOROETHANE-1,1,2,2)",3
+51,2009,air,1167.0,1167.0,7,False,7,"1,1,2,2-tetrachloroethane (TETRACHLOROETHANE-1,1,2,2)",3
+51,2010,air,5786.4,5786.4,6,False,6,"1,1,2,2-tetrachloroethane (TETRACHLOROETHANE-1,1,2,2)",3
+51,2011,air,2778.4,2778.4,6,False,6,"1,1,2,2-tetrachloroethane (TETRACHLOROETHANE-1,1,2,2)",3
+51,2012,air,603.7,603.7,5,False,5,"1,1,2,2-tetrachloroethane (TETRACHLOROETHANE-1,1,2,2)",3
+51,2013,air,573.6,573.6,4,False,4,"1,1,2,2-tetrachloroethane (TETRACHLOROETHANE-1,1,2,2)",3
+51,2014,air,495.5,495.5,4,False,4,"1,1,2,2-tetrachloroethane (TETRACHLOROETHANE-1,1,2,2)",3
+51,2015,air,316.2,316.2,3,False,3,"1,1,2,2-tetrachloroethane (TETRACHLOROETHANE-1,1,2,2)",3
+51,2016,air,1108.7,1108.7,6,False,6,"1,1,2,2-tetrachloroethane (TETRACHLOROETHANE-1,1,2,2)",3
+51,2017,air,1746.0,1746.0,8,False,8,"1,1,2,2-tetrachloroethane (TETRACHLOROETHANE-1,1,2,2)",3
+51,2017,water,13.0,13.0,1,False,1,"1,1,2,2-tetrachloroethane (TETRACHLOROETHANE-1,1,2,2)",3
+51,2018,air,819.1,819.1,5,False,5,"1,1,2,2-tetrachloroethane (TETRACHLOROETHANE-1,1,2,2)",3
+51,2019,air,1492.15,1492.15,5,False,5,"1,1,2,2-tetrachloroethane (TETRACHLOROETHANE-1,1,2,2)",3
+51,2020,air,314.7,314.7,3,False,3,"1,1,2,2-tetrachloroethane (TETRACHLOROETHANE-1,1,2,2)",3
+51,2021,air,326.4,326.4,3,False,3,"1,1,2,2-tetrachloroethane (TETRACHLOROETHANE-1,1,2,2)",3
+51,2022,air,544.3,544.3,4,False,4,"1,1,2,2-tetrachloroethane (TETRACHLOROETHANE-1,1,2,2)",3
+51,2023,air,416.8,416.8,3,False,3,"1,1,2,2-tetrachloroethane (TETRACHLOROETHANE-1,1,2,2)",3
+51,2024,air,195.0,195.0,2,False,2,"1,1,2,2-tetrachloroethane (TETRACHLOROETHANE-1,1,2,2)",3
+52,2007,air,1392270.0,1392270.0,33,False,33,"1,2-dichloroethane (DCE-1,2)",4
+52,2007,water,11089.9,11089.9,67,False,67,"1,2-dichloroethane (DCE-1,2)",4
+52,2008,air,1347660.0,1347660.0,33,False,33,"1,2-dichloroethane (DCE-1,2)",4
+52,2008,water,12022.199999999999,12022.199999999999,62,False,62,"1,2-dichloroethane (DCE-1,2)",4
+52,2009,air,922060.0,922060.0,27,False,27,"1,2-dichloroethane (DCE-1,2)",4
+52,2009,water,8711.4,8711.4,46,False,46,"1,2-dichloroethane (DCE-1,2)",4
+52,2010,air,1262240.0,1262240.0,26,False,26,"1,2-dichloroethane (DCE-1,2)",4
+52,2010,water,7602.9,7602.9,57,False,57,"1,2-dichloroethane (DCE-1,2)",4
+52,2011,air,535480.0,535480.0,22,False,22,"1,2-dichloroethane (DCE-1,2)",4
+52,2011,water,8237.6,8237.6,45,False,45,"1,2-dichloroethane (DCE-1,2)",4
+52,2012,air,906450.0,906450.0,24,False,24,"1,2-dichloroethane (DCE-1,2)",4
+52,2012,water,6545.5,6545.5,54,False,54,"1,2-dichloroethane (DCE-1,2)",4
+52,2013,air,748540.0,748540.0,27,False,27,"1,2-dichloroethane (DCE-1,2)",4
+52,2013,water,6292.3,6292.3,49,False,49,"1,2-dichloroethane (DCE-1,2)",4
+52,2014,air,1305000.0,1305000.0,27,False,27,"1,2-dichloroethane (DCE-1,2)",4
+52,2014,water,4611.8,4611.8,43,False,43,"1,2-dichloroethane (DCE-1,2)",4
+52,2015,air,860020.0,860020.0,25,False,25,"1,2-dichloroethane (DCE-1,2)",4
+52,2015,water,3626.0,3626.0,40,False,40,"1,2-dichloroethane (DCE-1,2)",4
+52,2016,air,751430.0,751430.0,24,False,24,"1,2-dichloroethane (DCE-1,2)",4
+52,2016,water,4303.1,4303.1,29,False,29,"1,2-dichloroethane (DCE-1,2)",4
+52,2017,air,823880.0,823880.0,26,False,26,"1,2-dichloroethane (DCE-1,2)",4
+52,2017,water,3462.4,3462.4,26,False,26,"1,2-dichloroethane (DCE-1,2)",4
+52,2018,air,875299.0,875299.0,22,False,22,"1,2-dichloroethane (DCE-1,2)",4
+52,2018,water,3318.101,3318.101,30,False,30,"1,2-dichloroethane (DCE-1,2)",4
+52,2019,air,794988.0,794988.0,22,False,22,"1,2-dichloroethane (DCE-1,2)",4
+52,2019,water,3366.287999,3366.287999,21,False,21,"1,2-dichloroethane (DCE-1,2)",4
+52,2020,air,750774.0,750774.0,21,False,21,"1,2-dichloroethane (DCE-1,2)",4
+52,2020,water,2358.949,2358.949,19,False,19,"1,2-dichloroethane (DCE-1,2)",4
+52,2021,air,484918.0,484918.0,22,False,22,"1,2-dichloroethane (DCE-1,2)",4
+52,2021,water,3102.226697,3102.226697,24,False,24,"1,2-dichloroethane (DCE-1,2)",4
+52,2022,air,535064.0,535064.0,19,False,19,"1,2-dichloroethane (DCE-1,2)",4
+52,2022,water,3277.984701,3277.984701,23,False,23,"1,2-dichloroethane (DCE-1,2)",4
+52,2023,air,640069.0,640069.0,17,False,17,"1,2-dichloroethane (DCE-1,2)",4
+52,2023,water,1814.107099,1814.107099,19,False,19,"1,2-dichloroethane (DCE-1,2)",4
+52,2024,air,648936.0,648936.0,18,False,18,"1,2-dichloroethane (DCE-1,2)",4
+52,2024,water,2519.352397,2519.352397,19,False,19,"1,2-dichloroethane (DCE-1,2)",4
+53,2007,air,1264260.0,1264260.0,59,False,59,Trichloroethylene (TRI),5
+53,2007,water,3632.7,3632.7,36,False,36,Trichloroethylene (TRI),5
+53,2008,air,1105660.0,1105660.0,30,False,30,Trichloroethylene (TRI),5
+53,2008,water,7463.4,7463.4,35,False,35,Trichloroethylene (TRI),5
+53,2009,air,386340.0,386340.0,20,False,20,Trichloroethylene (TRI),5
+53,2009,water,7229.4,7229.4,32,False,32,Trichloroethylene (TRI),5
+53,2010,air,449640.0,449640.0,18,False,18,Trichloroethylene (TRI),5
+53,2010,water,3058.7,3058.7,33,False,33,Trichloroethylene (TRI),5
+53,2011,air,195340.0,195340.0,11,False,11,Trichloroethylene (TRI),5
+53,2011,water,2797.3,2797.3,34,False,34,Trichloroethylene (TRI),5
+53,2012,air,180270.0,180270.0,10,False,10,Trichloroethylene (TRI),5
+53,2012,water,2693.3,2693.3,28,False,28,Trichloroethylene (TRI),5
+53,2013,air,110740.0,110740.0,9,False,9,Trichloroethylene (TRI),5
+53,2013,water,2917.7,2917.7,30,False,30,Trichloroethylene (TRI),5
+53,2014,air,129960.0,129960.0,8,False,8,Trichloroethylene (TRI),5
+53,2014,water,2218.0,2218.0,21,False,21,Trichloroethylene (TRI),5
+53,2015,air,134760.0,134760.0,10,False,10,Trichloroethylene (TRI),5
+53,2015,water,1054.7,1054.7,20,False,20,Trichloroethylene (TRI),5
+53,2016,air,144670.0,144670.0,6,False,6,Trichloroethylene (TRI),5
+53,2016,water,1920.0,1920.0,21,False,21,Trichloroethylene (TRI),5
+53,2017,air,113150.0,113150.0,6,False,6,Trichloroethylene (TRI),5
+53,2017,water,2117.1,2117.1,16,False,16,Trichloroethylene (TRI),5
+53,2018,air,98473.0,98473.0,7,False,7,Trichloroethylene (TRI),5
+53,2018,water,2229.3957,2229.3957,21,False,21,Trichloroethylene (TRI),5
+53,2019,air,93885.3,93885.3,5,False,5,Trichloroethylene (TRI),5
+53,2019,water,2168.6775000000002,2168.6775000000002,14,False,14,Trichloroethylene (TRI),5
+53,2020,air,41821.0,41821.0,3,False,3,Trichloroethylene (TRI),5
+53,2020,water,1851.3325,1851.3325,12,False,12,Trichloroethylene (TRI),5
+53,2021,air,48502.0,48502.0,3,False,3,Trichloroethylene (TRI),5
+53,2021,water,2104.3717,2104.3717,15,False,15,Trichloroethylene (TRI),5
+53,2022,air,49204.0,49204.0,3,False,3,Trichloroethylene (TRI),5
+53,2022,water,2459.0503,2459.0503,14,False,14,Trichloroethylene (TRI),5
+53,2023,air,3760.0,3760.0,1,False,1,Trichloroethylene (TRI),5
+53,2023,water,1512.2739,1512.2739,12,False,12,Trichloroethylene (TRI),5
+53,2024,air,7570.0,7570.0,2,False,2,Trichloroethylene (TRI),5
+53,2024,water,1581.1549,1581.1549,14,False,14,Trichloroethylene (TRI),5
+54,2007,air,816560.0,816560.0,38,False,38,Tetrachloroethylene,4
+54,2007,water,5595.900000000001,5595.900000000001,41,False,41,Tetrachloroethylene,4
+54,2008,air,677990.0,677990.0,37,False,37,Tetrachloroethylene,4
+54,2008,water,4926.2,4926.2,45,False,45,Tetrachloroethylene,4
+54,2009,air,374070.0,374070.0,30,False,30,Tetrachloroethylene,4
+54,2009,water,3163.7,3163.7,39,False,39,Tetrachloroethylene,4
+54,2010,air,492840.0,492840.0,25,False,25,Tetrachloroethylene,4
+54,2010,water,3864.0,3864.0,43,False,43,Tetrachloroethylene,4
+54,2011,air,466590.0,466590.0,27,False,27,Tetrachloroethylene,4
+54,2011,water,4485.0,4485.0,42,False,42,Tetrachloroethylene,4
+54,2012,air,407330.0,407330.0,20,False,20,Tetrachloroethylene,4
+54,2012,water,2970.5,2970.5,39,False,39,Tetrachloroethylene,4
+54,2013,air,454590.0,454590.0,27,False,27,Tetrachloroethylene,4
+54,2013,water,3041.9,3041.9,32,False,32,Tetrachloroethylene,4
+54,2014,air,332780.0,332780.0,21,False,21,Tetrachloroethylene,4
+54,2014,water,4356.2,4356.2,30,False,30,Tetrachloroethylene,4
+54,2015,air,155640.0,155640.0,14,False,14,Tetrachloroethylene,4
+54,2015,water,1941.8,1941.8,29,False,29,Tetrachloroethylene,4
+54,2016,air,157640.0,157640.0,12,False,12,Tetrachloroethylene,4
+54,2016,water,2578.8999999999996,2578.8999999999996,32,False,32,Tetrachloroethylene,4
+54,2017,air,169860.0,169860.0,11,False,11,Tetrachloroethylene,4
+54,2017,water,2197.9,2197.9,20,False,20,Tetrachloroethylene,4
+54,2018,air,78447.93,78447.93,21,False,21,Tetrachloroethylene,4
+54,2018,water,3073.356,3073.356,31,False,31,Tetrachloroethylene,4
+54,2019,air,83042.3259,83042.3259,23,False,23,Tetrachloroethylene,4
+54,2019,water,2428.3401,2428.3401,18,False,18,Tetrachloroethylene,4
+54,2020,air,84716.0266,84716.0266,22,False,22,Tetrachloroethylene,4
+54,2020,water,1684.838379,1684.838379,17,False,17,Tetrachloroethylene,4
+54,2021,air,75893.7182,75893.7182,16,False,16,Tetrachloroethylene,4
+54,2021,water,1806.381501,1806.381501,18,False,18,Tetrachloroethylene,4
+54,2022,air,95873.9844,95873.9844,19,False,19,Tetrachloroethylene,4
+54,2022,water,2737.2143,2737.2143,17,False,17,Tetrachloroethylene,4
+54,2023,air,38156.3,38156.3,8,False,8,Tetrachloroethylene,4
+54,2023,water,1261.9339,1261.9339,17,False,17,Tetrachloroethylene,4
+54,2024,air,46657.14,46657.14,7,False,7,Tetrachloroethylene,4
+54,2024,water,2216.8649,2216.8649,27,False,27,Tetrachloroethylene,4
+55,2007,air,1088480.0,1088480.0,47,False,47,Vinyl chloride,5
+55,2007,water,2147.9,2147.9,17,False,17,Vinyl chloride,5
+55,2008,air,753500.0,753500.0,41,False,41,Vinyl chloride,5
+55,2008,water,1524.0,1524.0,17,False,17,Vinyl chloride,5
+55,2009,air,726420.0,726420.0,42,False,42,Vinyl chloride,5
+55,2009,water,2122.9,2122.9,19,False,19,Vinyl chloride,5
+55,2010,air,724640.0,724640.0,38,False,38,Vinyl chloride,5
+55,2010,water,2485.3,2485.3,17,False,17,Vinyl chloride,5
+55,2011,air,631720.0,631720.0,36,False,36,Vinyl chloride,5
+55,2011,water,2079.4,2079.4,16,False,16,Vinyl chloride,5
+55,2012,air,662910.0,662910.0,38,False,38,Vinyl chloride,5
+55,2012,water,1988.4,1988.4,17,False,17,Vinyl chloride,5
+55,2013,air,616650.0,616650.0,34,False,34,Vinyl chloride,5
+55,2013,water,1286.0,1286.0,15,False,15,Vinyl chloride,5
+55,2014,air,606070.0,606070.0,36,False,36,Vinyl chloride,5
+55,2014,water,1173.0,1173.0,15,False,15,Vinyl chloride,5
+55,2015,air,526250.0,526250.0,33,False,33,Vinyl chloride,5
+55,2015,water,1116.2,1116.2,14,False,14,Vinyl chloride,5
+55,2016,air,529430.0,529430.0,35,False,35,Vinyl chloride,5
+55,2016,water,1647.0,1647.0,14,False,14,Vinyl chloride,5
+55,2017,air,573110.0,573110.0,33,False,33,Vinyl chloride,5
+55,2017,water,2144.3,2144.3,15,False,15,Vinyl chloride,5
+55,2018,air,500280.0,500280.0,32,False,32,Vinyl chloride,5
+55,2018,water,1406.0,1406.0,14,False,14,Vinyl chloride,5
+55,2019,air,408102.0,408102.0,31,False,31,Vinyl chloride,5
+55,2019,water,1023.7000009999999,1023.7000009999999,11,False,11,Vinyl chloride,5
+55,2020,air,397626.0,397626.0,29,False,29,Vinyl chloride,5
+55,2020,water,1286.109273,1286.109273,11,False,11,Vinyl chloride,5
+55,2021,air,429982.0,429982.0,28,False,28,Vinyl chloride,5
+55,2021,water,1123.9467000000002,1123.9467000000002,14,False,14,Vinyl chloride,5
+55,2022,air,394743.0,394743.0,28,False,28,Vinyl chloride,5
+55,2022,water,549.025798,549.025798,12,False,12,Vinyl chloride,5
+55,2023,air,474573.0,474573.0,27,False,27,Vinyl chloride,5
+55,2023,water,11073.026102,11073.026102,11,False,10,Vinyl chloride,5
+55,2024,air,404748.0,404748.0,27,False,27,Vinyl chloride,5
+55,2024,water,296.320301,296.320301,10,False,9,Vinyl chloride,5
+56,2007,air,70290.0,70290.0,11,False,11,Ethylene oxide,5
+56,2008,air,78460.0,78460.0,10,False,10,Ethylene oxide,5
+56,2009,air,82090.0,82090.0,12,False,12,Ethylene oxide,5
+56,2009,water,17.8,17.8,1,False,1,Ethylene oxide,5
+56,2010,air,57350.0,57350.0,8,False,8,Ethylene oxide,5
+56,2010,water,17.0,17.0,1,False,1,Ethylene oxide,5
+56,2011,air,31390.0,31390.0,6,False,6,Ethylene oxide,5
+56,2012,air,21890.0,21890.0,7,False,7,Ethylene oxide,5
+56,2013,air,23560.0,23560.0,5,False,5,Ethylene oxide,5
+56,2014,air,18470.0,18470.0,3,False,3,Ethylene oxide,5
+56,2014,water,16.6,16.6,1,False,1,Ethylene oxide,5
+56,2015,air,28200.0,28200.0,2,False,2,Ethylene oxide,5
+56,2015,water,16.9,16.9,1,False,1,Ethylene oxide,5
+56,2016,air,23470.0,23470.0,3,False,3,Ethylene oxide,5
+56,2016,water,18.0,18.0,1,False,1,Ethylene oxide,5
+56,2017,air,13710.0,13710.0,2,False,2,Ethylene oxide,5
+56,2017,water,376.9,376.9,2,False,2,Ethylene oxide,5
+56,2018,air,25101.0,25101.0,5,False,5,Ethylene oxide,5
+56,2018,water,127.649,127.649,4,False,4,Ethylene oxide,5
+56,2019,air,36848.0,36848.0,4,False,4,Ethylene oxide,5
+56,2019,water,91.58,91.58,3,False,3,Ethylene oxide,5
+56,2020,air,12570.0,12570.0,2,False,2,Ethylene oxide,5
+56,2020,water,812.0,812.0,1,False,1,Ethylene oxide,5
+56,2021,air,13040.0,13040.0,3,False,3,Ethylene oxide,5
+56,2021,water,10.2,10.2,1,False,1,Ethylene oxide,5
+56,2022,air,9539.0,9539.0,4,False,4,Ethylene oxide,5
+56,2022,water,81.7,81.7,2,False,2,Ethylene oxide,5
+56,2023,air,19330.0,19330.0,4,False,4,Ethylene oxide,5
+56,2024,air,7760.0,7760.0,2,False,2,Ethylene oxide,5
+57,2007,water,17.2,17.2,3,False,3,Alachlor,4
+57,2008,water,32.22,32.22,3,False,3,Alachlor,4
+57,2009,water,5.3100000000000005,5.3100000000000005,4,False,4,Alachlor,4
+57,2010,water,15.09,15.09,3,False,3,Alachlor,4
+57,2012,water,8.0,8.0,1,False,1,Alachlor,4
+57,2013,water,9.0,9.0,1,False,1,Alachlor,4
+57,2014,water,12.03,12.03,2,False,2,Alachlor,4
+57,2015,water,11.71,11.71,3,False,3,Alachlor,4
+57,2016,water,19.47,19.47,3,False,3,Alachlor,4
+57,2017,water,19.400000000000002,19.400000000000002,3,False,3,Alachlor,4
+57,2018,water,13.462,13.462,2,False,2,Alachlor,4
+57,2019,water,18.355,18.355,2,False,2,Alachlor,4
+57,2020,water,27.1554,27.1554,3,False,3,Alachlor,4
+57,2021,water,38.695,38.695,3,False,3,Alachlor,4
+57,2022,water,43.9959,43.9959,4,False,4,Alachlor,4
+57,2023,water,28.5974,28.5974,2,False,2,Alachlor,4
+57,2024,water,60.699,60.699,3,False,3,Alachlor,4
+58,2007,water,152.64,152.64,8,False,8,Aldrin,3
+58,2008,water,201.42,201.42,7,False,7,Aldrin,3
+58,2009,water,121.23,121.23,5,False,5,Aldrin,3
+58,2010,water,236.82,236.82,11,False,11,Aldrin,3
+58,2011,water,175.27,175.27,12,False,12,Aldrin,3
+58,2012,water,167.27,167.27,11,False,11,Aldrin,3
+58,2013,water,127.10000000000001,127.10000000000001,11,False,11,Aldrin,3
+58,2014,water,40.42,40.42,7,False,7,Aldrin,3
+58,2015,water,29.15,29.15,8,False,8,Aldrin,3
+58,2016,air,4010.0,4010.0,1,False,1,Aldrin,3
+58,2016,water,54.81,54.81,12,False,12,Aldrin,3
+58,2017,water,61.87,61.87,11,False,11,Aldrin,3
+58,2018,water,122.8691,122.8691,14,False,14,Aldrin,3
+58,2019,water,20.2297,20.2297,5,False,5,Aldrin,3
+58,2020,water,65.186,65.186,11,False,11,Aldrin,3
+58,2021,water,77.2268,77.2268,10,False,10,Aldrin,3
+58,2022,water,111.4683,111.4683,8,False,8,Aldrin,3
+58,2023,air,932.0,932.0,1,False,1,Aldrin,3
+58,2023,water,78.95609999999999,78.95609999999999,9,False,9,Aldrin,3
+58,2024,air,341.0,341.0,1,False,1,Aldrin,3
+58,2024,water,64.3596,64.3596,8,False,8,Aldrin,3
+59,2007,water,158.91,158.91,15,False,15,Atrazine,4
+59,2008,water,116.59,116.59,8,False,8,Atrazine,4
+59,2009,water,93.98,93.98,11,False,11,Atrazine,4
+59,2010,water,86.6,86.6,5,False,5,Atrazine,4
+59,2011,water,187.81,187.81,7,False,7,Atrazine,4
+59,2012,water,87.67,87.67,7,False,7,Atrazine,4
+59,2013,water,19.32,19.32,5,False,5,Atrazine,4
+59,2014,water,3916.48,3916.48,5,False,5,Atrazine,4
+59,2015,water,14.159999999999998,14.159999999999998,5,False,5,Atrazine,4
+59,2016,water,16.41,16.41,4,False,4,Atrazine,4
+59,2017,water,61.11,61.11,6,False,6,Atrazine,4
+59,2018,water,240.828,240.828,22,False,22,Atrazine,4
+59,2019,water,126.855,126.855,17,False,17,Atrazine,4
+59,2020,water,126.9094,126.9094,12,False,12,Atrazine,4
+59,2021,water,123.403,123.403,13,False,13,Atrazine,4
+59,2022,water,88.9759,88.9759,9,False,9,Atrazine,4
+59,2023,water,85.35003400000001,85.35003400000001,13,False,13,Atrazine,4
+59,2024,water,163.04399999999998,163.04399999999998,12,False,12,Atrazine,4
+60,2008,water,55.2,55.2,1,False,1,Chlordane,3
+60,2015,water,1.07,1.07,1,False,1,Chlordane,3
+60,2016,water,15.05,15.05,2,False,2,Chlordane,3
+60,2017,water,1.3,1.3,1,False,1,Chlordane,3
+60,2018,water,1.27,1.27,1,False,1,Chlordane,3
+60,2019,water,1.3,1.3,1,False,1,Chlordane,3
+60,2020,water,10.632000000000001,10.632000000000001,2,False,2,Chlordane,3
+60,2021,water,2.264,2.264,1,False,1,Chlordane,3
+60,2022,water,25.185,25.185,3,False,3,Chlordane,3
+60,2023,water,5.8373,5.8373,1,False,1,Chlordane,3
+60,2024,water,10.5102,10.5102,3,False,3,Chlordane,3
+61,2008,water,55.2,55.2,1,False,1,Chlordecone,4
+61,2009,water,60.8,60.8,1,False,1,Chlordecone,4
+61,2011,air,4.23,4.23,1,False,1,Chlordecone,4
+61,2011,water,10.73,10.73,3,False,3,Chlordecone,4
+61,2012,water,1.26,1.26,1,False,1,Chlordecone,4
+61,2013,water,3.12,3.12,2,False,2,Chlordecone,4
+61,2014,water,99.25,99.25,4,False,4,Chlordecone,4
+61,2022,water,9.519,9.519,2,False,2,Chlordecone,4
+61,2023,water,5.8373,5.8373,1,False,1,Chlordecone,4
+61,2024,water,8.1197,8.1197,2,False,2,Chlordecone,4
+62,2007,water,6.13,6.13,2,False,2,Chlorfenvinphos,3
+62,2008,water,58.830000000000005,58.830000000000005,3,False,3,Chlorfenvinphos,3
+62,2010,water,22.9,22.9,1,False,1,Chlorfenvinphos,3
+62,2011,water,3.91,3.91,2,False,2,Chlorfenvinphos,3
+62,2018,water,39.7,39.7,7,False,7,Chlorfenvinphos,3
+62,2022,water,9.519,9.519,2,False,2,Chlorfenvinphos,3
+62,2023,water,5.8373,5.8373,1,False,1,Chlorfenvinphos,3
+62,2024,water,6.7197,6.7197,1,False,1,Chlorfenvinphos,3
+63,2007,water,82.33,82.33,3,False,3,Chlorpyrifos,4
+63,2008,water,56.43,56.43,2,False,2,Chlorpyrifos,4
+63,2009,water,34.839999999999996,34.839999999999996,3,False,3,Chlorpyrifos,4
+63,2011,water,11.92,11.92,3,False,3,Chlorpyrifos,4
+63,2014,water,1.82,1.82,1,False,1,Chlorpyrifos,4
+63,2015,water,6.71,6.71,3,False,3,Chlorpyrifos,4
+63,2016,water,16.1,16.1,5,False,5,Chlorpyrifos,4
+63,2017,water,27.6,27.6,5,False,5,Chlorpyrifos,4
+63,2018,water,63.162,63.162,11,False,11,Chlorpyrifos,4
+63,2019,water,266.355,266.355,3,False,3,Chlorpyrifos,4
+63,2020,water,603.6954,603.6954,3,False,3,Chlorpyrifos,4
+63,2021,water,21.305,21.305,2,False,2,Chlorpyrifos,4
+63,2022,water,47.1157,47.1157,4,False,4,Chlorpyrifos,4
+63,2023,water,28.5974,28.5974,2,False,2,Chlorpyrifos,4
+63,2024,water,27.634999999999998,27.634999999999998,2,False,2,Chlorpyrifos,4
+64,2007,water,3.14,3.14,2,False,2,DDT (DDT),4
+64,2008,water,30.490000000000002,30.490000000000002,3,False,3,DDT (DDT),4
+64,2009,water,99.41,99.41,3,False,3,DDT (DDT),4
+64,2010,water,13.65,13.65,2,False,2,DDT (DDT),4
+64,2011,water,2.4,2.4,1,False,1,DDT (DDT),4
+64,2012,water,92.33,92.33,3,False,3,DDT (DDT),4
+64,2013,water,2.64,2.64,1,False,1,DDT (DDT),4
+64,2014,water,7.41,7.41,3,False,3,DDT (DDT),4
+64,2015,water,1.07,1.07,1,False,1,DDT (DDT),4
+64,2016,water,9.47,9.47,2,False,2,DDT (DDT),4
+64,2017,water,25.400000000000002,25.400000000000002,3,False,3,DDT (DDT),4
+64,2018,water,23.402,23.402,4,False,4,DDT (DDT),4
+64,2019,water,18.355,18.355,2,False,2,DDT (DDT),4
+64,2020,water,27.1554,27.1554,3,False,3,DDT (DDT),4
+64,2021,water,29.994999999999997,29.994999999999997,3,False,3,DDT (DDT),4
+64,2022,water,43.9959,43.9959,4,False,4,DDT (DDT),4
+64,2023,water,30.3774,30.3774,3,False,3,DDT (DDT),4
+64,2024,water,52.94,52.94,4,False,4,DDT (DDT),4
+65,2007,water,171.08,171.08,11,False,11,Dieldrin,4
+65,2008,water,250.26,250.26,11,False,11,Dieldrin,4
+65,2009,water,168.97,168.97,8,False,8,Dieldrin,4
+65,2010,water,231.25,231.25,15,False,15,Dieldrin,4
+65,2011,water,155.67000000000002,155.67000000000002,12,False,12,Dieldrin,4
+65,2012,water,127.55,127.55,11,False,11,Dieldrin,4
+65,2013,water,124.23,124.23,10,False,10,Dieldrin,4
+65,2014,water,40.42,40.42,7,False,7,Dieldrin,4
+65,2015,water,30.15,30.15,8,False,8,Dieldrin,4
+65,2016,water,57.410000000000004,57.410000000000004,12,False,12,Dieldrin,4
+65,2017,water,67.87,67.87,12,False,12,Dieldrin,4
+65,2018,water,143.6253,143.6253,15,False,15,Dieldrin,4
+65,2019,water,20.2297,20.2297,5,False,5,Dieldrin,4
+65,2020,water,65.286,65.286,11,False,11,Dieldrin,4
+65,2021,water,57.7506,57.7506,10,False,10,Dieldrin,4
+65,2022,water,35.5511,35.5511,7,False,7,Dieldrin,4
+65,2023,water,191.4546,191.4546,9,False,9,Dieldrin,4
+65,2024,water,40.745,40.745,7,False,7,Dieldrin,4
+66,2007,water,308.5,308.5,68,False,68,Diuron,3
+66,2008,water,552.91,552.91,95,False,95,Diuron,3
+66,2009,water,468.34,468.34,79,False,79,Diuron,3
+66,2010,water,795.26,795.26,88,False,88,Diuron,3
+66,2011,water,1149.23,1149.23,112,False,112,Diuron,3
+66,2012,water,454.21,454.21,105,False,105,Diuron,3
+66,2013,water,294.64,294.64,90,False,90,Diuron,3
+66,2014,water,596.5,596.5,128,False,128,Diuron,3
+66,2015,water,1459.82,1459.82,134,False,134,Diuron,3
+66,2016,water,359.59,359.59,115,False,115,Diuron,3
+66,2017,water,389.94,389.94,122,False,122,Diuron,3
+66,2018,water,631.372,631.372,137,False,137,Diuron,3
+66,2019,water,431.378,431.378,133,False,133,Diuron,3
+66,2020,water,169.29,169.29,53,False,53,Diuron,3
+66,2021,water,265.473,265.473,59,False,59,Diuron,3
+66,2022,water,106.78,106.78,39,False,39,Diuron,3
+66,2023,water,139.79675600000002,139.79675600000002,50,False,50,Diuron,3
+66,2024,water,190.765,190.765,45,False,45,Diuron,3
+67,2007,water,29.07,29.07,3,False,3,Endosulphan,3
+67,2008,water,33.36,33.36,4,False,4,Endosulphan,3
+67,2009,water,35.55,35.55,4,False,4,Endosulphan,3
+67,2010,water,3.01,3.01,2,False,2,Endosulphan,3
+67,2011,water,3.0,3.0,1,False,1,Endosulphan,3
+67,2015,water,1.07,1.07,1,False,1,Endosulphan,3
+67,2016,water,1.15,1.15,1,False,1,Endosulphan,3
+67,2017,water,25.400000000000002,25.400000000000002,3,False,3,Endosulphan,3
+67,2018,water,13.462,13.462,2,False,2,Endosulphan,3
+67,2019,water,18.355,18.355,2,False,2,Endosulphan,3
+67,2020,water,27.1554,27.1554,3,False,3,Endosulphan,3
+67,2021,water,29.994999999999997,29.994999999999997,3,False,3,Endosulphan,3
+67,2022,water,26.0487,26.0487,3,False,3,Endosulphan,3
+67,2023,water,279.8074,279.8074,5,False,5,Endosulphan,3
+67,2024,water,52.94,52.94,4,False,4,Endosulphan,3
+68,2007,water,109.38,109.38,7,False,7,Endrin,3
+68,2008,water,131.48999999999998,131.48999999999998,9,False,9,Endrin,3
+68,2009,water,50.89,50.89,6,False,6,Endrin,3
+68,2010,water,56.36,56.36,9,False,9,Endrin,3
+68,2011,water,52.58,52.58,10,False,10,Endrin,3
+68,2012,water,39.769999999999996,39.769999999999996,8,False,8,Endrin,3
+68,2013,water,37.97,37.97,7,False,7,Endrin,3
+68,2014,water,30.560000000000002,30.560000000000002,4,False,4,Endrin,3
+68,2015,water,15.469999999999999,15.469999999999999,5,False,5,Endrin,3
+68,2016,water,45.47,45.47,9,False,9,Endrin,3
+68,2017,water,52.04,52.04,8,False,8,Endrin,3
+68,2018,water,114.8961,114.8961,11,False,11,Endrin,3
+68,2019,water,20.2297,20.2297,5,False,5,Endrin,3
+68,2020,water,62.586,62.586,10,False,10,Endrin,3
+68,2021,water,55.6506,55.6506,9,False,9,Endrin,3
+68,2022,air,11.55,11.55,2,False,2,Endrin,2
+68,2022,water,31.2463,31.2463,5,False,5,Endrin,3
+68,2023,air,8.13,8.13,1,False,1,Endrin,2
+68,2023,water,37.0986,37.0986,7,False,7,Endrin,3
+68,2024,air,7.75,7.75,1,False,1,Endrin,2
+68,2024,water,90.0552,90.0552,10,False,10,Endrin,3
+69,2007,water,1.53,1.53,1,False,1,Heptachlor,3
+69,2008,water,27.6,27.6,1,False,1,Heptachlor,3
+69,2009,water,1.1,1.1,1,False,1,Heptachlor,3
+69,2010,water,23.7,23.7,1,False,1,Heptachlor,3
+69,2012,water,8.0,8.0,1,False,1,Heptachlor,3
+69,2013,water,92.0,92.0,1,False,1,Heptachlor,3
+69,2014,water,10.0,10.0,1,False,1,Heptachlor,3
+69,2015,water,5.07,5.07,2,False,2,Heptachlor,3
+69,2016,water,10.57,10.57,3,False,3,Heptachlor,3
+69,2017,water,25.400000000000002,25.400000000000002,3,False,3,Heptachlor,3
+69,2018,water,21.462,21.462,3,False,3,Heptachlor,3
+69,2019,water,18.355,18.355,2,False,2,Heptachlor,3
+69,2020,water,27.1554,27.1554,3,False,3,Heptachlor,3
+69,2021,water,29.994999999999997,29.994999999999997,3,False,3,Heptachlor,3
+69,2022,water,26.0487,26.0487,3,False,3,Heptachlor,3
+69,2023,water,28.5974,28.5974,2,False,2,Heptachlor,3
+69,2024,water,33.7955,33.7955,5,False,5,Heptachlor,3
+70,2007,water,249.69,249.69,10,False,10,"1,2,3,4,5,6-hexachlorocyclohexane (HCH)",3
+70,2008,water,919.93,919.93,9,False,9,"1,2,3,4,5,6-hexachlorocyclohexane (HCH)",3
+70,2009,air,22.3,22.3,1,False,1,"1,2,3,4,5,6-hexachlorocyclohexane (HCH)",3
+70,2009,water,189.11,189.11,7,False,7,"1,2,3,4,5,6-hexachlorocyclohexane (HCH)",3
+70,2010,water,45.35,45.35,6,False,6,"1,2,3,4,5,6-hexachlorocyclohexane (HCH)",3
+70,2011,water,4604.81,4604.81,5,False,5,"1,2,3,4,5,6-hexachlorocyclohexane (HCH)",3
+70,2012,water,63.790000000000006,63.790000000000006,6,False,6,"1,2,3,4,5,6-hexachlorocyclohexane (HCH)",3
+70,2013,water,60.85,60.85,5,False,5,"1,2,3,4,5,6-hexachlorocyclohexane (HCH)",3
+70,2014,water,21.55,21.55,4,False,4,"1,2,3,4,5,6-hexachlorocyclohexane (HCH)",3
+70,2015,water,41.37,41.37,6,False,6,"1,2,3,4,5,6-hexachlorocyclohexane (HCH)",3
+70,2016,water,49.6,49.6,7,False,7,"1,2,3,4,5,6-hexachlorocyclohexane (HCH)",3
+70,2017,water,71.55,71.55,7,False,7,"1,2,3,4,5,6-hexachlorocyclohexane (HCH)",3
+70,2018,water,89.477,89.477,14,False,14,"1,2,3,4,5,6-hexachlorocyclohexane (HCH)",3
+70,2019,water,29.784999999999997,29.784999999999997,6,False,6,"1,2,3,4,5,6-hexachlorocyclohexane (HCH)",3
+70,2020,water,31.2694,31.2694,5,False,5,"1,2,3,4,5,6-hexachlorocyclohexane (HCH)",3
+70,2021,water,27.383,27.383,3,False,3,"1,2,3,4,5,6-hexachlorocyclohexane (HCH)",3
+70,2022,water,26.8609,26.8609,4,False,4,"1,2,3,4,5,6-hexachlorocyclohexane (HCH)",3
+70,2023,water,26.5101,26.5101,3,False,3,"1,2,3,4,5,6-hexachlorocyclohexane (HCH)",3
+70,2024,air,86.9,86.9,1,False,1,"1,2,3,4,5,6-hexachlorocyclohexane (HCH)",3
+70,2024,water,27.745299999999997,27.745299999999997,4,False,4,"1,2,3,4,5,6-hexachlorocyclohexane (HCH)",3
+71,2007,water,101.75,101.75,11,False,11,Isodrin,3
+71,2008,water,56.89,56.89,9,False,9,Isodrin,3
+71,2009,water,49.97,49.97,8,False,8,Isodrin,3
+71,2010,water,123.13,123.13,14,False,14,Isodrin,3
+71,2011,water,167.63,167.63,10,False,10,Isodrin,3
+71,2012,water,42.480000000000004,42.480000000000004,9,False,9,Isodrin,3
+71,2013,water,44.75,44.75,8,False,8,Isodrin,3
+71,2014,water,35.56,35.56,5,False,5,Isodrin,3
+71,2015,water,20.47,20.47,6,False,6,Isodrin,3
+71,2016,water,45.1,45.1,9,False,9,Isodrin,3
+71,2017,water,54.39,54.39,9,False,9,Isodrin,3
+71,2018,water,109.0903,109.0903,10,False,10,Isodrin,3
+71,2019,water,22.329700000000003,22.329700000000003,6,False,6,Isodrin,3
+71,2020,water,62.8,62.8,10,False,10,Isodrin,3
+71,2021,water,56.318599999999996,56.318599999999996,9,False,9,Isodrin,3
+71,2022,water,31.2463,31.2463,5,False,5,Isodrin,3
+71,2023,water,36.6386,36.6386,7,False,7,Isodrin,3
+71,2024,water,43.117200000000004,43.117200000000004,8,False,8,Isodrin,3
+72,2007,water,246252.09,246252.09,38,False,38,Isoproturon,3
+72,2008,water,234681.76,234681.76,41,False,41,Isoproturon,3
+72,2009,water,265840.81,265840.81,41,False,41,Isoproturon,3
+72,2010,water,244079.94,244079.94,43,False,43,Isoproturon,3
+72,2011,water,210918.48,210918.48,50,False,50,Isoproturon,3
+72,2012,water,251975.52,251975.52,36,False,36,Isoproturon,3
+72,2013,water,68.41,68.41,13,False,13,Isoproturon,3
+72,2014,water,97.13,97.13,20,False,20,Isoproturon,3
+72,2015,water,85.81,85.81,19,False,19,Isoproturon,3
+72,2016,water,48.37,48.37,16,False,16,Isoproturon,3
+72,2017,water,47.07,47.07,20,False,20,Isoproturon,3
+72,2018,water,238.222,238.222,39,False,39,Isoproturon,3
+72,2019,water,145.268,145.268,30,False,30,Isoproturon,3
+72,2020,water,99.648,99.648,28,False,28,Isoproturon,3
+72,2021,water,95.34400000000001,95.34400000000001,32,False,32,Isoproturon,3
+72,2022,water,57.39,57.39,23,False,23,Isoproturon,3
+72,2023,water,80.19,80.19,34,False,34,Isoproturon,3
+72,2024,water,4001.7405000000003,4001.7405000000003,30,False,30,Isoproturon,3
+73,2007,water,69.28999999999999,69.28999999999999,7,False,7,Lindane,5
+73,2008,water,153.95999999999998,153.95999999999998,12,False,12,Lindane,5
+73,2009,water,80.53999999999999,80.53999999999999,5,False,5,Lindane,5
+73,2010,water,95.16,95.16,9,False,9,Lindane,5
+73,2011,water,84.35000000000001,84.35000000000001,3,False,3,Lindane,5
+73,2012,water,106.06,106.06,5,False,5,Lindane,5
+73,2013,water,110.19000000000001,110.19000000000001,6,False,6,Lindane,5
+73,2014,water,13.329999999999998,13.329999999999998,4,False,4,Lindane,5
+73,2015,water,11.48,11.48,3,False,3,Lindane,5
+73,2016,water,22.56,22.56,6,False,6,Lindane,5
+73,2017,water,33.38,33.38,5,False,5,Lindane,5
+73,2018,air,14.0,14.0,1,False,1,Lindane,5
+73,2018,water,82.432,82.432,18,False,18,Lindane,5
+73,2019,air,11.1,11.1,1,False,1,Lindane,5
+73,2019,water,67.16499999999999,67.16499999999999,16,False,16,Lindane,5
+73,2020,air,11.0,11.0,1,False,1,Lindane,5
+73,2020,water,75.4394,75.4394,12,False,12,Lindane,5
+73,2021,air,11.1,11.1,1,False,1,Lindane,5
+73,2021,water,76.40299999999999,76.40299999999999,15,False,14,Lindane,5
+73,2022,air,17.6,17.6,1,False,1,Lindane,5
+73,2022,water,52.8387,52.8387,11,False,10,Lindane,5
+73,2023,water,634.4595999999999,634.4595999999999,13,False,13,Lindane,5
+73,2024,water,78.24549999999999,78.24549999999999,15,False,15,Lindane,5
+74,2008,water,55.2,55.2,1,False,1,Mirex,3
+74,2011,water,1.2,1.2,1,False,1,Mirex,3
+74,2018,water,36.2,36.2,6,False,6,Mirex,3
+74,2022,water,5.3592,5.3592,1,False,1,Mirex,3
+74,2023,water,5.8373,5.8373,1,False,1,Mirex,3
+74,2024,water,10.4897,10.4897,3,False,3,Mirex,3
+75,2007,water,54.21,54.21,11,False,11,Simazine,3
+75,2008,water,121.81,121.81,12,False,12,Simazine,3
+75,2009,water,77.22,77.22,8,False,8,Simazine,3
+75,2010,water,85.12,85.12,8,False,8,Simazine,3
+75,2011,water,174.71,174.71,8,False,8,Simazine,3
+75,2012,water,90.72,90.72,9,False,9,Simazine,3
+75,2013,water,15.9,15.9,5,False,5,Simazine,3
+75,2014,water,14646.8,14646.8,7,False,7,Simazine,3
+75,2015,water,1299.6299999999999,1299.6299999999999,8,False,8,Simazine,3
+75,2016,water,11.57,11.57,3,False,3,Simazine,3
+75,2017,water,6623.35,6623.35,6,False,6,Simazine,3
+75,2018,water,170.392,170.392,18,False,18,Simazine,3
+75,2019,water,310.995,310.995,20,False,20,Simazine,3
+75,2020,water,146.3894,146.3894,15,False,15,Simazine,3
+75,2021,water,113.083,113.083,14,False,14,Simazine,3
+75,2022,water,77.9401,77.9401,13,False,13,Simazine,3
+75,2023,water,100.260034,100.260034,16,False,16,Simazine,3
+75,2024,water,140.55949999999999,140.55949999999999,15,False,15,Simazine,3
+76,2009,water,2.89,2.89,2,False,2,Toxaphene,3
+76,2010,water,19.46,19.46,3,False,3,Toxaphene,3
+76,2011,water,38.11,38.11,2,False,2,Toxaphene,3
+76,2014,water,4.06,4.06,2,False,2,Toxaphene,3
+76,2015,water,4.3,4.3,2,False,2,Toxaphene,3
+76,2016,water,2.45,2.45,1,False,1,Toxaphene,3
+76,2018,water,22.6,22.6,5,False,5,Toxaphene,3
+76,2019,water,14.57,14.57,3,False,3,Toxaphene,3
+76,2020,water,13.8,13.8,3,False,3,Toxaphene,3
+76,2021,water,14.0,14.0,3,False,3,Toxaphene,3
+76,2022,water,11.5,11.5,3,False,3,Toxaphene,3
+76,2023,water,12.799999999999999,12.799999999999999,3,False,3,Toxaphene,3
+76,2024,water,377.09999999999997,377.09999999999997,7,False,7,Toxaphene,3
+77,2007,water,2.69,2.69,2,False,2,Trifluralin,3
+77,2008,water,32.080000000000005,32.080000000000005,3,False,3,Trifluralin,3
+77,2009,water,1.1,1.1,1,False,1,Trifluralin,3
+77,2010,water,11.9,11.9,1,False,1,Trifluralin,3
+77,2012,water,8.0,8.0,1,False,1,Trifluralin,3
+77,2013,water,9.0,9.0,1,False,1,Trifluralin,3
+77,2014,water,10.0,10.0,1,False,1,Trifluralin,3
+77,2015,water,9.0,9.0,1,False,1,Trifluralin,3
+77,2016,water,12.08,12.08,2,False,2,Trifluralin,3
+77,2017,water,20.1,20.1,2,False,2,Trifluralin,3
+77,2018,water,20.192,20.192,2,False,2,Trifluralin,3
+77,2019,water,17.055,17.055,1,False,1,Trifluralin,3
+77,2020,water,26.0694,26.0694,2,False,2,Trifluralin,3
+77,2021,water,20.173,20.173,1,False,1,Trifluralin,3
+77,2022,water,24.1701,24.1701,2,False,2,Trifluralin,3
+77,2023,water,28.5974,28.5974,2,False,2,Trifluralin,3
+77,2024,water,27.634999999999998,27.634999999999998,2,False,2,Trifluralin,3
+78,2007,water,694.13,694.13,24,False,24,Pentachlorophenol (PCP),3
+78,2008,air,1827.0,1827.0,5,False,5,Pentachlorophenol (PCP),3
+78,2008,water,329.14,329.14,29,False,29,Pentachlorophenol (PCP),3
+78,2009,air,196.5,196.5,4,False,4,Pentachlorophenol (PCP),3
+78,2009,water,176.15,176.15,27,False,27,Pentachlorophenol (PCP),3
+78,2010,air,505.6,505.6,3,False,3,Pentachlorophenol (PCP),3
+78,2010,water,583.36,583.36,23,False,23,Pentachlorophenol (PCP),3
+78,2011,air,508.6,508.6,2,False,2,Pentachlorophenol (PCP),3
+78,2011,water,311.58,311.58,30,False,30,Pentachlorophenol (PCP),3
+78,2012,air,28.6,28.6,1,False,1,Pentachlorophenol (PCP),3
+78,2012,water,172.99,172.99,20,False,20,Pentachlorophenol (PCP),3
+78,2013,water,60.52,60.52,15,False,15,Pentachlorophenol (PCP),3
+78,2014,water,172.07999999999998,172.07999999999998,13,False,13,Pentachlorophenol (PCP),3
+78,2015,water,52.33,52.33,14,False,14,Pentachlorophenol (PCP),3
+78,2016,water,449.14,449.14,18,False,18,Pentachlorophenol (PCP),3
+78,2017,water,662.86,662.86,18,False,18,Pentachlorophenol (PCP),3
+78,2018,water,762.5553,762.5553,25,False,25,Pentachlorophenol (PCP),3
+78,2019,water,542.6867,542.6867,33,False,33,Pentachlorophenol (PCP),3
+78,2020,air,12.6,12.6,1,False,1,Pentachlorophenol (PCP),3
+78,2020,water,171.5446,171.5446,25,False,25,Pentachlorophenol (PCP),3
+78,2021,air,12.6,12.6,1,False,1,Pentachlorophenol (PCP),3
+78,2021,water,94.59,94.59,26,False,26,Pentachlorophenol (PCP),3
+78,2022,air,12.6,12.6,1,False,1,Pentachlorophenol (PCP),3
+78,2022,water,110.3524,110.3524,22,False,22,Pentachlorophenol (PCP),3
+78,2023,air,312.0,312.0,1,False,1,Pentachlorophenol (PCP),3
+78,2023,water,84.8629,84.8629,26,False,26,Pentachlorophenol (PCP),3
+78,2024,water,100.8973,100.8973,28,False,28,Pentachlorophenol (PCP),3
+79,2007,air,86.0,86.0,4,False,4,Hexachlorobenzene (HCB),4
+79,2007,water,120.22,120.22,12,False,12,Hexachlorobenzene (HCB),4
+79,2008,air,68.1,68.1,4,False,4,Hexachlorobenzene (HCB),4
+79,2008,water,93.04999999999998,93.04999999999998,5,False,5,Hexachlorobenzene (HCB),4
+79,2009,air,42.3,42.3,2,False,2,Hexachlorobenzene (HCB),4
+79,2009,water,62.78,62.78,3,False,3,Hexachlorobenzene (HCB),4
+79,2010,air,20.5,20.5,1,False,1,Hexachlorobenzene (HCB),4
+79,2010,water,72.5,72.5,2,False,2,Hexachlorobenzene (HCB),4
+79,2011,air,125.4,125.4,4,False,4,Hexachlorobenzene (HCB),4
+79,2011,water,84.67,84.67,6,False,6,Hexachlorobenzene (HCB),4
+79,2012,water,88.3,88.3,4,False,4,Hexachlorobenzene (HCB),4
+79,2013,air,42.2,42.2,2,False,2,Hexachlorobenzene (HCB),4
+79,2013,water,25.17,25.17,3,False,3,Hexachlorobenzene (HCB),4
+79,2014,air,59.2,59.2,3,False,3,Hexachlorobenzene (HCB),4
+79,2014,water,25.4,25.4,3,False,3,Hexachlorobenzene (HCB),4
+79,2015,air,32.0,32.0,1,False,1,Hexachlorobenzene (HCB),4
+79,2015,water,27.73,27.73,3,False,3,Hexachlorobenzene (HCB),4
+79,2016,air,84.0,84.0,2,False,2,Hexachlorobenzene (HCB),4
+79,2016,water,13.120000000000001,13.120000000000001,3,False,3,Hexachlorobenzene (HCB),4
+79,2017,air,68.5,68.5,3,False,3,Hexachlorobenzene (HCB),4
+79,2017,water,27.71,27.71,4,False,4,Hexachlorobenzene (HCB),4
+79,2018,air,172.84570000000002,172.84570000000002,3,False,3,Hexachlorobenzene (HCB),4
+79,2018,water,494.192,494.192,18,False,18,Hexachlorobenzene (HCB),4
+79,2019,air,161.93,161.93,2,False,2,Hexachlorobenzene (HCB),4
+79,2019,water,743.115,743.115,15,False,15,Hexachlorobenzene (HCB),4
+79,2020,air,13.2,13.2,1,False,1,Hexachlorobenzene (HCB),4
+79,2020,water,74.2294,74.2294,11,False,11,Hexachlorobenzene (HCB),4
+79,2021,air,15.1,15.1,1,False,1,Hexachlorobenzene (HCB),4
+79,2021,water,1052.7239,1052.7239,15,False,15,Hexachlorobenzene (HCB),4
+79,2022,air,21.9,21.9,1,False,1,Hexachlorobenzene (HCB),4
+79,2022,water,999.3412000000001,999.3412000000001,12,False,12,Hexachlorobenzene (HCB),4
+79,2023,water,55.437400000000004,55.437400000000004,8,False,8,Hexachlorobenzene (HCB),4
+79,2024,air,15.7,15.7,1,False,1,Hexachlorobenzene (HCB),4
+79,2024,water,170.2155,170.2155,15,False,15,Hexachlorobenzene (HCB),4
+80,2007,water,148.67,148.67,8,False,8,Hexachlorobutadiene (HCBD),3
+80,2008,water,267.63,267.63,11,False,11,Hexachlorobutadiene (HCBD),3
+80,2009,water,120.18,120.18,15,False,15,Hexachlorobutadiene (HCBD),3
+80,2010,water,176.18,176.18,13,False,13,Hexachlorobutadiene (HCBD),3
+80,2011,water,215.07000000000002,215.07000000000002,14,False,14,Hexachlorobutadiene (HCBD),3
+80,2012,water,291.32,291.32,14,False,14,Hexachlorobutadiene (HCBD),3
+80,2013,water,264.6,264.6,14,False,14,Hexachlorobutadiene (HCBD),3
+80,2014,water,304.44,304.44,17,False,17,Hexachlorobutadiene (HCBD),3
+80,2015,water,193.63,193.63,11,False,11,Hexachlorobutadiene (HCBD),3
+80,2016,water,322.28,322.28,7,False,7,Hexachlorobutadiene (HCBD),3
+80,2017,water,1327.4199999999998,1327.4199999999998,11,False,11,Hexachlorobutadiene (HCBD),3
+80,2018,water,1834.9979,1834.9979,19,False,19,Hexachlorobutadiene (HCBD),3
+80,2019,water,2022.0253,2022.0253,13,False,13,Hexachlorobutadiene (HCBD),3
+80,2020,water,1046.617698,1046.617698,11,False,11,Hexachlorobutadiene (HCBD),3
+80,2021,water,1151.148498,1151.148498,13,False,13,Hexachlorobutadiene (HCBD),3
+80,2022,water,1038.545,1038.545,12,False,12,Hexachlorobutadiene (HCBD),3
+80,2023,water,1056.7585450000001,1056.7585450000001,15,False,15,Hexachlorobutadiene (HCBD),3
+80,2024,water,1245.4352010000002,1245.4352010000002,18,False,18,Hexachlorobutadiene (HCBD),3
+81,2007,water,16.54,16.54,5,False,5,Pentachlorobenzene,3
+81,2008,air,1779.0,1779.0,3,False,3,Pentachlorobenzene,3
+81,2008,water,36.1,36.1,6,False,6,Pentachlorobenzene,3
+81,2009,air,348.0,348.0,3,False,3,Pentachlorobenzene,3
+81,2009,water,660.99,660.99,5,False,5,Pentachlorobenzene,3
+81,2010,air,569.0,569.0,3,False,3,Pentachlorobenzene,3
+81,2010,water,387.07,387.07,8,False,8,Pentachlorobenzene,3
+81,2011,air,507.6,507.6,2,False,2,Pentachlorobenzene,3
+81,2011,water,24.009999999999998,24.009999999999998,4,False,4,Pentachlorobenzene,3
+81,2012,air,1.5,1.5,1,False,1,Pentachlorobenzene,3
+81,2012,water,222.5,222.5,6,False,6,Pentachlorobenzene,3
+81,2013,water,90.33,90.33,3,False,3,Pentachlorobenzene,3
+81,2014,water,86.17,86.17,5,False,5,Pentachlorobenzene,3
+81,2015,water,78.86999999999999,78.86999999999999,4,False,4,Pentachlorobenzene,3
+81,2016,water,97.87,97.87,5,False,5,Pentachlorobenzene,3
+81,2017,water,66.87,66.87,9,False,9,Pentachlorobenzene,3
+81,2018,water,77.2299,77.2299,9,False,9,Pentachlorobenzene,3
+81,2019,water,32.449999,32.449999,2,False,2,Pentachlorobenzene,3
+81,2020,air,2.75,2.75,2,False,2,Pentachlorobenzene,3
+81,2020,water,19.36,19.36,2,False,2,Pentachlorobenzene,3
+81,2021,water,23.2,23.2,3,False,3,Pentachlorobenzene,3
+81,2022,air,388.0,388.0,1,False,1,Pentachlorobenzene,3
+81,2022,water,18.4686,18.4686,3,False,3,Pentachlorobenzene,3
+81,2023,air,1.6,1.6,1,False,1,Pentachlorobenzene,3
+81,2023,water,10.43,10.43,2,False,2,Pentachlorobenzene,3
+81,2024,air,1.07,1.07,1,False,1,Pentachlorobenzene,3
+81,2024,water,21.6805,21.6805,5,False,5,Pentachlorobenzene,3
+82,2008,water,59.56,59.56,3,False,3,Hexabromobiphenyl,3
+82,2009,water,1.909,1.909,2,False,2,Hexabromobiphenyl,3
+82,2010,water,8.804,8.804,3,False,3,Hexabromobiphenyl,3
+82,2011,water,4.202999999999999,4.202999999999999,5,False,5,Hexabromobiphenyl,3
+82,2012,water,0.17,0.17,1,False,1,Hexabromobiphenyl,3
+82,2013,water,0.38,0.38,2,False,2,Hexabromobiphenyl,3
+82,2014,water,0.46,0.46,3,False,3,Hexabromobiphenyl,3
+82,2016,water,0.6799999999999999,0.6799999999999999,2,False,2,Hexabromobiphenyl,3
+82,2017,water,1.82,1.82,3,False,3,Hexabromobiphenyl,3
+82,2018,water,0.3,0.3,1,False,1,Hexabromobiphenyl,3
+82,2019,water,0.75,0.75,3,False,3,Hexabromobiphenyl,3
+82,2020,water,0.7,0.7,3,False,3,Hexabromobiphenyl,3
+82,2021,water,0.7,0.7,3,False,3,Hexabromobiphenyl,3
+82,2022,water,0.6000000000000001,0.6000000000000001,3,False,3,Hexabromobiphenyl,3
+82,2023,water,0.7,0.7,3,False,3,Hexabromobiphenyl,3
+82,2024,water,2.1999999999999997,2.1999999999999997,4,False,4,Hexabromobiphenyl,3
+83,2007,air,191.572,191.572,67,False,67,Polychlorinated biphenyls (PCBs),5
+83,2007,water,37.304,37.304,17,False,17,Polychlorinated biphenyls (PCBs),5
+83,2008,air,161.108,161.108,69,False,69,Polychlorinated biphenyls (PCBs),5
+83,2008,water,185.46,185.46,31,False,31,Polychlorinated biphenyls (PCBs),5
+83,2009,air,554.022,554.022,65,False,65,Polychlorinated biphenyls (PCBs),5
+83,2009,water,222.335,222.335,25,False,25,Polychlorinated biphenyls (PCBs),5
+83,2010,air,548.605,548.605,59,False,59,Polychlorinated biphenyls (PCBs),5
+83,2010,water,76.781,76.781,30,False,30,Polychlorinated biphenyls (PCBs),5
+83,2011,air,514.969,514.969,48,False,48,Polychlorinated biphenyls (PCBs),5
+83,2011,water,70.852,70.852,21,False,21,Polychlorinated biphenyls (PCBs),5
+83,2012,air,63.814,63.814,50,False,50,Polychlorinated biphenyls (PCBs),5
+83,2012,water,90.61499999999998,90.61499999999998,22,False,22,Polychlorinated biphenyls (PCBs),5
+83,2013,air,91.03999999999999,91.03999999999999,46,False,46,Polychlorinated biphenyls (PCBs),5
+83,2013,water,31.677,31.677,20,False,20,Polychlorinated biphenyls (PCBs),5
+83,2014,air,57.535000000000004,57.535000000000004,42,False,42,Polychlorinated biphenyls (PCBs),5
+83,2014,water,24.706,24.706,25,False,25,Polychlorinated biphenyls (PCBs),5
+83,2015,air,59.783,59.783,34,False,34,Polychlorinated biphenyls (PCBs),5
+83,2015,water,28.236,28.236,18,False,18,Polychlorinated biphenyls (PCBs),5
+83,2016,air,78.721,78.721,37,False,37,Polychlorinated biphenyls (PCBs),5
+83,2016,water,186.634,186.634,17,False,17,Polychlorinated biphenyls (PCBs),5
+83,2017,air,69.308,69.308,32,False,32,Polychlorinated biphenyls (PCBs),5
+83,2017,water,350.23,350.23,21,False,21,Polychlorinated biphenyls (PCBs),5
+83,2018,air,35.19197,35.19197,29,False,29,Polychlorinated biphenyls (PCBs),5
+83,2018,water,401.068,401.068,33,False,33,Polychlorinated biphenyls (PCBs),5
+83,2019,air,35.70271,35.70271,33,False,33,Polychlorinated biphenyls (PCBs),5
+83,2019,water,348.183,348.183,28,False,28,Polychlorinated biphenyls (PCBs),5
+83,2020,air,54.58041,54.58041,28,False,28,Polychlorinated biphenyls (PCBs),5
+83,2020,water,233.99800000000002,233.99800000000002,21,False,21,Polychlorinated biphenyls (PCBs),5
+83,2021,air,49.5105,49.5105,22,False,21,Polychlorinated biphenyls (PCBs),5
+83,2021,water,102.536,102.536,18,False,18,Polychlorinated biphenyls (PCBs),5
+83,2022,air,27.8533,27.8533,19,False,19,Polychlorinated biphenyls (PCBs),5
+83,2022,water,68.694,68.694,21,False,21,Polychlorinated biphenyls (PCBs),5
+83,2023,air,11.1274,11.1274,15,False,15,Polychlorinated biphenyls (PCBs),5
+83,2023,water,176.8854,176.8854,20,False,20,Polychlorinated biphenyls (PCBs),5
+83,2024,air,39.896699999999996,39.896699999999996,22,False,22,Polychlorinated biphenyls (PCBs),5
+83,2024,water,202.653,202.653,16,False,16,Polychlorinated biphenyls (PCBs),5
+84,2007,water,111.06000000000002,111.06000000000002,6,False,6,Brominated diphenylethers (PBDE),4
+84,2008,water,151.22000000000003,151.22000000000003,7,False,7,Brominated diphenylethers (PBDE),4
+84,2009,water,29.009999999999998,29.009999999999998,13,False,13,Brominated diphenylethers (PBDE),4
+84,2010,water,31.9,31.9,12,False,12,Brominated diphenylethers (PBDE),4
+84,2011,air,0.002,0.002,1,False,1,Brominated diphenylethers (PBDE),4
+84,2011,water,45.3,45.3,14,False,14,Brominated diphenylethers (PBDE),4
+84,2012,air,0.018,0.018,1,False,1,Brominated diphenylethers (PBDE),4
+84,2012,water,51.85,51.85,17,False,17,Brominated diphenylethers (PBDE),4
+84,2014,water,2.2,2.2,1,False,1,Brominated diphenylethers (PBDE),4
+84,2015,water,234.29999999999998,234.29999999999998,4,False,4,Brominated diphenylethers (PBDE),4
+84,2016,water,559.26,559.26,2,False,2,Brominated diphenylethers (PBDE),4
+84,2017,water,303.0,303.0,1,False,1,Brominated diphenylethers (PBDE),4
+84,2018,water,15.0,15.0,1,False,1,Brominated diphenylethers (PBDE),4
+84,2021,water,9.0,9.0,1,False,1,Brominated diphenylethers (PBDE),4
+84,2022,water,3.08,3.08,1,False,1,Brominated diphenylethers (PBDE),4
+84,2024,water,209.7451,209.7451,4,False,4,Brominated diphenylethers (PBDE),4
+85,2007,air,1.20469,1.20469,215,False,215,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2007,water,0.01253,0.01253,19,False,19,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2008,air,1.282687,1.282687,233,False,233,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2008,water,0.023647,0.023647,22,False,22,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2009,air,0.760767,0.760767,202,False,202,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2009,water,14.342943,14.342943,19,False,19,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2010,air,0.898732,0.898732,212,False,212,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2010,water,0.297962,0.297962,33,False,33,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2011,air,0.570572,0.570572,227,False,227,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2011,water,0.03348,0.03348,31,False,31,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2012,air,0.45501,0.45501,192,False,192,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2012,water,0.07492499999999999,0.07492499999999999,21,False,21,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2013,air,1.130454,1.130454,183,False,183,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2013,water,0.045499,0.045499,75,False,75,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2014,air,1.181635,1.181635,166,False,166,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2014,water,0.253985,0.253985,94,False,94,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2015,air,1.000774,1.000774,180,False,180,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2015,water,0.254112,0.254112,35,False,35,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2016,air,1.164528,1.164528,173,False,173,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2016,water,0.052563,0.052563,39,False,39,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2017,air,12.346998,12.346998,149,False,149,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2017,water,0.027331,0.027331,36,False,36,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2018,air,1001.555022918,1001.555022918,173,False,170,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2018,water,0.079157846,0.079157846,32,False,32,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2019,air,0.8214909930000001,0.8214909930000001,162,False,157,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2019,water,0.013682,0.013682,28,False,28,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2020,air,3.10631132,3.10631132,141,False,134,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2020,water,0.27947000000000005,0.27947000000000005,7,False,4,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2021,air,0.927284582,0.927284582,135,False,128,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2021,water,0.00468,0.00468,7,False,4,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2022,air,0.296134056,0.296134056,128,False,121,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2022,water,0.5716399999999999,0.5716399999999999,11,False,8,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2023,air,35.670447802000005,35.670447802000005,115,False,109,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2023,water,7.3229940000000004,7.3229940000000004,11,False,8,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2024,air,16.49910479,16.49910479,131,False,122,PCDD + PCDF (dioxins + furans) (as Teq),5
+85,2024,water,0.644346,0.644346,12,False,10,PCDD + PCDF (dioxins + furans) (as Teq),5
+86,2007,water,290.35,290.35,12,False,12,"Chloro-alkanes, C10-C13",4
+86,2008,water,133.0,133.0,11,False,11,"Chloro-alkanes, C10-C13",4
+86,2009,water,223.09,223.09,13,False,13,"Chloro-alkanes, C10-C13",4
+86,2010,water,315.28,315.28,17,False,17,"Chloro-alkanes, C10-C13",4
+86,2011,water,610.45,610.45,16,False,16,"Chloro-alkanes, C10-C13",4
+86,2012,water,305.49,305.49,17,False,17,"Chloro-alkanes, C10-C13",4
+86,2013,water,468.33,468.33,19,False,19,"Chloro-alkanes, C10-C13",4
+86,2014,water,478.66999999999996,478.66999999999996,23,False,23,"Chloro-alkanes, C10-C13",4
+86,2015,water,371.17,371.17,16,False,16,"Chloro-alkanes, C10-C13",4
+86,2016,water,136.68,136.68,20,False,20,"Chloro-alkanes, C10-C13",4
+86,2017,water,208.07999999999998,208.07999999999998,23,False,23,"Chloro-alkanes, C10-C13",4
+86,2018,water,110.9,110.9,11,False,11,"Chloro-alkanes, C10-C13",4
+86,2019,water,89.42,89.42,10,False,10,"Chloro-alkanes, C10-C13",4
+86,2020,water,60.03,60.03,8,False,8,"Chloro-alkanes, C10-C13",4
+86,2021,water,129.04,129.04,12,False,12,"Chloro-alkanes, C10-C13",4
+86,2022,water,63.99,63.99,8,False,8,"Chloro-alkanes, C10-C13",4
+86,2023,water,54.0,54.0,7,False,7,"Chloro-alkanes, C10-C13",4
+86,2024,water,322.9051,322.9051,13,False,13,"Chloro-alkanes, C10-C13",4
+87,2007,air,360.9,360.9,8,False,8,Trichlorobenzenes (TCB),3
+87,2007,water,2197.92,2197.92,19,False,19,Trichlorobenzenes (TCB),3
+87,2008,air,325.3,325.3,11,False,11,Trichlorobenzenes (TCB),3
+87,2008,water,1304.4,1304.4,27,False,27,Trichlorobenzenes (TCB),3
+87,2009,air,775.8,775.8,21,False,21,Trichlorobenzenes (TCB),3
+87,2009,water,801.75,801.75,22,False,22,Trichlorobenzenes (TCB),3
+87,2010,air,466.0,466.0,14,False,14,Trichlorobenzenes (TCB),3
+87,2010,water,527.56,527.56,23,False,23,Trichlorobenzenes (TCB),3
+87,2011,air,322.2,322.2,7,False,7,Trichlorobenzenes (TCB),3
+87,2011,water,733.5,733.5,20,False,20,Trichlorobenzenes (TCB),3
+87,2012,air,231.9,231.9,11,False,11,Trichlorobenzenes (TCB),3
+87,2012,water,592.22,592.22,20,False,20,Trichlorobenzenes (TCB),3
+87,2013,air,53.8,53.8,4,False,4,Trichlorobenzenes (TCB),3
+87,2013,water,444.39,444.39,17,False,17,Trichlorobenzenes (TCB),3
+87,2014,air,41.3,41.3,3,False,3,Trichlorobenzenes (TCB),3
+87,2014,water,509.55,509.55,20,False,20,Trichlorobenzenes (TCB),3
+87,2015,air,22.299999999999997,22.299999999999997,2,False,2,Trichlorobenzenes (TCB),3
+87,2015,water,444.96999999999997,444.96999999999997,15,False,15,Trichlorobenzenes (TCB),3
+87,2016,water,481.18,481.18,17,False,17,Trichlorobenzenes (TCB),3
+87,2017,air,67.39999999999999,67.39999999999999,3,False,3,Trichlorobenzenes (TCB),3
+87,2017,water,669.4499999999999,669.4499999999999,21,False,21,Trichlorobenzenes (TCB),3
+87,2018,air,241.0,241.0,2,False,2,Trichlorobenzenes (TCB),3
+87,2018,water,502.5662,502.5662,33,False,33,Trichlorobenzenes (TCB),3
+87,2019,water,681.7923999999999,681.7923999999999,23,False,23,Trichlorobenzenes (TCB),3
+87,2020,air,91.0,91.0,1,False,1,Trichlorobenzenes (TCB),3
+87,2020,water,522.0408,522.0408,16,False,16,Trichlorobenzenes (TCB),3
+87,2021,water,613.569597,613.569597,18,False,18,Trichlorobenzenes (TCB),3
+87,2022,water,549.567498,549.567498,22,False,22,Trichlorobenzenes (TCB),3
+87,2023,water,144.785303,144.785303,17,False,17,Trichlorobenzenes (TCB),3
+87,2024,water,219.034899,219.034899,22,False,22,Trichlorobenzenes (TCB),3
+88,2007,air,18447.3,18447.3,26,False,26,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2007,water,6215.26,6215.26,98,False,98,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2008,air,16127.4,16127.4,32,False,32,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2008,water,21678.69,21678.69,197,False,197,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2009,air,15358.8,15358.8,32,False,32,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2009,water,22826.57,22826.57,260,False,260,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2010,air,8529.9,8529.9,29,False,29,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2010,water,27119.39,27119.39,279,False,279,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2011,air,4424.9,4424.9,23,False,23,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2011,water,31875.670000000002,31875.670000000002,294,False,294,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2012,air,5125.6,5125.6,20,False,20,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2012,water,30306.19,30306.19,257,False,257,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2013,air,3800.4,3800.4,9,False,9,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2013,water,21410.77,21410.77,285,False,285,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2014,air,2941.4,2941.4,10,False,10,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2014,water,29244.36,29244.36,310,False,310,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2015,air,3315.2,3315.2,10,False,10,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2015,water,17484.06,17484.06,372,False,372,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2016,air,1202.2,1202.2,7,False,7,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2016,water,17845.94,17845.94,399,False,399,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2017,air,325.5,325.5,7,False,7,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2017,water,18072.87,18072.87,415,False,415,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2018,air,3158.9496000000004,3158.9496000000004,11,False,11,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2018,water,15035.79386,15035.79386,396,False,396,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2019,air,476.0045,476.0045,8,False,8,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2019,water,17888.455104,17888.455104,383,False,383,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2020,air,466.53,466.53,8,False,7,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2020,water,4168.105638,4168.105638,244,False,243,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2021,air,519.47,519.47,6,False,5,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2021,water,6702.913303,6702.913303,295,False,294,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2022,air,518.12,518.12,6,False,6,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2022,water,8128.561098,8128.561098,310,False,308,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2023,air,468.01,468.01,6,False,6,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2023,water,11396.816479,11396.816479,284,False,284,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2024,air,449.6,449.6,7,False,7,Di-(2-ethyl hexyl) phthalate (DEHP),4
+88,2024,water,3730397.3134790002,3730397.3134790002,256,False,255,Di-(2-ethyl hexyl) phthalate (DEHP),4
+89,2007,water,114763.13,114763.13,196,False,196,Nonylphenol and Nonylphenol ethoxylates,4
+89,2008,water,115943.98,115943.98,267,False,267,Nonylphenol and Nonylphenol ethoxylates,4
+89,2009,water,22490.6,22490.6,198,False,198,Nonylphenol and Nonylphenol ethoxylates,4
+89,2010,water,37391.54,37391.54,272,False,272,Nonylphenol and Nonylphenol ethoxylates,4
+89,2011,water,38958.38,38958.38,270,False,270,Nonylphenol and Nonylphenol ethoxylates,4
+89,2012,water,44409.97,44409.97,270,False,270,Nonylphenol and Nonylphenol ethoxylates,4
+89,2013,water,25490.98,25490.98,272,False,272,Nonylphenol and Nonylphenol ethoxylates,4
+89,2014,water,25896.989999999998,25896.989999999998,290,False,290,Nonylphenol and Nonylphenol ethoxylates,4
+89,2015,water,23186.98,23186.98,267,False,267,Nonylphenol and Nonylphenol ethoxylates,4
+89,2016,water,24718.62,24718.62,253,False,253,Nonylphenol and Nonylphenol ethoxylates,4
+89,2017,water,28331.23,28331.23,263,False,263,Nonylphenol and Nonylphenol ethoxylates,4
+89,2018,air,677.0,677.0,1,False,1,Nonylphenol and Nonylphenol ethoxylates,4
+89,2018,water,21047.718,21047.718,247,False,247,Nonylphenol and Nonylphenol ethoxylates,4
+89,2019,water,14484.879,14484.879,224,False,224,Nonylphenol and Nonylphenol ethoxylates,4
+89,2020,water,7417.677,7417.677,94,False,94,Nonylphenol and Nonylphenol ethoxylates,4
+89,2021,water,1417.589832,1417.589832,131,False,131,Nonylphenol and Nonylphenol ethoxylates,4
+89,2022,water,1887.886,1887.886,139,False,139,Nonylphenol and Nonylphenol ethoxylates,4
+89,2023,water,1501.3761180000001,1501.3761180000001,143,False,143,Nonylphenol and Nonylphenol ethoxylates,4
+89,2024,water,1257.852531,1257.852531,135,False,134,Nonylphenol and Nonylphenol ethoxylates,4
+90,2007,water,2517.05,2517.05,139,False,139,Octylphenols and Octylphenol ethoxylates,4
+90,2008,water,2763.63,2763.63,174,False,174,Octylphenols and Octylphenol ethoxylates,4
+90,2009,water,2028.52,2028.52,45,False,45,Octylphenols and Octylphenol ethoxylates,4
+90,2010,water,2483.72,2483.72,65,False,65,Octylphenols and Octylphenol ethoxylates,4
+90,2011,water,1332.34,1332.34,48,False,48,Octylphenols and Octylphenol ethoxylates,4
+90,2012,water,1220.67,1220.67,49,False,49,Octylphenols and Octylphenol ethoxylates,4
+90,2013,water,239.9,239.9,37,False,37,Octylphenols and Octylphenol ethoxylates,4
+90,2014,water,252.26999999999998,252.26999999999998,43,False,43,Octylphenols and Octylphenol ethoxylates,4
+90,2015,water,331.19,331.19,37,False,37,Octylphenols and Octylphenol ethoxylates,4
+90,2016,water,255.42000000000002,255.42000000000002,44,False,44,Octylphenols and Octylphenol ethoxylates,4
+90,2017,water,905.86,905.86,49,False,49,Octylphenols and Octylphenol ethoxylates,4
+90,2018,water,673.67,673.67,53,False,53,Octylphenols and Octylphenol ethoxylates,4
+90,2019,water,177.339,177.339,47,False,47,Octylphenols and Octylphenol ethoxylates,4
+90,2020,water,137.0835,137.0835,23,False,23,Octylphenols and Octylphenol ethoxylates,4
+90,2021,water,839.7549,839.7549,24,False,24,Octylphenols and Octylphenol ethoxylates,4
+90,2022,water,8352.833999999999,8352.833999999999,20,False,20,Octylphenols and Octylphenol ethoxylates,4
+90,2023,water,172.745,172.745,17,False,17,Octylphenols and Octylphenol ethoxylates,4
+90,2024,water,59.0103,59.0103,19,False,19,Octylphenols and Octylphenol ethoxylates,4
+91,2007,water,10.01,10.01,4,False,4,Tributyltin and compounds,4
+91,2008,water,251.05999999999997,251.05999999999997,9,False,9,Tributyltin and compounds,4
+91,2009,water,40094.74,40094.74,7,False,7,Tributyltin and compounds,4
+91,2010,water,83.43,83.43,6,False,6,Tributyltin and compounds,4
+91,2011,water,163.32000000000002,163.32000000000002,7,False,7,Tributyltin and compounds,4
+91,2012,water,75.61999999999999,75.61999999999999,5,False,5,Tributyltin and compounds,4
+91,2013,water,12.79,12.79,4,False,4,Tributyltin and compounds,4
+91,2014,water,11.8,11.8,4,False,4,Tributyltin and compounds,4
+91,2015,water,6.83,6.83,2,False,2,Tributyltin and compounds,4
+91,2016,water,184.59,184.59,3,False,3,Tributyltin and compounds,4
+91,2017,water,87.11,87.11,5,False,5,Tributyltin and compounds,4
+91,2018,water,80.58,80.58,6,False,6,Tributyltin and compounds,4
+91,2019,water,372.93,372.93,13,False,13,Tributyltin and compounds,4
+91,2020,water,206.82,206.82,7,False,7,Tributyltin and compounds,4
+91,2021,water,15.450000000000001,15.450000000000001,4,False,4,Tributyltin and compounds,4
+91,2022,water,694.6474000000001,694.6474000000001,7,False,7,Tributyltin and compounds,4
+91,2023,water,757.6999000000001,757.6999000000001,8,False,8,Tributyltin and compounds,4
+91,2024,water,867.8333,867.8333,11,False,11,Tributyltin and compounds,4
+92,2007,water,5.99,5.99,3,False,3,Triphenyltin and compounds,4
+92,2008,water,73.44,73.44,5,False,5,Triphenyltin and compounds,4
+92,2009,water,60.47,60.47,2,False,2,Triphenyltin and compounds,4
+92,2010,water,88.95,88.95,5,False,5,Triphenyltin and compounds,4
+92,2011,water,69.49000000000001,69.49000000000001,4,False,4,Triphenyltin and compounds,4
+92,2012,water,70.8,70.8,2,False,2,Triphenyltin and compounds,4
+92,2013,water,9.04,9.04,2,False,2,Triphenyltin and compounds,4
+92,2014,water,10.1,10.1,3,False,3,Triphenyltin and compounds,4
+92,2015,water,6.949999999999999,6.949999999999999,2,False,2,Triphenyltin and compounds,4
+92,2016,water,13.59,13.59,2,False,2,Triphenyltin and compounds,4
+92,2017,water,17.64,17.64,3,False,3,Triphenyltin and compounds,4
+92,2018,water,46.42,46.42,5,False,5,Triphenyltin and compounds,4
+92,2019,water,1256.16,1256.16,5,False,5,Triphenyltin and compounds,4
+92,2020,water,33.95,33.95,7,False,7,Triphenyltin and compounds,4
+92,2021,water,15.450000000000001,15.450000000000001,4,False,4,Triphenyltin and compounds,4
+92,2022,water,729.3275,729.3275,6,False,6,Triphenyltin and compounds,4
+92,2023,water,754.2088,754.2088,8,False,8,Triphenyltin and compounds,4
+92,2024,water,871.6933,871.6933,10,False,10,Triphenyltin and compounds,4
+93,2016,air,0.0,0.0,2,True,0,CONFIDENTIAL,0
+93,2017,air,0.0,0.0,2,True,0,CONFIDENTIAL,0
+93,2018,air,0.0,0.0,7,True,0,CONFIDENTIAL,0
+93,2019,air,0.0,0.0,4,True,0,CONFIDENTIAL,0
+93,2020,air,0.0,0.0,7,True,0,CONFIDENTIAL,0
+93,2021,air,0.0,0.0,9,True,0,CONFIDENTIAL,0
+93,2022,air,0.0,0.0,9,True,0,CONFIDENTIAL,0
+93,2023,air,0.0,0.0,3,True,0,CONFIDENTIAL,0
+93,2023,water,0.0,0.0,1,True,0,CONFIDENTIAL,0
+93,2024,air,0.0,0.0,7,True,0,CONFIDENTIAL,0
+93,2024,water,0.0,0.0,2,True,0,CONFIDENTIAL,0
