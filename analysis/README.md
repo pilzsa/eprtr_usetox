@@ -36,6 +36,22 @@ The first map load fetches `facilities.json` (9.1 MB), `cities.json` (2.5 MB),
 the country outline (228 KB), the LAU outline (6.6 MB) and one year file
 (0.9–1.4 MB). Later years are cached in the browser for the session.
 
+## Publish on GitHub Pages
+
+The dashboard is plain static HTML, CSS, JavaScript and JSON; Python is only
+needed to rebuild the data, not to run the site. Pushing to `main` triggers
+[`../.github/workflows/pages.yml`](../.github/workflows/pages.yml), which stages
+`dashboard/` as the site root, adds `.nojekyll` and publishes the result.
+
+One-time setup: open **Settings → Pages** in the GitHub repository and set
+**Build and deployment → Source** to **GitHub Actions**. The site is then at
+`https://<user>.github.io/<repository>/` and redirects to `frontend/`.
+
+The workflow publishes only `dashboard/`, not the multi-gigabyte source
+directories. It also copies `analysis/outputs/quality_report.json` to
+`data/quality_report.json`, so the no-JavaScript file list works on the hosted
+site.
+
 ## What gets built
 
 | Output | Size | Content |
@@ -44,6 +60,7 @@ the country outline (228 KB), the LAU outline (6.6 MB) and one year file
 | `dashboard/data/releases/YYYY.json` | 0.9–1.4 MB each | one record per facility-year; 245,515 records in total |
 | `dashboard/data/cities.json` | 2.5 MB | 37,237 LAU search entries (12,490 with at least one facility) |
 | `dashboard/data/pollutants.json` | 28 KB | all 94 E-PRTR labels with CAS, flags, notes and air/water hazard levels |
+| `dashboard/data/quality_report.json` | 58 KB | copy of the audit report linked from the no-JavaScript file list |
 | `dashboard/data/boundaries/countries.topojson` | 228 KB | pre-baked country outlines in EPSG:3035 |
 | `dashboard/data/boundaries/lau/lau3035.topojson` | 6.6 MB | pre-baked simplified 2024 LAU outlines, one for every 37,237 city-index entry |
 | `analysis/outputs/facility_year.csv` | flat audit table | 245,515 facility-year rows with all aggregates |

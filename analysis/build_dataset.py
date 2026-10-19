@@ -11,6 +11,7 @@ Outputs:
   * `dashboard/data/facilities.json`        static facility metadata + yearly history
   * `dashboard/data/releases/YYYY.json`     compact facility-year records
   * `dashboard/data/cities.json`            LAU search index
+  * `dashboard/data/quality_report.json`    copy of the audit for static hosting
   * `analysis/outputs/facility_year.csv`    flat table for inspection
   * `analysis/outputs/quality_report.json`  every cleaning decision, with counts
 
@@ -446,7 +447,8 @@ def write_pollutants(pollutants: list[dict]):
             "note": row["note"],
         })
     (OUT / "pollutants.json").write_text(
-        json.dumps({"pollutants": payload}, ensure_ascii=False, separators=(",", ":")),
+        json.dumps({"pollutants": payload}, ensure_ascii=False,
+                   separators=(",", ":"), allow_nan=False),
         encoding="utf-8",
     )
     return payload
@@ -467,7 +469,9 @@ def write_facilities(facilities: pd.DataFrame, summary: pd.DataFrame):
     for row in order.itertuples():
         lau = None
         if isinstance(row.lau_id, str) and row.lau_id:
-            lau = [row.lau_id, row.lau_name or "", row.lau_cc or "", json_round(row.lau_pop, 0), json_round(row.lau_area, 2)]
+            lau_name = row.lau_name if isinstance(row.lau_name, str) else ""
+            lau_cc = row.lau_cc if isinstance(row.lau_cc, str) else ""
+            lau = [row.lau_id, lau_name, lau_cc, json_round(row.lau_pop, 0), json_round(row.lau_area, 2)]
         city = row.city
         if not isinstance(city, str) or not city:
             city = row.lau_name if isinstance(row.lau_name, str) else ""
@@ -488,7 +492,8 @@ def write_facilities(facilities: pd.DataFrame, summary: pd.DataFrame):
             [values.get(year) for year in YEARS],
         ])
     (OUT / "facilities.json").write_text(
-        json.dumps({"years": YEARS, "facilities": records}, ensure_ascii=False, separators=(",", ":")),
+        json.dumps({"years": YEARS, "facilities": records}, ensure_ascii=False,
+                   separators=(",", ":"), allow_nan=False),
         encoding="utf-8",
     )
     return fac_index
@@ -590,7 +595,7 @@ def build_cities(facilities: pd.DataFrame, report: dict):
 
     cities.sort(key=lambda row: (-row[5], row[1], row[0]))
     (OUT / "cities.json").write_text(
-        json.dumps({"cities": cities}, ensure_ascii=False, separators=(",", ":")),
+        json.dumps({"cities": cities}, ensure_ascii=False, separators=(",", ":"), allow_nan=False),
         encoding="utf-8",
     )
     report["cities"] = {
@@ -644,7 +649,8 @@ def write_year_records(summary: pd.DataFrame, fac_index: dict, top_map: dict):
             ])
         records.sort(key=lambda record: record[0])
         (RELEASES_OUT / f"{year}.json").write_text(
-            json.dumps({"year": year, "records": records}, ensure_ascii=False, separators=(",", ":")),
+            json.dumps({"year": year, "records": records}, ensure_ascii=False,
+                       separators=(",", ":"), allow_nan=False),
             encoding="utf-8",
         )
         counts[year] = len(records)
@@ -809,9 +815,12 @@ def main():
         "The 2024 LAU layer is used for every year because the dashboard needs one stable geographic reference.",
     ]
 
-    (ANALYSIS_OUT / "quality_report.json").write_text(
-        json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
+    quality_json = json.dumps(report, ensure_ascii=False, indent=2, allow_nan=False)
+    (ANALYSIS_OUT / "quality_report.json").write_text(quality_json, encoding="utf-8")
+    # The dashboard's no-JavaScript file list links to this copy. Keeping it
+    # inside dashboard/ means the static site works when only that directory is
+    # published (for example on GitHub Pages).
+    (OUT / "quality_report.json").write_text(quality_json, encoding="utf-8")
     print(f"facilities: {len(facilities):,}")
     print(f"facility-years: {len(summary):,}")
     print(f"pollutant labels: {len(pollutants)}")
