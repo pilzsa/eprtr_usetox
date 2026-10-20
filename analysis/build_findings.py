@@ -202,7 +202,7 @@ def build_carc() -> tuple[pd.DataFrame, dict]:
     water = RELEASES_DIR / "F2_4_Water_Releases_Facilities.csv"
     if not (air.exists() and water.exists()):
         if cached.exists():
-            return pd.read_csv(cached), {"source": "cached", "file": str(cached)}
+            return cached_carc(cached)
         raise SystemExit(
             f"release CSVs not found in {RELEASES_DIR}\n"
             "Set EPRTR_RELEASES_DIR to the 'User friendly .csv files' directory."
@@ -289,6 +289,26 @@ def build_carc() -> tuple[pd.DataFrame, dict]:
     if stats["max_abs_delta_kg"] > 1.0:
         raise SystemExit(f"flagged carc mass does not reconcile with country_year.csv: {stats}")
     return totals[["fac_index", "year", "carc_kg", "carc_substance", "n_carc_strict"]], stats
+
+
+def cached_carc(path: Path) -> tuple[pd.DataFrame, dict]:
+    """Reuse `facility_carc.csv` when the multi-gigabyte release CSVs are absent.
+
+    Only the raw release tables allow the country-by-country reconciliation, so
+    the two delta fields stay `None` and the checks page prints an em dash.  The
+    per-year strict totals are exact, which is all the trend section needs.
+    """
+    frame = pd.read_csv(path)
+    by_year = frame.groupby("year")["carc_kg"].sum()
+    return frame, {
+        "source": f"cached {path.name} (release CSVs not available)",
+        "facility_years": int(len(frame)),
+        "definition": "IARC 1/2A/2B or CLP Carc.; IARC group 3 excluded",
+        "max_abs_delta_kg": None,
+        "max_rel_delta": None,
+        "year_total_kg": {int(year): float(value) for year, value in by_year.items()},
+        "year_flagged_kg": {},
+    }
 
 
 def load_pollutant_meta() -> pd.DataFrame:
@@ -644,7 +664,8 @@ def data_checks(all_fac: pd.DataFrame, latest: pd.DataFrame, year: int,
          fmt_int(population["status_counts"]["outside"]
                  + population["status_counts"]["no_coordinate"])],
         ["Carcinogenic mass reconciliation (max abs. delta)",
-         f"{carc_stats['max_abs_delta_kg']:.2f} kg"],
+         ("—" if carc_stats["max_abs_delta_kg"] is None
+          else f"{carc_stats['max_abs_delta_kg']:.2f} kg")],
     ]
     write_table("checks_summary", md_table(
         pd.DataFrame(rows, columns=["Check", "Value"]), align="lr"))

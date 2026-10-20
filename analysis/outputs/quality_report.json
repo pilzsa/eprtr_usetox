@@ -3291,5 +3291,137 @@
         "covered_pct": 0.0
       }
     ]
+  },
+  "substances": {
+    "source": "analysis/outputs/pollutant_year.csv",
+    "mass_basis": "kg_counted: CO2 excluding biomass is nested in total CO2 and is subtracted once per facility-year before summing",
+    "substances_with_mass": 93,
+    "substance_year_rows": 1600,
+    "years": [
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "hazard_rule": "hazardous = substance level >= 2 for the reported medium",
+    "totals_by_year": {
+      "2007": {
+        "total_kg": 2248910751127.645,
+        "hazardous_kg": 4537768880.405,
+        "hazardous_share": 0.002018
+      },
+      "2008": {
+        "total_kg": 2177709326680.07,
+        "hazardous_kg": 4176221824.511,
+        "hazardous_share": 0.001918
+      },
+      "2009": {
+        "total_kg": 2003743643868.652,
+        "hazardous_kg": 3096320420.362,
+        "hazardous_share": 0.001545
+      },
+      "2010": {
+        "total_kg": 2099740888612.574,
+        "hazardous_kg": 3528991735.685,
+        "hazardous_share": 0.001681
+      },
+      "2011": {
+        "total_kg": 1995467891744.994,
+        "hazardous_kg": 3695020241.584,
+        "hazardous_share": 0.001852
+      },
+      "2012": {
+        "total_kg": 1991297366317.211,
+        "hazardous_kg": 3491139101.171,
+        "hazardous_share": 0.001753
+      },
+      "2013": {
+        "total_kg": 1919534826778.177,
+        "hazardous_kg": 3563593842.237,
+        "hazardous_share": 0.001856
+      },
+      "2014": {
+        "total_kg": 1866604387559.566,
+        "hazardous_kg": 3600295319.896,
+        "hazardous_share": 0.001929
+      },
+      "2015": {
+        "total_kg": 1829101318136.62,
+        "hazardous_kg": 3456076330.111,
+        "hazardous_share": 0.001889
+      },
+      "2016": {
+        "total_kg": 1778898227660.618,
+        "hazardous_kg": 3300599539.037,
+        "hazardous_share": 0.001855
+      },
+      "2017": {
+        "total_kg": 1789051559385.47,
+        "hazardous_kg": 3217400659.319,
+        "hazardous_share": 0.001798
+      },
+      "2018": {
+        "total_kg": 1701899363310.549,
+        "hazardous_kg": 3390017141.156,
+        "hazardous_share": 0.001992
+      },
+      "2019": {
+        "total_kg": 1572730509044.51,
+        "hazardous_kg": 3243784323.022,
+        "hazardous_share": 0.002063
+      },
+      "2020": {
+        "total_kg": 1267552492377.199,
+        "hazardous_kg": 2647943923.762,
+        "hazardous_share": 0.002089
+      },
+      "2021": {
+        "total_kg": 1356517703723.473,
+        "hazardous_kg": 3137903773.983,
+        "hazardous_share": 0.002313
+      },
+      "2022": {
+        "total_kg": 1351307347036.705,
+        "hazardous_kg": 2580076478.687,
+        "hazardous_share": 0.001909
+      },
+      "2023": {
+        "total_kg": 1097024206052.95,
+        "hazardous_kg": 1954841006.009,
+        "hazardous_share": 0.001782
+      },
+      "2024": {
+        "total_kg": 1013175148658.651,
+        "hazardous_kg": 1976054208.054,
+        "hazardous_share": 0.00195
+      }
+    },
+    "reconciliation": {
+      "reference": "dashboard/data/releases/YYYY.json",
+      "years_compared": 18,
+      "checks": 36,
+      "max_abs_delta_kg": 0.038,
+      "worst_year": 2014,
+      "worst_metric": "hazardous",
+      "tolerance_kg": 1.0
+    },
+    "notes": [
+      "Negative and missing masses are already excluded by build_dataset.py; this table contains reported, non-negative masses only.",
+      "Facility counts are the number of facilities with a positive counted mass for that substance and medium."
+    ]
   }
 }

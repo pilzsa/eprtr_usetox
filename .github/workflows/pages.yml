@@ -32,6 +32,9 @@ jobs:
       - name: Check design tokens
         run: python3 analysis/check_tokens.py
 
+      - name: Rebuild the substance composition table
+        run: python3 analysis/build_substances.py
+
       - name: Render the site
         run: |
           set -euo pipefail

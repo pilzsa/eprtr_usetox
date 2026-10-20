@@ -17,6 +17,7 @@ European industrial pollutant releases, hazard, population and permits,
 ```
 analysis/            Quarto site, data build and reports
   build_dataset.py       releases → facilities, hazard levels, LAU join
+  build_substances.py    substance × year × medium masses (substances.json)
   build_permits.py       IED permit linkage (2017–2024)
   population_profile.py  people within 0.5/1/3/5 km (JRC 2021)
   build_findings.py      tables, figures, findings.json
@@ -36,6 +37,7 @@ Data (needs the multi-gigabyte EEA and JRC inputs; see `analysis/README.md`):
 
 ```bash
 python3 analysis/build_dataset.py
+python3 analysis/build_substances.py
 python3 analysis/build_permits.py
 python3 analysis/population_profile.py
 python3 analysis/build_findings.py

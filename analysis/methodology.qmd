@@ -9,6 +9,7 @@ toc: true
 | Step | Script | Output |
 |:--|:--|:--|
 | Releases, hazard levels, LAU join | `analysis/build_dataset.py` | `dashboard/data/*.json`, `analysis/outputs/*.csv` |
+| Substance composition per year and medium | `analysis/build_substances.py` | `substances.json` |
 | Permit linkage | `analysis/build_permits.py` | `permits.json`, `permits_facility.csv` |
 | Population within 0.5/1/3/5 km | `analysis/population_profile.py` | `population.json`, `facility_population.csv` |
 | Tables, figures, headline numbers | `analysis/build_findings.py` | `analysis/data/tables/*.md`, `analysis/data/figures/*.svg` |
@@ -49,6 +50,25 @@ the location. Level 3 is deliberately broad: it includes every IARC-flagged
 substance, which is why hydrogen chloride reaches level 3. That is a screening
 choice, documented in report 03 below, and it is the reason the site publishes
 both a classified mass (level ≥ 2) and a strict carcinogenic mass.
+
+### Substance composition
+
+The "What makes up the mass" panel reads `substances.json`, which
+`analysis/build_substances.py` derives from the committed `releases/*.json`:
+
+* one row per **substance × year × medium**, so the panel follows the year and
+  air/water selection of the map;
+* mass is the same `kg_counted` basis as the map (CO₂ excluding biomass
+  subtracted once per facility-year), so the column totals reproduce the map
+  totals and `releases/YYYY.json` — the build reconciles every year on both the
+  total and the hazardous metric (36 checks) and stops above a 1 kg difference
+  (current maximum 0.038 kg);
+* a substance is **hazard-classified** in a medium when its level for that
+  medium is ≥ 2, i.e. the same rule as classified mass, so the hazardous donut
+  and the map's circle sizes cannot disagree;
+* the chips list the underlying evidence — IARC group, CLP hazard classes,
+  ECHA SVHC, EPA HAP (air) and WFD priority (water) — and a note is only shown
+  when it adds a detail beyond those chips (route, "not carcinogenic").
 
 ### Population {#population}
 

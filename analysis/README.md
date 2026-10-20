@@ -30,6 +30,7 @@ Rebuild the data (only needed when the inputs change):
 
 ```bash
 python3 analysis/build_dataset.py        # releases, facilities, LAU join
+python3 analysis/build_substances.py     # substance × year × medium masses
 python3 analysis/build_permits.py        # permit linkage (2017–2024)
 python3 analysis/population_profile.py   # population within 0.5/1/3/5 km
 python3 analysis/build_findings.py       # tables, figures, findings.json
@@ -82,9 +83,10 @@ directories. The explorer is at `/map/frontend/` and reads its JSON from
 | `dashboard/data/releases/YYYY.json` | 0.9–1.4 MB each | one record per facility-year |
 | `dashboard/data/cities.json` | 2.5 MB | 37,237 LAU search entries (12,490 with at least one facility) |
 | `dashboard/data/pollutants.json` | 28 KB | all 94 E-PRTR labels with CAS, flags, notes and air/water hazard levels |
+| `dashboard/data/substances.json` | 48 KB | reported mass per substance, year and medium; feeds the composition panel |
 | `dashboard/data/permits.json` | 2.6 MB | IED permit record per facility, 2017–2024 (20,788 facilities) |
 | `dashboard/data/population.json` | 633 KB | people within 0.5/1/3/5 km per facility, 2021 grid |
-| `dashboard/data/quality_report.json` | 90 KB | audit copy with the `permits` and `population` sections |
+| `dashboard/data/quality_report.json` | 90 KB | audit copy with the `substances`, `permits` and `population` sections |
 | `dashboard/data/boundaries/countries.topojson` | 228 KB | pre-baked country outlines in EPSG:3035 |
 | `dashboard/data/boundaries/lau/lau3035.topojson` | 6.6 MB | pre-baked simplified 2024 LAU outlines |
 | `analysis/outputs/facility_year.csv` | flat audit table | facility-year rows with all aggregates |

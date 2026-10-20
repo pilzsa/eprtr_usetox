@@ -5,6 +5,7 @@
  */
 const { useState, useEffect, useMemo, useRef } = React;
 const D = window.DashData;
+const S = window.DashSubstances;
 const DATA_BASE = "../data";
 
 const METRIC_OPTIONS = D.METRICS.map((metric) => ({ value: metric.key, label: metric.label }));
@@ -663,6 +664,42 @@ function initialState() {
   };
 }
 
+function CompositionPanel(props) {
+  const hostRef = useRef(null);
+
+  useEffect(() => {
+    const host = hostRef.current;
+    if (!host) return;
+    if (!props.composition) {
+      host.textContent = "";
+      const note = document.createElement("p");
+      note.className = "detail__empty";
+      note.textContent = props.error
+        ? "The substance table (data/substances.json) could not be loaded. Run analysis/build_substances.py and reload."
+        : "Loading substance detail…";
+      host.appendChild(note);
+      return;
+    }
+    S.render(host, {
+      composition: props.composition,
+      formatKg: D.fmtKg,
+      levelColor: D.levelColor
+    });
+  }, [props.composition, props.error]);
+
+  return (
+    <section className="panel composition-panel" aria-labelledby="composition-title">
+      <div className="panel__head">
+        <h2 className="panel__title" id="composition-title">What makes up the mass</h2>
+        <span className="panel__note" style={{ margin: 0 }}>
+          {props.year} · {D.mediumLabel(props.media)}
+        </span>
+      </div>
+      <div className="panel__body" ref={hostRef}></div>
+    </section>
+  );
+}
+
 function App() {
   const initial = useMemo(initialState, []);
   const [year, setYear] = useState(initial.year);
@@ -686,6 +723,8 @@ function App() {
   const [enrichment, setEnrichment] = useState(null);
   const [denseOnly, setDenseOnly] = useState(false);
   const [rankMode, setRankMode] = useState("metric");
+  const [substances, setSubstances] = useState(null);
+  const [substancesError, setSubstancesError] = useState(null);
 
   const mapHostRef = useRef(null);
   const mapRef = useRef(null);
@@ -714,6 +753,20 @@ function App() {
     // The initial year is validated once against the loaded year list.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  /* ---- Substance composition (one small file, optional) ---------------- */
+  useEffect(() => {
+    if (!core) return undefined;
+    let cancelled = false;
+    S.load(DATA_BASE).then((model) => {
+      if (!cancelled) setSubstances(model);
+    }).catch((error) => {
+      if (cancelled) return;
+      console.warn("Substance detail unavailable", error);
+      setSubstancesError(error);
+    });
+    return () => { cancelled = true; };
+  }, [core]);
 
   /* ---- Optional enrichment: permits + population ----------------------- */
   useEffect(() => {
@@ -938,6 +991,11 @@ function App() {
     setRankMode("metric");
     setQuery("");
   }
+
+  const composition = useMemo(() => {
+    if (!core || !substances) return null;
+    return S.composition(substances, core.pollutants, year, media);
+  }, [core, substances, year, media]);
 
   if (coreError) {
     return (
@@ -1240,6 +1298,13 @@ function App() {
             <span>EEA E-PRTR v16 r00 · EPSG:3035 · Natural Earth &amp; GISCO LAU</span>
           </div>
         </section>
+
+        <CompositionPanel
+          composition={composition}
+          error={substancesError}
+          year={year}
+          media={media}
+        />
       </main>
 
       {about && <AboutModal onClose={() => setAbout(false)} />}

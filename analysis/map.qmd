@@ -74,6 +74,14 @@ toc: false
         <div class="panel__body" id="pm-legend"></div>
       </section>
     </aside>
+
+    <section class="panel composition-panel" aria-labelledby="pm-composition-title">
+      <div class="panel__head">
+        <h2 class="panel__title" id="pm-composition-title">What makes up the mass</h2>
+        <span class="panel__note" id="pm-composition-note">Reported substances and their hazard classification</span>
+      </div>
+      <div class="panel__body" id="pm-composition"></div>
+    </section>
   </div>
 </div>
 <script src="js/page-map.js"></script>

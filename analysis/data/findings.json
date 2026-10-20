@@ -528,7 +528,7 @@
     "dense_level3": 597,
     "median_pop_3km": 3388.5,
     "p90_pop_3km": 39300.69999999999,
-    "no_population_data": 289
+    "no_population_data": 1018
   },
   "q7": {
     "spearman_class_pop": -0.32532873952705516,
@@ -740,7 +740,7 @@
       },
       {
         "value": "23",
-        "label": "countries"
+        "label": "countries reporting 2024"
       },
       {
         "value": "1.98 Mt",

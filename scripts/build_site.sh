@@ -13,6 +13,9 @@ root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$root"
 
 python3 analysis/check_tokens.py
+# substances.json is derived from the committed releases/*.json only, so it can
+# be rebuilt here (unlike build_dataset.py, which needs the EEA inputs).
+python3 analysis/build_substances.py
 chmod +x scripts/stage_web.sh
 quarto render analysis --to html
 rm -rf analysis/_site/.quarto analysis/_site/outputs

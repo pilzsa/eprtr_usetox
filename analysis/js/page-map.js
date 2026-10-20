@@ -18,6 +18,7 @@
     "map/frontend/vendor/d3.min.js",
     "map/frontend/lib/geo3035.js",
     "map/frontend/lib/data.js",
+    "map/frontend/lib/substances.js",
     "map/frontend/lib/topo.js",
     "map/frontend/lib/map.js"
   ];
@@ -27,9 +28,11 @@
   if (!host || !page) return;
 
   var D = null;
+  var S = null;
   var map = null;
   var core = null;
   var enrichment = null;
+  var composition = null;
   var cache = new Map();
   var records = [];
   var selected = null;
@@ -200,6 +203,7 @@
     });
     writeUrl();
     renderStatus();
+    renderComposition();
   }
 
   function loadYear() {
@@ -405,20 +409,53 @@
     box.appendChild(note);
   }
 
+  /* The composition block is optional: if substances.json is missing the map
+   * keeps working and only this panel says so. */
+  function renderComposition() {
+    var box = el("pm-composition");
+    if (!box) return;
+    if (!S || !composition || !core) {
+      box.innerHTML = "";
+      var note = document.createElement("p");
+      note.className = "panel__note";
+      note.textContent = "Substance detail (substances.json) is not available on this page.";
+      box.appendChild(note);
+      return;
+    }
+    S.render(box, {
+      composition: S.composition(composition, core.pollutants, state.year, state.media),
+      formatKg: fmtKg,
+      levelColor: D.levelColor
+    });
+    var caption = el("pm-composition-note");
+    if (caption) {
+      caption.textContent = state.year + " · " + D.mediumLabel(state.media);
+    }
+  }
+
   function start() {
     loadLibraries().then(function () {
       D = window.DashData;
+      S = window.DashSubstances;
       if (!D || !window.DashMap) throw new Error("map libraries did not expose their globals");
       readUrl();
       var enrich = D.loadEnrichment(DATA_BASE).catch(function () { return null; });
-      return Promise.all([D.loadCore(DATA_BASE), enrich]);
+      var detail = S
+        ? S.load(DATA_BASE).catch(function (error) {
+          console.warn("Substance detail unavailable", error);
+          return null;
+        })
+        : Promise.resolve(null);
+      return Promise.all([D.loadCore(DATA_BASE), enrich, detail]);
     }).then(function (results) {
       core = results[0];
       enrichment = results[1];
+      composition = results[2];
       fillControls();
       bindControls();
       renderLegend();
       renderDetail(null);
+      renderComposition();
 
       map = window.DashMap.create(host, {
         basePath: DATA_BASE + "/boundaries",
