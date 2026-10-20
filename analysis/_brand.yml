@@ -1,0 +1,20 @@
+# Minimal Quarto brand file: colours only.  Typography stays with the cosmo
+# theme and `analysis/styles.css` so the site matches the dashboard's tokens.
+# Keep these hex values identical to `dashboard/frontend/tokens.css`.
+meta:
+  name: EPRTR Atlas
+color:
+  palette:
+    ink: "#17212c"
+    ink-2: "#536273"
+    brand: "#0d5b83"
+    brand-2: "#117a68"
+    surface: "#ffffff"
+    surface-2: "#f5f8fb"
+    line: "#d7dfe8"
+    haz-3: "#e0783b"
+    haz-4: "#bd3f5c"
+  foreground: ink
+  background: surface
+  primary: brand
+  secondary: brand-2

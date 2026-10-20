@@ -1,0 +1,44 @@
+/* EPRTR Atlas - design tokens (single source for the dashboard and the
+ * Quarto pages).  Light values only: `tokens-dark.css` adds the dark palette
+ * for the dashboard, while the Quarto site stays light.
+ * `analysis/styles.qmd` renders the same swatches; keep the hex values in sync.
+ */
+:root {
+  --haz-0: #aab4c0;
+  --haz-1: #d4dce5;
+  --haz-2: #e8b84a;
+  --haz-3: #e0783b;
+  --haz-4: #bd3f5c;
+  --haz-5: #6f1d56;
+  --map-land: #f4f6f9;
+  --map-lau: #c3cedb;
+  --map-country: #607184;
+  --map-sea: #e9eff5;
+  --ink: #17212c;
+  --ink-2: #536273;
+  --ink-3: #7b8796;
+  --line: #d7dfe8;
+  --line-soft: #e9eef4;
+  --surface: #ffffff;
+  --surface-2: #f5f8fb;
+  --surface-3: #edf2f7;
+  --bg: #e8eef4;
+  --brand: #0d5b83;
+  --brand-2: #117a68;
+  --danger: #a62b3c;
+  --shadow-1: 0 1px 2px rgba(17, 30, 44, 0.08);
+  --shadow-2: 0 10px 30px rgba(17, 30, 44, 0.16);
+  --radius-1: 5px;
+  --radius-2: 10px;
+  --radius-3: 16px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --header-h: 132px;
+  --side-w: 370px;
+  --font: "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+}

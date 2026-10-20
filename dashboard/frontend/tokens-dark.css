@@ -1,0 +1,31 @@
+/* EPRTR Atlas - dark tokens.  Loaded by the dashboard only; the Quarto site
+ * is light-only, so it links tokens.css alone.
+ */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --haz-0: #5d6673;
+    --haz-1: #7b8796;
+    --haz-2: #e2ad38;
+    --haz-3: #e87537;
+    --haz-4: #d24a67;
+    --haz-5: #b44d9e;
+    --map-land: #1b222b;
+    --map-lau: #3b4755;
+    --map-country: #8695a6;
+    --map-sea: #111820;
+    --ink: #edf1f6;
+    --ink-2: #b2bdc9;
+    --ink-3: #8794a3;
+    --line: #394452;
+    --line-soft: #2b3440;
+    --surface: #181f27;
+    --surface-2: #1f2832;
+    --surface-3: #27323e;
+    --bg: #10161c;
+    --brand: #72b7dd;
+    --brand-2: #6ecbb5;
+    --danger: #ef8a9a;
+    --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.45);
+    --shadow-2: 0 10px 30px rgba(0, 0, 0, 0.55);
+  }
+}

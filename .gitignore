@@ -1,0 +1,20 @@
+# Quarto output and caches
+analysis/_site/
+analysis/.quarto/
+analysis/_freeze/
+**/*.quarto_ipynb
+
+# Staged copy of dashboard/frontend + dashboard/data for the Quarto map page
+analysis/map/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# LibreOffice lock files
+.~lock.*#
+
+# Raw EEA downloads (GB-scale, not part of the site)
+eea_t_ied-eprtr_p_2007-2024_v16_r00/
+eea_v_4326_10_m_ied-eprtr_p_2007-2024_v16_r00/
+eea_t_waterbase-water-quality-icm-2026_p_1900-2025_v01_r00/

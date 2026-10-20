@@ -1,0 +1,48 @@
+---
+title: "Notebook"
+subtitle: "The exploratory notebook is documentation, not a build step"
+toc: true
+---
+
+The original exploration lives in
+[`eprtr_analysis.ipynb`](https://github.com/pilzsa/eprtr_usetox/blob/main/eprtr_analysis.ipynb)
+at the repository root: 143 cells that load the E-PRTR air and water tables,
+map EC/CAS numbers, attach the IARC, CLP, SVHC, EPA HAP and WFD lists, merge the
+IED permit table, and sketch the sector questions that became this atlas.
+
+It is **not executed when the site is built**, for three reasons:
+
+1. It uses absolute paths to the local EEA download (the CSVs are not in git).
+2. It needs GDAL for the LAU join, which the site build does not require.
+3. Its outputs are exploratory figures; the site's numbers must come from the
+   reproducible scripts in `analysis/`, not from notebook state.
+
+Everything the notebook established is implemented, with tests against the
+published totals, in:
+
+| Notebook section | Pipeline counterpart |
+|:--|:--|
+| Data check, upload, cleaning, merging | `analysis/build_dataset.py` |
+| EC/CAS matching and official lists | `analysis/hazard_rules.py` |
+| Facility details and IED merge | `analysis/build_permits.py` |
+| USEtox availability | not used in the atlas (mass ≠ toxicity) |
+| Sector focus (A/B) | kept as context, not as a filter |
+
+## Re-running it
+
+```bash
+pip install pandas matplotlib openpyxl emipy
+jupyter lab eprtr_analysis.ipynb
+```
+
+The notebook assumes the EEA files at the paths it prints in its first code
+cell. Re-running it is useful for exploring new questions; it is not needed to
+rebuild the site.
+
+::: {.callout-note}
+The notebook's USEtox section is deliberately not carried into the site. USEtox
+characterisation factors answer "how toxic is a kilogram if it reaches a
+receptor", which is a different question from "what did the facility report".
+Mixing the two would hide the assumptions behind a single score; the atlas
+keeps reported mass, hazard screening and population exposure separate.
+:::

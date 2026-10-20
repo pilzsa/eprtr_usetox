@@ -1,0 +1,763 @@
+{
+  "generated": "2026-10-20",
+  "year": 2024,
+  "carc_reconciliation": {
+    "source": "F1_4 + F2_4 release CSVs",
+    "facility_years": 43611,
+    "definition": "IARC 1/2A/2B or CLP Carc.; IARC group 3 excluded",
+    "max_abs_delta_kg": 0.0,
+    "max_rel_delta": 0.0,
+    "year_total_kg": {
+      "2007": 19325703.002,
+      "2008": 17010682.967,
+      "2009": 14904805.382,
+      "2010": 13596172.056,
+      "2011": 11727315.482,
+      "2012": 12109416.648,
+      "2013": 12816564.731,
+      "2014": 12164939.5,
+      "2015": 11257796.13,
+      "2016": 10781368.003,
+      "2017": 10779263.796,
+      "2018": 9417626.447,
+      "2019": 7952183.599,
+      "2020": 5795009.979,
+      "2021": 5517827.685,
+      "2022": 4521507.605,
+      "2023": 4566140.394,
+      "2024": 8243647.276000001
+    },
+    "year_flagged_kg": {
+      "2007": 74322064.68483,
+      "2008": 74129841.689584,
+      "2009": 61982628.956623,
+      "2010": 63439782.754908,
+      "2011": 61421617.021665,
+      "2012": 62854059.903056,
+      "2013": 62580294.317993,
+      "2014": 56019043.325542,
+      "2015": 57568235.910756,
+      "2016": 48154745.931771,
+      "2017": 47039726.661369,
+      "2018": 55869618.986544766,
+      "2019": 37936735.109162994,
+      "2020": 29098186.72037932,
+      "2021": 28082296.62270258,
+      "2022": 24287819.451214056,
+      "2023": 21218799.171401802,
+      "2024": 24037579.70480579
+    }
+  },
+  "q1": {
+    "total_kg": 1013175148658.6558,
+    "class_kg": 1976054208.058476,
+    "carc_kg": 8243647.276,
+    "co2_kg": 995008118702.257,
+    "co2_share": 98.20692108561387,
+    "top": [
+      {
+        "index": 20551,
+        "name": "PGE Górnictwo i Energetyka Konwencjonalna S.A. - Oddział Elektrownia Bełchatów",
+        "kg": 27270492498.0
+      },
+      {
+        "index": 10010,
+        "name": "Kraftwerk Boxberg",
+        "kg": 13855774700.0
+      },
+      {
+        "index": 10534,
+        "name": "RWE Power AG",
+        "kg": 13390197210.8
+      },
+      {
+        "index": 10066,
+        "name": "LEAG, Kraftwerk Jänschwalde",
+        "kg": 12280038570.0
+      },
+      {
+        "index": 19818,
+        "name": "ENEA Wytwarzanie Spółka z ograniczoną odpowiedzialnością",
+        "kg": 12223133842.8
+      },
+      {
+        "index": 10538,
+        "name": "RWE Power AG Kraftwerk Niederaußem",
+        "kg": 11833522626.0
+      },
+      {
+        "index": 10535,
+        "name": "RWE Power AG",
+        "kg": 10485032816.5
+      },
+      {
+        "index": 22864,
+        "name": "Ogranak Termoelektrane Nikola Tesla - TENT A",
+        "kg": 9609177621.0
+      },
+      {
+        "index": 235,
+        "name": "voestalpine Stahl GmbH",
+        "kg": 8644454815.900198
+      },
+      {
+        "index": 20553,
+        "name": "PGE Górnictwo i Energetyka Konwencjonalna S.A. - Oddział Elektrownia Turów",
+        "kg": 8200546102.8
+      },
+      {
+        "index": 22866,
+        "name": "Ogranak Termoelektrane Nikola Tesla - TENT B",
+        "kg": 8145957757.0
+      },
+      {
+        "index": 10760,
+        "name": "Salzgitter Flachstahl GmbH",
+        "kg": 7706253002.0
+      }
+    ]
+  },
+  "q2": {
+    "class_kg": 1976054208.058476,
+    "facilities_positive": 7341,
+    "top10_share": 48.27811989158787,
+    "hhi": 302.2566333545538,
+    "top": [
+      {
+        "index": 9791,
+        "name": "Hüttenwerke Krupp Mannesmann GmbH",
+        "kg": 190023564.6
+      },
+      {
+        "index": 285,
+        "name": "ARCELORMITTAL BELGIUM - GENT",
+        "kg": 99156634.80511
+      },
+      {
+        "index": 11552,
+        "name": "thyssenkrupp Steel Europe AG Werk Schwelgern",
+        "kg": 95573306.7001601
+      },
+      {
+        "index": 4368,
+        "name": "ARCELORMITTAL FRANCE",
+        "kg": 93342440.340999
+      },
+      {
+        "index": 8555,
+        "name": "AG der Dillinger Hüttenwerke",
+        "kg": 93323637.0
+      },
+      {
+        "index": 19684,
+        "name": "ArcelorMittal Poland S.A. Oddział Dąbrowa Górnicza",
+        "kg": 89009824.9413
+      },
+      {
+        "index": 233,
+        "name": "voestalpine Stahl Donawitz GmbH",
+        "kg": 81142218.80026999
+      },
+      {
+        "index": 235,
+        "name": "voestalpine Stahl GmbH",
+        "kg": 78021115.90019901
+      },
+      {
+        "index": 10760,
+        "name": "Salzgitter Flachstahl GmbH",
+        "kg": 72442502.0
+      },
+      {
+        "index": 8731,
+        "name": "ArcelorMittal Bremen GmbH",
+        "kg": 61966574.6012
+      },
+      {
+        "index": 23633,
+        "name": "ARCELORMITTAL ESPAÑA - PLANTA SIDERÚRGICA DE AVILÉS Y GIJÓN",
+        "kg": 61677001.80156
+      },
+      {
+        "index": 17705,
+        "name": "Tata Steel IJmuiden BV",
+        "kg": 56516524.000269
+      },
+      {
+        "index": 16098,
+        "name": "STABILIMENTO DI TARANTO",
+        "kg": 47421511.52619
+      },
+      {
+        "index": 8733,
+        "name": "ArcelorMittal Eisenhüttenstadt GmbH",
+        "kg": 42514550.600973
+      },
+      {
+        "index": 3609,
+        "name": "Enefit Power AS, Enefit õlitööstus",
+        "kg": 28174000.0
+      },
+      {
+        "index": 4379,
+        "name": "ARCELORMITTAL MEDITERRANEE",
+        "kg": 24285639.100999
+      },
+      {
+        "index": 10265,
+        "name": "Metsä Tissue GmbH",
+        "kg": 22455000.0
+      },
+      {
+        "index": 20551,
+        "name": "PGE Górnictwo i Energetyka Konwencjonalna S.A. - Oddział Elektrownia Bełchatów",
+        "kg": 22004393.0
+      },
+      {
+        "index": 8341,
+        "name": "TRIMET FRANCE",
+        "kg": 15883500.459997
+      },
+      {
+        "index": 1420,
+        "name": "Solvey sody Company for Production of \n    Inorganic  chemicals",
+        "kg": 13107277.0
+      }
+    ]
+  },
+  "q3": {
+    "carc_kg": 8243647.276,
+    "facilities_positive": 1764,
+    "top10_share": 67.98932169644665,
+    "substances": [
+      {
+        "name": "Di-(2-ethyl hexyl) phthalate (DEHP)",
+        "kg": 3730846.913479
+      },
+      {
+        "name": "Benzene",
+        "kg": 1392109.1083000002
+      },
+      {
+        "name": "Dichloromethane (DCM)",
+        "kg": 1259867.835215
+      },
+      {
+        "name": "1,2-dichloroethane (DCE-1,2)",
+        "kg": 651455.352397
+      },
+      {
+        "name": "Vinyl chloride",
+        "kg": 405044.320301
+      },
+      {
+        "name": "Nickel and compounds (as Ni)",
+        "kg": 246045.998505
+      },
+      {
+        "name": "Lead and compounds (as Pb)",
+        "kg": 141523.145348
+      },
+      {
+        "name": "Trichloromethane",
+        "kg": 131182.454799
+      },
+      {
+        "name": "Arsenic and compounds (as As)",
+        "kg": 74893.971242
+      },
+      {
+        "name": "Naphthalene",
+        "kg": 57312.997997
+      }
+    ],
+    "top": [
+      {
+        "index": 24748,
+        "name": "EDAR VIC",
+        "kg": 3720438.041
+      },
+      {
+        "index": 3609,
+        "name": "Enefit Power AS, Enefit õlitööstus",
+        "kg": 467000.0
+      },
+      {
+        "index": 11286,
+        "name": "VYNOVA Wilhelmshaven GmbH",
+        "kg": 318010.0
+      },
+      {
+        "index": 16105,
+        "name": "STABILIMENTO N. 4",
+        "kg": 260769.0
+      },
+      {
+        "index": 6321,
+        "name": "KEM ONE",
+        "kg": 177490.0
+      },
+      {
+        "index": 16107,
+        "name": "STABILIMENTO PER LA PRODUZIONE DI PRINCIPI FARMACOLOGICAMENTE ATTIVI",
+        "kg": 173495.325
+      },
+      {
+        "index": 24882,
+        "name": "ERCROS, S.A.",
+        "kg": 155000.0
+      },
+      {
+        "index": 9616,
+        "name": "H&R Ölwerke Schindler GmbH",
+        "kg": 137840.0
+      },
+      {
+        "index": 6322,
+        "name": "KEM ONE",
+        "kg": 107817.5
+      },
+      {
+        "index": 1139,
+        "name": "VYNOVA BELGIUM",
+        "kg": 86940.0
+      },
+      {
+        "index": 19666,
+        "name": "ANWIL S.A.",
+        "kg": 62518.1
+      },
+      {
+        "index": 6233,
+        "name": "HUTCHINSON SNC",
+        "kg": 61300.0
+      },
+      {
+        "index": 6323,
+        "name": "KEM ONE",
+        "kg": 59100.0
+      },
+      {
+        "index": 5730,
+        "name": "EUROAPI FRANCE",
+        "kg": 55949.023
+      },
+      {
+        "index": 3726,
+        "name": "Borealis Polymers Oy, Petrokemian laitokset",
+        "kg": 55200.0
+      },
+      {
+        "index": 9615,
+        "name": "H&R Chemisch Pharmazeutische Spezialitäten GmbH",
+        "kg": 54770.0
+      },
+      {
+        "index": 16106,
+        "name": "STABILIMENTO N. 5",
+        "kg": 45184.0
+      },
+      {
+        "index": 16057,
+        "name": "SOVERE",
+        "kg": 44305.0
+      },
+      {
+        "index": 6269,
+        "name": "INOVYN FRANCE",
+        "kg": 42321.7
+      },
+      {
+        "index": 15055,
+        "name": "Industriale Chimica SRL",
+        "kg": 36936.5
+      }
+    ]
+  },
+  "q4": {
+    "base_year": 2007,
+    "year": 2024,
+    "class_change_pct": -56.45317643672569,
+    "carc_change_pct": -57.3436098280778,
+    "total_change_pct": -54.94818333050202,
+    "facilities_change_pct": -28.952597218279873,
+    "class_per_facility_change_pct": -38.70736739376133,
+    "yearly": {
+      "2007": {
+        "facilities": 14092,
+        "class_kg": 4537768880.40349,
+        "carc_kg": 19325703.002,
+        "total_kg": 2248910751127.6436
+      },
+      "2008": {
+        "facilities": 14390,
+        "class_kg": 4176221824.510584,
+        "carc_kg": 17010682.967,
+        "total_kg": 2177709326680.0708
+      },
+      "2009": {
+        "facilities": 14253,
+        "class_kg": 3096320420.362007,
+        "carc_kg": 14904805.382,
+        "total_kg": 2003743643868.6519
+      },
+      "2010": {
+        "facilities": 14226,
+        "class_kg": 3528991735.684908,
+        "carc_kg": 13596172.056,
+        "total_kg": 2099740888612.575
+      },
+      "2011": {
+        "facilities": 14339,
+        "class_kg": 3695020241.583665,
+        "carc_kg": 11727315.482,
+        "total_kg": 1995467891744.9937
+      },
+      "2012": {
+        "facilities": 14265,
+        "class_kg": 3491139101.171056,
+        "carc_kg": 12109416.648,
+        "total_kg": 1991297366317.211
+      },
+      "2013": {
+        "facilities": 14470,
+        "class_kg": 3563593842.2379932,
+        "carc_kg": 12816564.731,
+        "total_kg": 1919534826778.178
+      },
+      "2014": {
+        "facilities": 14676,
+        "class_kg": 3600295319.895542,
+        "carc_kg": 12164939.5,
+        "total_kg": 1866604387559.5654
+      },
+      "2015": {
+        "facilities": 14877,
+        "class_kg": 3456076330.110756,
+        "carc_kg": 11257796.13,
+        "total_kg": 1829101318136.6208
+      },
+      "2016": {
+        "facilities": 14886,
+        "class_kg": 3300599539.036526,
+        "carc_kg": 10781368.003,
+        "total_kg": 1778898227660.6165
+      },
+      "2017": {
+        "facilities": 15089,
+        "class_kg": 3217400659.318369,
+        "carc_kg": 10779263.796,
+        "total_kg": 1789051559385.4685
+      },
+      "2018": {
+        "facilities": 14696,
+        "class_kg": 3390017141.1558948,
+        "carc_kg": 9417626.447,
+        "total_kg": 1701899363310.5486
+      },
+      "2019": {
+        "facilities": 14130,
+        "class_kg": 3243784323.02326,
+        "carc_kg": 7952183.599,
+        "total_kg": 1572730509044.5122
+      },
+      "2020": {
+        "facilities": 12845,
+        "class_kg": 2647943923.7674155,
+        "carc_kg": 5795009.979,
+        "total_kg": 1267552492377.2026
+      },
+      "2021": {
+        "facilities": 12508,
+        "class_kg": 3137903773.9792967,
+        "carc_kg": 5517827.685,
+        "total_kg": 1356517703723.4695
+      },
+      "2022": {
+        "facilities": 11650,
+        "class_kg": 2580076478.688954,
+        "carc_kg": 4521507.605,
+        "total_kg": 1351307347036.7068
+      },
+      "2023": {
+        "facilities": 10111,
+        "class_kg": 1954841006.0136309,
+        "carc_kg": 4566140.394,
+        "total_kg": 1097024206052.9532
+      },
+      "2024": {
+        "facilities": 10012,
+        "class_kg": 1976054208.0584757,
+        "carc_kg": 8243647.276000001,
+        "total_kg": 1013175148658.6559
+      }
+    }
+  },
+  "q5": {
+    "countries": 23,
+    "class_kg": 1976054208.0584757,
+    "top3": [
+      {
+        "country": "Germany",
+        "kg": 716834406.1883545,
+        "share": 36.27604967844798
+      },
+      {
+        "country": "France",
+        "kg": 193364965.427911,
+        "share": 9.78540794272527
+      },
+      {
+        "country": "Poland",
+        "kg": 189923562.851917,
+        "share": 9.611252670974133
+      }
+    ],
+    "no_permit": [
+      "Serbia"
+    ]
+  },
+  "q6": {
+    "covered": 8994,
+    "covered_pct": 89.83220135836996,
+    "people_3km_all": 126039498.0,
+    "people_3km_level3": 48915564.0,
+    "share_level3": 38.80971027034716,
+    "facilities_level3": 2169,
+    "covered_level3": 1735,
+    "dense_level3": 597,
+    "median_pop_3km": 3388.5,
+    "p90_pop_3km": 39300.69999999999,
+    "no_population_data": 289
+  },
+  "q7": {
+    "spearman_class_pop": -0.32532873952705516,
+    "spearman_level_pop": 0.05084706247319397,
+    "covered_analysed": 8994,
+    "top": [
+      {
+        "index": 6302,
+        "name": "IVRY PARIS XIII",
+        "pop3": 486065.0,
+        "haz_kg": 620.8
+      },
+      {
+        "index": 8350,
+        "name": "TSI",
+        "pop3": 475111.0,
+        "haz_kg": 13200.0
+      },
+      {
+        "index": 14975,
+        "name": "Impianto di depurazione Acqua dei Corsari",
+        "pop3": 301201.0,
+        "haz_kg": 2186.4671
+      },
+      {
+        "index": 28409,
+        "name": "SAICA 1",
+        "pop3": 284319.0,
+        "haz_kg": 118.0
+      },
+      {
+        "index": 8178,
+        "name": "SYNDICAT INTERDEPARTEMENTAL POUR L ASSAINISSEMENT DE L AGGLOMERATION PARISIENNE",
+        "pop3": 270866.0,
+        "haz_kg": 20820.0
+      },
+      {
+        "index": 27828,
+        "name": "MANUFACTURAS DEL ALUMINIO PAMPLONA SECTOR AUTOMOCION",
+        "pop3": 247211.0,
+        "haz_kg": 0.00494
+      },
+      {
+        "index": 992,
+        "name": "RWZI Deurne",
+        "pop3": 238272.0,
+        "haz_kg": 144.9
+      },
+      {
+        "index": 24686,
+        "name": "EDAR GALINDO",
+        "pop3": 236153.0,
+        "haz_kg": 35713.34
+      },
+      {
+        "index": 23636,
+        "name": "ARCELORMITTAL SESTAO, S.L.",
+        "pop3": 223022.0,
+        "haz_kg": 1122981.300113
+      },
+      {
+        "index": 14837,
+        "name": "IMPIANTO DI DEPURAZIONE DI BRESSO - NIGUARDA",
+        "pop3": 219250.0,
+        "haz_kg": 9973.0
+      },
+      {
+        "index": 11090,
+        "name": "Stadtwerke Düsseldorf AG",
+        "pop3": 199626.0,
+        "haz_kg": 12100.0
+      },
+      {
+        "index": 4746,
+        "name": "COMMUNAUTE URBAINE DE LYON",
+        "pop3": 195918.0,
+        "haz_kg": 1233.599998
+      },
+      {
+        "index": 17565,
+        "name": "RWZI Dokhaven en Slibverwerkingsinstallatie Sluisjesdijk",
+        "pop3": 193469.0,
+        "haz_kg": 6981.0
+      },
+      {
+        "index": 6874,
+        "name": "PMC ISOCHEM",
+        "pop3": 189091.0,
+        "haz_kg": 2470.0
+      },
+      {
+        "index": 19846,
+        "name": "Elektrociepłownia Wrocław",
+        "pop3": 188284.0,
+        "haz_kg": 31300.0
+      },
+      {
+        "index": 14890,
+        "name": "IMPIANTO DI SESTO SAN GIOVANNI",
+        "pop3": 186671.0,
+        "haz_kg": 2100.0
+      },
+      {
+        "index": 1057,
+        "name": "STEP SUD (SBGE)",
+        "pop3": 186054.0,
+        "haz_kg": 573.0
+      },
+      {
+        "index": 4383,
+        "name": "ARIANEGROUP SAS",
+        "pop3": 173082.0,
+        "haz_kg": 2080.0
+      },
+      {
+        "index": 17602,
+        "name": "RWZI Utrecht (Hoogheemraadschap de Stichtse Rijnlanden)",
+        "pop3": 170848.0,
+        "haz_kg": 5039.5
+      },
+      {
+        "index": 8180,
+        "name": "SYNDICAT INTERDEPARTEMENTAL POUR L ASSAINISSEMENT DE L AGGLOMERATION PARISIENNE",
+        "pop3": 168399.0,
+        "haz_kg": 7361.55
+      }
+    ],
+    "overlap": {
+      "Total mass": {
+        "Total mass": 20,
+        "Classified mass": 5,
+        "Carcinogenic mass": 0,
+        "People ≤ 3 km": 0
+      },
+      "Classified mass": {
+        "Total mass": 5,
+        "Classified mass": 20,
+        "Carcinogenic mass": 1,
+        "People ≤ 3 km": 0
+      },
+      "Carcinogenic mass": {
+        "Total mass": 0,
+        "Classified mass": 1,
+        "Carcinogenic mass": 20,
+        "People ≤ 3 km": 0
+      },
+      "People ≤ 3 km": {
+        "Total mass": 0,
+        "Classified mass": 0,
+        "Carcinogenic mass": 0,
+        "People ≤ 3 km": 20
+      }
+    }
+  },
+  "q8": {
+    "facilities": 32155,
+    "matched": 20788,
+    "coverage_pct": 64.6493546882289,
+    "no_permit_countries": [
+      "Norway",
+      "Serbia",
+      "Switzerland"
+    ],
+    "countries_under_50": [
+      "Norway",
+      "Serbia",
+      "Switzerland",
+      "Denmark",
+      "Malta",
+      "Czechia"
+    ],
+    "grant_missing_pct": 19.208197036751972,
+    "update_missing_pct": 43.68385607081009,
+    "median_grant_age": 14.0,
+    "grant_buckets": {
+      "No valid date": 3993,
+      "0–5 years": 1525,
+      "6–10 years": 3346,
+      "11–20 years": 11058,
+      "> 20 years": 860,
+      "After reporting year": 6
+    },
+    "update_buckets": {
+      "No valid date": 9081,
+      "0–5 years": 8167,
+      "6–10 years": 2488,
+      "11–20 years": 997,
+      "> 20 years": 44,
+      "After reporting year": 11
+    },
+    "top50": {
+      "with_record": 100.0,
+      "with_url": 98.0,
+      "with_grant": 57.99999999999999,
+      "median_grant_year": 2007.0
+    },
+    "missing_level3": 668,
+    "missing_level3_pct": 6.671993607670795
+  },
+  "checks": {
+    "notes": 14,
+    "graph_coverage_pct": 85.75338205566786
+  },
+  "headline": {
+    "cards": [
+      {
+        "value": "32,155",
+        "label": "facilities"
+      },
+      {
+        "value": "23",
+        "label": "countries"
+      },
+      {
+        "value": "1.98 Mt",
+        "label": "classified mass 2024"
+      },
+      {
+        "value": "48,915,564",
+        "label": "people ≤ 3 km of level ≥ 3 sites"
+      },
+      {
+        "value": "90 %",
+        "label": "facilities with population data"
+      },
+      {
+        "value": "65 %",
+        "label": "facilities with a permit record"
+      }
+    ]
+  }
+}

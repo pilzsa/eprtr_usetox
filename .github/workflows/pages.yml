@@ -1,4 +1,4 @@
-name: Deploy dashboard to GitHub Pages
+name: Build the EPRTR Atlas and deploy to GitHub Pages
 
 on:
   push:
@@ -15,32 +15,65 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Pages
+      - name: Set up Pages
         uses: actions/configure-pages@v5
 
-      - name: Stage the static dashboard
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: "1.9.37"
+
+      - name: Check design tokens
+        run: python3 analysis/check_tokens.py
+
+      - name: Render the site
         run: |
           set -euo pipefail
-          rm -rf _site
-          mkdir -p _site
-          cp -R dashboard/. _site/
-          cp analysis/outputs/quality_report.json _site/data/quality_report.json
-          touch _site/.nojekyll
+          chmod +x scripts/stage_web.sh
+          quarto render analysis --to html
+
+      - name: Tidy the artifact
+        run: |
+          set -euo pipefail
+          site=analysis/_site
+          rm -rf "$site/.quarto" "$site/outputs"
+          touch "$site/.nojekyll"
+          # Legacy URLs from the dashboard-only site (before the Quarto shell).
+          mkdir -p "$site/frontend"
+          cat > "$site/frontend/index.html" <<'EOF'
+          <!doctype html><meta charset="utf-8">
+          <link rel="canonical" href="../map/frontend/">
+          <meta http-equiv="refresh" content="0; url=../map/frontend/">
+          <title>EPRTR Atlas explorer</title>
+          <p>The explorer moved to <a href="../map/frontend/">/map/frontend/</a>.</p>
+          EOF
+          cat > "$site/data/index.html" <<'EOF'
+          <!doctype html><meta charset="utf-8">
+          <title>EPRTR Atlas data</title>
+          <p>The dashboard data files moved to
+          <a href="../map/data/facilities.json">/map/data/</a>. Start at the
+          <a href="../index.html">atlas home</a>.</p>
+          EOF
+          du -sh "$site"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: _site
+          path: analysis/_site
 
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5

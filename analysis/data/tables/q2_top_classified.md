@@ -1,0 +1,22 @@
+| # | Facility | Country | Sector | Classified mass | Share | Largest classified substance | Level |
+| ---: | :-- | :-- | :-- | ---: | ---: | :-- | ---: |
+| 1 | [Hüttenwerke Krupp Mannesmann GmbH](map.html?year=2024&metric=haz&focus=9791&name=H%C3%BCttenwerke+Krupp+Mannesmann+GmbH) | Germany | Production and processing… | 190,024 t | 9.6 % | Carbon monoxide (CO) (189,904 t) | 5 |
+| 2 | [ARCELORMITTAL BELGIUM - GENT](map.html?year=2024&metric=haz&focus=285&name=ARCELORMITTAL+BELGIUM+-+GENT) | Belgium | Production and processing… | 99,157 t | 5.0 % | Carbon monoxide (CO) (98,600 t) | 5 |
+| 3 | [thyssenkrupp Steel Europe AG Werk Schwelgern](map.html?year=2024&metric=haz&focus=11552&name=thyssenkrupp+Steel+Europe+AG+Werk+Schwelgern) | Germany | Production and processing… | 95,573 t | 4.8 % | Carbon monoxide (CO) (95,559 t) | 5 |
+| 4 | [ARCELORMITTAL FRANCE](map.html?year=2024&metric=haz&focus=4368&name=ARCELORMITTAL+FRANCE) | France | Production and processing… | 93,342 t | 4.7 % | Carbon monoxide (CO) (92,900 t) | 5 |
+| 5 | [AG der Dillinger Hüttenwerke](map.html?year=2024&metric=haz&focus=8555&name=AG+der+Dillinger+H%C3%BCttenwerke) | Germany | Production and processing… | 93,324 t | 4.7 % | Carbon monoxide (CO) (93,319 t) | 3 |
+| 6 | [ArcelorMittal Poland S.A. Oddział Dąbrowa Gór…](map.html?year=2024&metric=haz&focus=19684&name=ArcelorMittal+Poland+S.A.+Oddzia%C5%82+D%C4%85browa+G%C3%B3r%E2%80%A6) | Poland | Production and processing… | 89,010 t | 4.5 % | Carbon monoxide (CO) (88,900 t) | 5 |
+| 7 | [voestalpine Stahl Donawitz GmbH](map.html?year=2024&metric=haz&focus=233&name=voestalpine+Stahl+Donawitz+GmbH) | Austria | Production and processing… | 81,142 t | 4.1 % | Carbon monoxide (CO) (81,100 t) | 5 |
+| 8 | [voestalpine Stahl GmbH](map.html?year=2024&metric=haz&focus=235&name=voestalpine+Stahl+GmbH) | Austria | Production and processing… | 78,021 t | 3.9 % | Carbon monoxide (CO) (78,000 t) | 5 |
+| 9 | [Salzgitter Flachstahl GmbH](map.html?year=2024&metric=haz&focus=10760&name=Salzgitter+Flachstahl+GmbH) | Germany | Production and processing… | 72,443 t | 3.7 % | Carbon monoxide (CO) (72,384 t) | 4 |
+| 10 | [ArcelorMittal Bremen GmbH](map.html?year=2024&metric=haz&focus=8731&name=ArcelorMittal+Bremen+GmbH) | Germany | Production and processing… | 61,967 t | 3.1 % | Carbon monoxide (CO) (61,929 t) | 5 |
+| 11 | [ARCELORMITTAL ESPAÑA - PLANTA SIDERÚRGICA DE …](map.html?year=2024&metric=haz&focus=23633&name=ARCELORMITTAL+ESPA%C3%91A+-+PLANTA+SIDER%C3%9ARGICA+DE+%E2%80%A6) | Spain | Production and processing… | 61,677 t | 3.1 % | Carbon monoxide (CO) (61,500 t) | 5 |
+| 12 | [Tata Steel IJmuiden BV](map.html?year=2024&metric=haz&focus=17705&name=Tata+Steel+IJmuiden+BV) | Netherlands | Production and processing… | 56,517 t | 2.9 % | Carbon monoxide (CO) (56,200 t) | 5 |
+| 13 | [STABILIMENTO DI TARANTO](map.html?year=2024&metric=haz&focus=16098&name=STABILIMENTO+DI+TARANTO) | Italy | Production and processing… | 47,422 t | 2.4 % | Carbon monoxide (CO) (47,352 t) | 5 |
+| 14 | [ArcelorMittal Eisenhüttenstadt GmbH](map.html?year=2024&metric=haz&focus=8733&name=ArcelorMittal+Eisenh%C3%BCttenstadt+GmbH) | Germany | Production and processing… | 42,515 t | 2.2 % | Carbon monoxide (CO) (42,494 t) | 5 |
+| 15 | [Enefit Power AS, Enefit õlitööstus](map.html?year=2024&metric=haz&focus=3609&name=Enefit+Power+AS%2C+Enefit+%C3%B5lit%C3%B6%C3%B6stus) | Estonia | Energy sector | 28,174 t | 1.4 % | Carbon monoxide (CO) (27,500 t) | 5 |
+| 16 | [ARCELORMITTAL MEDITERRANEE](map.html?year=2024&metric=haz&focus=4379&name=ARCELORMITTAL+MEDITERRANEE) | France | Production and processing… | 24,286 t | 1.2 % | Carbon monoxide (CO) (24,000 t) | 5 |
+| 17 | [Metsä Tissue GmbH](map.html?year=2024&metric=haz&focus=10265&name=Mets%C3%A4+Tissue+GmbH) | Germany | Paper and wood production… | 22,455 t | 1.1 % | Carbon monoxide (CO) (22,455 t) | 2 |
+| 18 | [PGE Górnictwo i Energetyka Konwencjonalna S.A…](map.html?year=2024&metric=haz&focus=20551&name=PGE+G%C3%B3rnictwo+i+Energetyka+Konwencjonalna+S.A%E2%80%A6) | Poland | Energy sector | 22,004 t | 1.1 % | Carbon monoxide (CO) (21,800 t) | 5 |
+| 19 | [TRIMET FRANCE](map.html?year=2024&metric=haz&focus=8341&name=TRIMET+FRANCE) | France | Production and processing… | 15,884 t | 0.8 % | Carbon monoxide (CO) (15,800 t) | 5 |
+| 20 | [Solvey sody Company for Production of Inorgan…](map.html?year=2024&metric=haz&focus=1420&name=Solvey+sody+Company+for+Production+of+Inorgan%E2%80%A6) | Bulgaria | Chemical industry | 13,107 t | 0.7 % | Carbon monoxide (CO) (11,429 t) | 2 |

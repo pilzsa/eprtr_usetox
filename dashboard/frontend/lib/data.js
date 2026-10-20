@@ -301,6 +301,65 @@
     return index;
   }
 
+  /* ---- Optional enrichment (permits + population) ------------------------ */
+
+  /** Fetch permits.json and population.json; missing files are not fatal. */
+  function loadEnrichment(basePath) {
+    var base = basePath || "../data";
+    function optional(name) {
+      return fetchJson(base + "/" + name).catch(function () { return null; });
+    }
+    return Promise.all([optional("permits.json"), optional("population.json")])
+      .then(function (results) {
+        return attachEnrichment(results[0], results[1]);
+      });
+  }
+
+  function attachEnrichment(permitsJson, populationJson) {
+    return {
+      permits: (permitsJson && permitsJson.facilities) || {},
+      permitYears: (permitsJson && permitsJson.permit_years) || null,
+      population: (populationJson && populationJson.facilities) || null,
+      radii: (populationJson && populationJson.radii_m) || [500, 1000, 3000, 5000],
+      status: (populationJson && populationJson.status) || {}
+    };
+  }
+
+  /** permit: [url, granted, updated, nInstallations, nYears, firstYear, lastYear] */
+  function permitInfo(enrichment, idx) {
+    if (!enrichment || !enrichment.permits) return null;
+    var row = enrichment.permits[String(idx)];
+    if (!row) return null;
+    return {
+      url: row[0] || "",
+      granted: row[1] || "",
+      updated: row[2] || "",
+      installations: n(row[3]),
+      years: n(row[4]),
+      firstYear: n(row[5]),
+      lastYear: n(row[6])
+    };
+  }
+
+  /** population row: [p500, p1, p3, p5, status] (null = no usable estimate). */
+  function populationInfo(enrichment, idx) {
+    if (!enrichment || !enrichment.population) return null;
+    var row = enrichment.population[idx];
+    if (!row) return null;
+    var statusCode = n(row[4]);
+    var p3 = isMissing(row[2]) ? null : n(row[2]);
+    return {
+      p500: isMissing(row[0]) ? null : n(row[0]),
+      p1: isMissing(row[1]) ? null : n(row[1]),
+      p3: p3,
+      p5: isMissing(row[3]) ? null : n(row[3]),
+      density3: p3 === null ? null : p3 / (Math.PI * 9),
+      statusCode: statusCode,
+      status: enrichment.status[String(statusCode)] || "unknown",
+      covered: statusCode === 2
+    };
+  }
+
   /* ---- Metrics ----------------------------------------------------------- */
 
   function metricValue(record, metric, media) {
@@ -596,6 +655,10 @@
     coreFromJson: coreFromJson,
     loadCore: loadCore,
     loadYear: loadYear,
+    loadEnrichment: loadEnrichment,
+    attachEnrichment: attachEnrichment,
+    permitInfo: permitInfo,
+    populationInfo: populationInfo,
     indexReleases: indexReleases,
 
     metricValue: metricValue,

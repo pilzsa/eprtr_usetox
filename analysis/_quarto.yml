@@ -1,0 +1,64 @@
+project:
+  type: website
+  output-dir: _site
+  # Only the pages at the top level are rendered; `reports/` and `data/tables/`
+  # hold Markdown fragments that are included by those pages.
+  render:
+    - "*.qmd"
+  # `map/` is staged from dashboard/frontend + dashboard/data by this script.
+  pre-render: ../scripts/stage_web.sh
+  resources:
+    - map
+    - data
+
+website:
+  title: "EPRTR Atlas"
+  description: "European industrial pollutant releases, hazard, population and permits, 2007–2024."
+  site-url: "https://pilzsa.github.io/eprtr_usetox/"
+  repo-url: "https://github.com/pilzsa/eprtr_usetox"
+  repo-actions: [source]
+  search: true
+  page-footer:
+    left: |
+      EPRTR Atlas · EEA IED/E-PRTR v16 · JRC-ESTAT 2021 · EEA permit table
+    right: |
+      [Methodology](methodology.html) · [Source](https://github.com/pilzsa/eprtr_usetox)
+  navbar:
+    background: light
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Map
+        href: map.qmd
+      - text: Findings
+        href: findings.qmd
+      - text: Data checks
+        href: data-checks.qmd
+      - text: Methods
+        menu:
+          - href: methodology.qmd
+            text: Methodology
+          - href: styles.qmd
+            text: Design and styles
+          - href: notebooks.qmd
+            text: Notebook
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css:
+      - map/frontend/tokens.css
+      - map/frontend/map.css
+      - styles.css
+    toc: true
+    toc-depth: 3
+    toc-title: "On this page"
+    fig-align: left
+    link-external-newwindow: true
+    grid:
+      body-width: 1120px
+      sidebar-width: 220px
+      margin-width: 200px
+    code-copy: true

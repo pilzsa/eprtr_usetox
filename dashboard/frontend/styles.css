@@ -1,7 +1,12 @@
-/* EPRTR Atlas — dashboard styles.
- * Plain CSS, no build step. Colours are custom properties so dark mode and the
- * d3 map share one source of truth.
+/* Compatibility shim: the explorer styles were split into tokens.css,
+ * tokens-dark.css, app.css and map.css so the Quarto map page can reuse the
+ * shared parts without loading the React shell.  index.html links the files
+ * directly; this file stays for anything that still references styles.css.
  */
+@import url("tokens.css");
+@import url("tokens-dark.css");
+@import url("app.css");
+@import url("map.css");
 :root {
   --haz-0: #aab4c0;
   --haz-1: #d4dce5;

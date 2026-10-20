@@ -1,0 +1,71 @@
+---
+title: "Design and styles"
+subtitle: "One palette for two shells"
+toc: true
+---
+
+The atlas has two shells — the React explorer at `/map/frontend/` and this
+Quarto site — and one design system. Colours live in CSS custom properties,
+not in two copied stylesheets, so the dot on the Quarto map page is drawn with
+exactly the same colour as the dot in the explorer.
+
+## Where the styles live
+
+| File | Contents | Loaded by |
+|:--|:--|:--|
+| `tokens.css` | Light palette, spacing, radii, fonts | Explorer + site |
+| `tokens-dark.css` | Dark palette (`prefers-color-scheme`) | Explorer only |
+| `map.css` | Map, tooltip and shared panel/detail/badge components | Explorer + site |
+| `app.css` | Explorer shell: header, sidebar, controls, modal | Explorer only |
+| `analysis/styles.css` | Quarto typography, KPI cards, tables, map-page layout | Site only |
+
+The site is light-only on purpose: the map and the report pages should look the
+same when printed or pasted into a document, and the dark palette belongs to
+the interactive explorer. Both shells read the same `--haz-*` ramp, so a
+screenshot of either is directly comparable.
+
+## Hazard ramp
+
+Colour encodes the highest hazard level a facility reported, never the mass.
+
+<div class="swatches">
+  <div class="swatch"><span class="swatch__chip" style="background:#aab4c0"></span><span class="swatch__name">0 · unassessed</span><code>--haz-0</code><span class="swatch__hex">#aab4c0</span></div>
+  <div class="swatch"><span class="swatch__chip" style="background:#d4dce5"></span><span class="swatch__name">1 · unclassified</span><code>--haz-1</code><span class="swatch__hex">#d4dce5</span></div>
+  <div class="swatch"><span class="swatch__chip" style="background:#e8b84a"></span><span class="swatch__name">2 · hazard-listed</span><code>--haz-2</code><span class="swatch__hex">#e8b84a</span></div>
+  <div class="swatch"><span class="swatch__chip" style="background:#e0783b"></span><span class="swatch__name">3 · high hazard</span><code>--haz-3</code><span class="swatch__hex">#e0783b</span></div>
+  <div class="swatch"><span class="swatch__chip" style="background:#bd3f5c"></span><span class="swatch__name">4 · very high</span><code>--haz-4</code><span class="swatch__hex">#bd3f5c</span></div>
+  <div class="swatch"><span class="swatch__chip" style="background:#6f1d56"></span><span class="swatch__name">5 · known carcinogen</span><code>--haz-5</code><span class="swatch__hex">#6f1d56</span></div>
+</div>
+
+The ramp is sequential in lightness and hue (grey → yellow → orange → crimson
+→ purple), so it stays readable for the most common forms of colour-vision
+deficiency and survives greyscale printing as a lightness gradient. The levels
+are ordered by the strength of the hazard evidence, not by mass.
+
+## Interface colours
+
+<div class="swatches">
+  <div class="swatch"><span class="swatch__chip" style="background:#0d5b83"></span><span class="swatch__name">brand / links</span><code>--brand</code><span class="swatch__hex">#0d5b83</span></div>
+  <div class="swatch"><span class="swatch__chip" style="background:#117a68"></span><span class="swatch__name">secondary</span><code>--brand-2</code><span class="swatch__hex">#117a68</span></div>
+  <div class="swatch"><span class="swatch__chip" style="background:#17212c"></span><span class="swatch__name">text</span><code>--ink</code><span class="swatch__hex">#17212c</span></div>
+  <div class="swatch"><span class="swatch__chip" style="background:#536273"></span><span class="swatch__name">secondary text</span><code>--ink-2</code><span class="swatch__hex">#536273</span></div>
+  <div class="swatch"><span class="swatch__chip" style="background:#d7dfe8"></span><span class="swatch__name">rules</span><code>--line</code><span class="swatch__hex">#d7dfe8</span></div>
+  <div class="swatch"><span class="swatch__chip" style="background:#ffffff;border-color:#d7dfe8"></span><span class="swatch__name">surface</span><code>--surface</code><span class="swatch__hex">#ffffff</span></div>
+  <div class="swatch"><span class="swatch__chip" style="background:#e9eff5"></span><span class="swatch__name">sea</span><code>--map-sea</code><span class="swatch__hex">#e9eff5</span></div>
+  <div class="swatch"><span class="swatch__chip" style="background:#f4f6f9"></span><span class="swatch__name">land</span><code>--map-land</code><span class="swatch__hex">#f4f6f9</span></div>
+</div>
+
+## Type and spacing
+
+- **Font:** `Segoe UI` → system UI → Helvetica/Arial, 15 px base, 1.55 line
+  height on the site; the explorer uses 1.45 for denser panels.
+- **Numbers:** tabular figures (`font-variant-numeric: tabular-nums`) in tables,
+  KPI cards and map tooltips, so digits line up between rows.
+- **Scale:** 4 / 8 / 12 / 16 / 24 / 32 px (`--space-1` … `--space-6`), radii
+  5 / 10 / 16 px (`--radius-1` … `--radius-3`), 15 px body, 1.55 rem KPI values.
+- **Focus:** every interactive element keeps a visible `:focus-visible` outline
+  in `--brand`; the map supports keyboard focus on circles.
+
+The tokens are checked against this page by `analysis/check_tokens.py`, which
+fails if a hex value shown above is missing from `tokens.css` or
+`tokens-dark.css`.

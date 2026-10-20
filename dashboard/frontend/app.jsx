@@ -16,6 +16,10 @@ const LEVEL_OPTIONS = [
   { value: 4, label: "≥ 4" },
   { value: 5, label: "5" }
 ];
+const RANK_OPTIONS = [
+  { value: "metric", label: "Largest mass" },
+  { value: "population", label: "Most people ≤ 3 km" }
+];
 
 function Icon(props) {
   const size = props.size || 18;
@@ -253,6 +257,7 @@ function FacilityRow(props) {
   const record = props.record;
   const value = record ? D.metricValue(record, props.metric, props.media) : 0;
   const level = record ? D.mediumLevel(record, props.media) : 0;
+  const byPopulation = props.population != null;
   return (
     <button type="button" className="facility-row" onClick={props.onClick}>
       {props.rank !== undefined && <span className="facility-row__rank">{props.rank}</span>}
@@ -261,7 +266,8 @@ function FacilityRow(props) {
         <span className="facility-row__meta">{props.facility.city} · {props.facility.cc}</span>
       </span>
       <span className="facility-row__value">
-        {record ? D.formatMetric(value, props.metric) : "no report"}
+        {byPopulation ? D.fmtPop(props.population) + " people" :
+          (record ? D.formatMetric(value, props.metric) : "no report")}
         <span className="level-pip" style={{ "--pip": D.levelColor(level) }} title={D.levelInfo(level).name}></span>
       </span>
     </button>
@@ -282,6 +288,7 @@ function FacilityList(props) {
           record={row.record}
           metric={props.metric}
           media={props.media}
+          population={row.population ? row.population.p3 : null}
           onClick={() => props.onSelect(row.facility)}
         />
       ))}
@@ -346,6 +353,8 @@ function CountryList(props) {
 function FacilityDetail(props) {
   const facility = props.facility;
   const record = props.record;
+  const pop = props.enrichment ? D.populationInfo(props.enrichment, facility.idx) : null;
+  const permit = props.enrichment ? D.permitInfo(props.enrichment, facility.idx) : null;
   const top = record ? D.topPollutants(record, props.core.pollutants, props.media, 7) : [];
   const level = record ? D.mediumLevel(record, props.media) : 0;
   return (
@@ -403,6 +412,59 @@ function FacilityDetail(props) {
           <div className="detail__section-title">Reported mass over time</div>
           <Sparkline values={facility.history} years={props.core.years} highlightYear={props.year} />
           <p className="panel__note">All reported media, including CO₂ and other unclassified masses.</p>
+        </div>
+
+        {pop && (
+          <div className="detail__section">
+            <div className="detail__section-title">People living nearby <span className="detail__muted">(JRC 2021)</span></div>
+            {pop.covered ? (
+              <dl className="detail__grid">
+                <div className="detail__cell"><dt>Within 500 m</dt><dd>{D.fmtPop(pop.p500)}</dd></div>
+                <div className="detail__cell"><dt>Within 1 km</dt><dd>{D.fmtPop(pop.p1)}</dd></div>
+                <div className="detail__cell"><dt>Within 3 km</dt><dd>{D.fmtPop(pop.p3)}</dd></div>
+                <div className="detail__cell"><dt>Within 5 km</dt><dd>{D.fmtPop(pop.p5)}</dd></div>
+                <div className="detail__cell"><dt>Density ≤ 3 km</dt><dd>{D.fmtInt(Math.round(pop.density3))} /km²</dd></div>
+                {facility.lau && facility.lau.area > 0 && (
+                  <div className="detail__cell">
+                    <dt>LAU density</dt>
+                    <dd>{D.fmtInt(Math.round(facility.lau.pop / facility.lau.area))} /km²</dd>
+                  </div>
+                )}
+              </dl>
+            ) : (
+              <p className="detail__empty">
+                Population {pop.status === "partial" ? "only partly covered" : "not covered"} by the 2021 JRC grid here.
+                The atlas does not turn missing cells into zero people.
+              </p>
+            )}
+            <p className="panel__note">Model counts in 100 m cells; a resident close to several facilities is counted once per facility.</p>
+          </div>
+        )}
+
+        <div className="detail__section">
+          <div className="detail__section-title">IED permit</div>
+          {permit ? (
+            <>
+              <dl className="detail__grid">
+                <div className="detail__cell"><dt>Granted</dt><dd>{permit.granted || "not reported"}</dd></div>
+                <div className="detail__cell"><dt>Last update</dt><dd>{permit.updated || "not reported"}</dd></div>
+                <div className="detail__cell"><dt>Installations</dt><dd>{D.fmtInt(permit.installations)}</dd></div>
+                <div className="detail__cell"><dt>Reported</dt><dd>{permit.firstYear}–{permit.lastYear}</dd></div>
+              </dl>
+              {permit.url && (
+                <p className="panel__note">
+                  <a href={permit.url} target="_blank" rel="noopener noreferrer">Open the permit document ↗</a>
+                </p>
+              )}
+              {!permit.granted && (
+                <p className="panel__note">The granting date is missing or a 1900 placeholder for this facility.</p>
+              )}
+            </>
+          ) : (
+            <p className="detail__empty">
+              No permit record in the EEA IED table (2017–2024). Absence is not evidence of operating without a permit.
+            </p>
+          )}
         </div>
 
         <div className="place__actions">
@@ -515,8 +577,11 @@ function AboutModal(props) {
             <li>Each coordinate is joined by point-in-polygon to the 2024 LAU layer (EPSG:3035, 2 m spatial filter). There is no nearest-neighbour fallback: unmatched facilities have no LAU.</li>
             <li>LAU boundaries are pre-simplified for the browser and retain municipalities with ≥ 1,000 inhabitants or at least one facility.</li>
             <li>Mass is reported in kilograms. The “total mass” metric includes CO₂; the default “classified mass” excludes aggregates, climate gases and unassessable groups.</li>
+            <li>Population: JRC-ESTAT 2021 grid at 100 m; residents within 0.5, 1, 3 and 5 km. A disc that is less than 50 % covered by valid cells has no estimate — missing cells are never treated as zero people.</li>
+            <li>Permits: EEA IED installation table 2017–2024, exact match on the parent facility ID. A missing row is not evidence that a facility operates without a permit; Norway, Serbia and Switzerland are absent from the table.</li>
             <li>The 2024 reporting year may be incomplete. Always compare with the quality report before drawing trend conclusions.</li>
           </ul>
+          <p><a href="../../methodology.html">Methodology, data checks and the eight findings →</a></p>
 
           <h3>Sources</h3>
           <ul>
@@ -526,6 +591,8 @@ function AboutModal(props) {
             <li><a href="https://environment.ec.europa.eu/topics/water/water-union/priority-substances_en" target="_blank" rel="noreferrer">EU Water Framework Directive priority substances</a></li>
             <li><a href="https://www.epa.gov/haps" target="_blank" rel="noreferrer">US EPA hazardous air pollutants</a></li>
             <li><a href="https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units/lau" target="_blank" rel="noreferrer">GISCO LAU 2024</a> and Natural Earth admin-0 boundaries</li>
+            <li><a href="https://ec.europa.eu/eurostat/web/gisco/geodata/population-distribution" target="_blank" rel="noreferrer">JRC-ESTAT census population grid 2021</a> (100 m, EPSG:3035)</li>
+            <li><a href="https://www.eea.europa.eu/en/datahub" target="_blank" rel="noreferrer">EEA IED installations table F6_1</a> (permit documents, 2017–2024)</li>
           </ul>
 
           <h3>Keyboard</h3>
@@ -616,6 +683,9 @@ function App() {
   const [selected, setSelected] = useState(null);
   const [city, setCity] = useState(null);
   const [about, setAbout] = useState(false);
+  const [enrichment, setEnrichment] = useState(null);
+  const [denseOnly, setDenseOnly] = useState(false);
+  const [rankMode, setRankMode] = useState("metric");
 
   const mapHostRef = useRef(null);
   const mapRef = useRef(null);
@@ -644,6 +714,29 @@ function App() {
     // The initial year is validated once against the loaded year list.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  /* ---- Optional enrichment: permits + population ----------------------- */
+  useEffect(() => {
+    if (!core) return undefined;
+    let cancelled = false;
+    D.loadEnrichment(DATA_BASE).then((data) => {
+      if (!cancelled) setEnrichment(data);
+    }).catch((error) => {
+      // The explorer works without the enrichment; only the extra panels vanish.
+      console.warn("Permit/population enrichment unavailable", error);
+    });
+    return () => { cancelled = true; };
+  }, [core]);
+
+  const denseIds = useMemo(() => {
+    if (!denseOnly || !enrichment || !enrichment.population) return null;
+    const ids = new Set();
+    enrichment.population.forEach((row, index) => {
+      if (!row || row[2] == null) return;
+      if (row[2] / (Math.PI * 9) >= 1000) ids.add(index);
+    });
+    return ids;
+  }, [denseOnly, enrichment]);
 
   /* ---- Map instance ---------------------------------------------------- */
   useEffect(() => {
@@ -689,7 +782,8 @@ function App() {
       setRecords(list);
       setLoadedYear(year);
       setLoading(false);
-      if (mapRef.current) mapRef.current.setData({ core: core, records: list, year: year });
+      const rows = denseIds ? list.filter((record) => denseIds.has(record.fac)) : list;
+      if (mapRef.current) mapRef.current.setData({ core: core, records: rows, year: year });
     }).catch((error) => {
       if (cancelled) return;
       console.error(error);
@@ -698,7 +792,7 @@ function App() {
       setLoading(false);
     });
     return () => { cancelled = true; };
-  }, [core, year]);
+  }, [core, year, denseIds]);
 
   /* ---- Push the view state into d3 ------------------------------------- */
   useEffect(() => {
@@ -763,7 +857,28 @@ function App() {
     });
   }, [core, activeRecords, metric, media, minLevel]);
   const selectedRecord = selected ? recordMap.get(selected.idx) : null;
-  const topRows = useMemo(() => (stats.topFacilities || []).filter((row) => row.facility), [stats]);
+  const topRows = useMemo(() => {
+    if (!core) return [];
+    const inScope = (facility) => {
+      if (!denseOnly || !enrichment) return true;
+      const info = D.populationInfo(enrichment, facility.idx);
+      return !!(info && info.density3 != null && info.density3 >= 1000);
+    };
+    if (rankMode === "population" && enrichment) {
+      return activeRecords
+        .filter((record) => D.passesFilter(record, media, minLevel))
+        .map((record) => ({
+          facility: core.byIdx.get(record.fac),
+          record: record,
+          population: D.populationInfo(enrichment, record.fac)
+        }))
+        .filter((row) => row.facility && inScope(row.facility) &&
+          row.population && row.population.p3 != null)
+        .sort((a, b) => b.population.p3 - a.population.p3)
+        .slice(0, 10);
+    }
+    return (stats.topFacilities || []).filter((row) => row.facility && inScope(row.facility));
+  }, [stats, rankMode, enrichment, core, activeRecords, media, minLevel, denseOnly]);
 
   const cityRows = useMemo(() => {
     if (!city || !core) return [];
@@ -819,6 +934,8 @@ function App() {
     setMedia("both");
     setMinLevel(0);
     setShowLau(true);
+    setDenseOnly(false);
+    setRankMode("metric");
     setQuery("");
   }
 
@@ -883,7 +1000,8 @@ function App() {
           <section className="panel" aria-labelledby="filters-title">
             <div className="panel__head">
               <h2 className="panel__title" id="filters-title">Explore</h2>
-              {(metric !== "haz" || media !== "both" || minLevel !== 0 || !showLau || query) && (
+              {(metric !== "haz" || media !== "both" || minLevel !== 0 || !showLau ||
+                denseOnly || rankMode !== "metric" || query) && (
                 <button type="button" className="btn btn--ghost" onClick={resetFilters}>
                   <Icon name="reset" size={14} /> Reset
                 </button>
@@ -931,6 +1049,12 @@ function App() {
                   <input type="checkbox" checked={showLau} onChange={(event) => setShowLau(event.target.checked)} />
                   LAU municipality outlines
                 </label>
+                <label className="check">
+                  <input type="checkbox" checked={denseOnly} disabled={!enrichment}
+                    onChange={(event) => setDenseOnly(event.target.checked)} />
+                  Only dense areas (≥ 1,000 people/km² within 3 km)
+                </label>
+                {!enrichment && <span className="panel__note">Population data still loading…</span>}
               </div>
 
               <p className="panel__note">
@@ -946,6 +1070,7 @@ function App() {
               facility={selected}
               record={selectedRecord}
               core={core}
+              enrichment={enrichment}
               year={year}
               metric={metric}
               media={media}
@@ -1008,8 +1133,19 @@ function App() {
           {topRows.length > 0 && (
             <section className="panel" aria-labelledby="top-title">
               <div className="panel__head">
-                <h2 className="panel__title" id="top-title">Largest {D.metricInfo(metric).short}</h2>
+                <h2 className="panel__title" id="top-title">
+                  {rankMode === "population" ? "Most people within 3 km" : "Largest " + D.metricInfo(metric).short}
+                </h2>
                 <span className="panel__note" style={{ margin: 0 }}>{D.mediumLabel(media)}</span>
+              </div>
+              <div className="panel__body">
+                <Segmented options={RANK_OPTIONS} value={rankMode} onChange={setRankMode}
+                  ariaLabel="Ranking basis" />
+                <p className="panel__note">
+                  {rankMode === "population"
+                    ? "Facilities that pass the filters, ordered by residents within 3 km (JRC 2021). Mass and exposure are different questions."
+                    : "Facilities that pass the filters, ordered by the selected mass metric."}
+                </p>
               </div>
               <div className="panel__body panel__body--flush">
                 <FacilityList
@@ -1071,6 +1207,7 @@ function App() {
               <span className="map__pill">{D.metricInfo(metric).short}</span>
               <span className="map__pill">{D.mediumLabel(media)}</span>
               {minLevel > 0 && <span className="map__pill">class ≥ {minLevel}</span>}
+              {denseOnly && <span className="map__pill">dense areas only</span>}
               {loading && <span className="map__pill">loading {year}…</span>}
             </div>
 

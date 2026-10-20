@@ -2350,5 +2350,946 @@
     "Aggregate indicators (NOx, SOx, PM, TOC, total N/P, AOX, chlorides) and climate gases are not assessed.",
     "LAU join is a strict point-in-polygon test against 2024 LAU boundaries; unmatched facilities stay unlabelled.",
     "The 2024 LAU layer is used for every year because the dashboard needs one stable geographic reference."
-  ]
+  ],
+  "permits": {
+    "source": {
+      "file": "F6_1_IED_Installations.csv",
+      "rows_used": 477644,
+      "rows_by_year": {
+        "2017": 57805,
+        "2018": 59020,
+        "2019": 62374,
+        "2020": 58477,
+        "2021": 60200,
+        "2022": 60413,
+        "2023": 60440,
+        "2024": 58915
+      },
+      "permit_years": [
+        2017,
+        2024
+      ]
+    },
+    "linkage": {
+      "rule": "exact parent_facilityInspireId == FacilityInspireId",
+      "eprtr_facilities": 32155,
+      "matched": 20788,
+      "matched_pct": 64.6,
+      "unmatched": 11367,
+      "permit_parents": 64041,
+      "permit_parents_not_in_eprtr": 43253
+    },
+    "date_quality": {
+      "dateOfGranting": {
+        "empty": 0,
+        "placeholder_1900_01_01": 184592,
+        "out_of_range": 13438,
+        "unparsable": 0,
+        "valid": 279614
+      },
+      "dateOfLastUpdate": {
+        "empty": 0,
+        "placeholder_1900_01_01": 371407,
+        "out_of_range": 4322,
+        "unparsable": 0,
+        "valid": 101915
+      }
+    },
+    "url_quality": {
+      "empty": 73741,
+      "not_http": 17876,
+      "http": 386027
+    },
+    "by_country": [
+      {
+        "cc": "ES",
+        "country_name": "Spain",
+        "facilities": 5450,
+        "matched": 4849,
+        "url": 4525,
+        "grant": 4707,
+        "median_grant_year": 2008.0,
+        "matched_pct": 89.0,
+        "url_pct": 93.3,
+        "grant_pct": 97.1
+      },
+      {
+        "cc": "FR",
+        "country_name": "France",
+        "facilities": 4304,
+        "matched": 2543,
+        "url": 2543,
+        "grant": 2475,
+        "median_grant_year": 2011.0,
+        "matched_pct": 59.1,
+        "url_pct": 100.0,
+        "grant_pct": 97.3
+      },
+      {
+        "cc": "IT",
+        "country_name": "Italy",
+        "facilities": 3632,
+        "matched": 2307,
+        "url": 2307,
+        "grant": 2154,
+        "median_grant_year": 2009.0,
+        "matched_pct": 63.5,
+        "url_pct": 100.0,
+        "grant_pct": 93.4
+      },
+      {
+        "cc": "DE",
+        "country_name": "Germany",
+        "facilities": 3027,
+        "matched": 2246,
+        "url": 2231,
+        "grant": 107,
+        "median_grant_year": 1995.0,
+        "matched_pct": 74.2,
+        "url_pct": 99.3,
+        "grant_pct": 4.8
+      },
+      {
+        "cc": "GB",
+        "country_name": "United Kingdom",
+        "facilities": 2713,
+        "matched": 1639,
+        "url": 1600,
+        "grant": 1631,
+        "median_grant_year": 2008.0,
+        "matched_pct": 60.4,
+        "url_pct": 97.6,
+        "grant_pct": 99.5
+      },
+      {
+        "cc": "NO",
+        "country_name": "Norway",
+        "facilities": 1736,
+        "matched": 0,
+        "url": 0,
+        "grant": 0,
+        "median_grant_year": NaN,
+        "matched_pct": 0.0,
+        "url_pct": NaN,
+        "grant_pct": NaN
+      },
+      {
+        "cc": "PL",
+        "country_name": "Poland",
+        "facilities": 1437,
+        "matched": 1083,
+        "url": 1081,
+        "grant": 874,
+        "median_grant_year": 2010.0,
+        "matched_pct": 75.4,
+        "url_pct": 99.8,
+        "grant_pct": 80.7
+      },
+      {
+        "cc": "CZ",
+        "country_name": "Czechia",
+        "facilities": 1074,
+        "matched": 520,
+        "url": 520,
+        "grant": 520,
+        "median_grant_year": 2013.0,
+        "matched_pct": 48.4,
+        "url_pct": 100.0,
+        "grant_pct": 100.0
+      },
+      {
+        "cc": "HU",
+        "country_name": "Hungary",
+        "facilities": 954,
+        "matched": 690,
+        "url": 690,
+        "grant": 690,
+        "median_grant_year": 2021.0,
+        "matched_pct": 72.3,
+        "url_pct": 100.0,
+        "grant_pct": 100.0
+      },
+      {
+        "cc": "BE",
+        "country_name": "Belgium",
+        "facilities": 928,
+        "matched": 591,
+        "url": 591,
+        "grant": 212,
+        "median_grant_year": 2008.0,
+        "matched_pct": 63.7,
+        "url_pct": 100.0,
+        "grant_pct": 35.9
+      },
+      {
+        "cc": "DK",
+        "country_name": "Denmark",
+        "facilities": 913,
+        "matched": 425,
+        "url": 423,
+        "grant": 422,
+        "median_grant_year": 2015.0,
+        "matched_pct": 46.5,
+        "url_pct": 99.5,
+        "grant_pct": 99.3
+      },
+      {
+        "cc": "NL",
+        "country_name": "Netherlands",
+        "facilities": 864,
+        "matched": 532,
+        "url": 369,
+        "grant": 73,
+        "median_grant_year": 2012.0,
+        "matched_pct": 61.6,
+        "url_pct": 69.4,
+        "grant_pct": 13.7
+      },
+      {
+        "cc": "RO",
+        "country_name": "Romania",
+        "facilities": 864,
+        "matched": 643,
+        "url": 643,
+        "grant": 643,
+        "median_grant_year": 2009.0,
+        "matched_pct": 74.4,
+        "url_pct": 100.0,
+        "grant_pct": 100.0
+      },
+      {
+        "cc": "PT",
+        "country_name": "Portugal",
+        "facilities": 719,
+        "matched": 527,
+        "url": 512,
+        "grant": 517,
+        "median_grant_year": 2014.0,
+        "matched_pct": 73.3,
+        "url_pct": 97.2,
+        "grant_pct": 98.1
+      },
+      {
+        "cc": "FI",
+        "country_name": "Finland",
+        "facilities": 544,
+        "matched": 436,
+        "url": 436,
+        "grant": 433,
+        "median_grant_year": 2006.0,
+        "matched_pct": 80.1,
+        "url_pct": 100.0,
+        "grant_pct": 99.3
+      },
+      {
+        "cc": "SE",
+        "country_name": "Sweden",
+        "facilities": 487,
+        "matched": 417,
+        "url": 417,
+        "grant": 0,
+        "median_grant_year": NaN,
+        "matched_pct": 85.6,
+        "url_pct": 100.0,
+        "grant_pct": 0.0
+      },
+      {
+        "cc": "RS",
+        "country_name": "Serbia",
+        "facilities": 403,
+        "matched": 0,
+        "url": 0,
+        "grant": 0,
+        "median_grant_year": NaN,
+        "matched_pct": 0.0,
+        "url_pct": NaN,
+        "grant_pct": NaN
+      },
+      {
+        "cc": "BG",
+        "country_name": "Bulgaria",
+        "facilities": 305,
+        "matched": 201,
+        "url": 201,
+        "grant": 201,
+        "median_grant_year": 2011.0,
+        "matched_pct": 65.9,
+        "url_pct": 100.0,
+        "grant_pct": 100.0
+      },
+      {
+        "cc": "IE",
+        "country_name": "Ireland",
+        "facilities": 291,
+        "matched": 232,
+        "url": 232,
+        "grant": 232,
+        "median_grant_year": 2013.0,
+        "matched_pct": 79.7,
+        "url_pct": 100.0,
+        "grant_pct": 100.0
+      },
+      {
+        "cc": "AT",
+        "country_name": "Austria",
+        "facilities": 238,
+        "matched": 139,
+        "url": 55,
+        "grant": 139,
+        "median_grant_year": 2011.0,
+        "matched_pct": 58.4,
+        "url_pct": 39.6,
+        "grant_pct": 100.0
+      },
+      {
+        "cc": "LT",
+        "country_name": "Lithuania",
+        "facilities": 234,
+        "matched": 149,
+        "url": 104,
+        "grant": 149,
+        "median_grant_year": 2007.0,
+        "matched_pct": 63.7,
+        "url_pct": 69.8,
+        "grant_pct": 100.0
+      },
+      {
+        "cc": "SK",
+        "country_name": "Slovakia",
+        "facilities": 208,
+        "matched": 150,
+        "url": 150,
+        "grant": 150,
+        "median_grant_year": 2007.0,
+        "matched_pct": 72.1,
+        "url_pct": 100.0,
+        "grant_pct": 100.0
+      },
+      {
+        "cc": "GR",
+        "country_name": "Greece",
+        "facilities": 153,
+        "matched": 92,
+        "url": 92,
+        "grant": 91,
+        "median_grant_year": 2013.0,
+        "matched_pct": 60.1,
+        "url_pct": 100.0,
+        "grant_pct": 98.9
+      },
+      {
+        "cc": "CH",
+        "country_name": "Switzerland",
+        "facilities": 149,
+        "matched": 0,
+        "url": 0,
+        "grant": 0,
+        "median_grant_year": NaN,
+        "matched_pct": 0.0,
+        "url_pct": NaN,
+        "grant_pct": NaN
+      },
+      {
+        "cc": "SI",
+        "country_name": "Slovenia",
+        "facilities": 124,
+        "matched": 83,
+        "url": 83,
+        "grant": 83,
+        "median_grant_year": 2009.0,
+        "matched_pct": 66.9,
+        "url_pct": 100.0,
+        "grant_pct": 100.0
+      },
+      {
+        "cc": "EE",
+        "country_name": "Estonia",
+        "facilities": 95,
+        "matched": 82,
+        "url": 82,
+        "grant": 82,
+        "median_grant_year": 2008.0,
+        "matched_pct": 86.3,
+        "url_pct": 100.0,
+        "grant_pct": 100.0
+      },
+      {
+        "cc": "CY",
+        "country_name": "Cyprus",
+        "facilities": 87,
+        "matched": 58,
+        "url": 58,
+        "grant": 58,
+        "median_grant_year": 2007.0,
+        "matched_pct": 66.7,
+        "url_pct": 100.0,
+        "grant_pct": 100.0
+      },
+      {
+        "cc": "LV",
+        "country_name": "Latvia",
+        "facilities": 71,
+        "matched": 53,
+        "url": 53,
+        "grant": 53,
+        "median_grant_year": 2012.0,
+        "matched_pct": 74.6,
+        "url_pct": 100.0,
+        "grant_pct": 100.0
+      },
+      {
+        "cc": "HR",
+        "country_name": "Croatia",
+        "facilities": 47,
+        "matched": 34,
+        "url": 34,
+        "grant": 34,
+        "median_grant_year": 2014.0,
+        "matched_pct": 72.3,
+        "url_pct": 100.0,
+        "grant_pct": 100.0
+      },
+      {
+        "cc": "LU",
+        "country_name": "Luxembourg",
+        "facilities": 44,
+        "matched": 35,
+        "url": 35,
+        "grant": 35,
+        "median_grant_year": 2015.0,
+        "matched_pct": 79.5,
+        "url_pct": 100.0,
+        "grant_pct": 100.0
+      },
+      {
+        "cc": "IS",
+        "country_name": "Iceland",
+        "facilities": 43,
+        "matched": 24,
+        "url": 24,
+        "grant": 22,
+        "median_grant_year": 2008.0,
+        "matched_pct": 55.8,
+        "url_pct": 100.0,
+        "grant_pct": 91.7
+      },
+      {
+        "cc": "MT",
+        "country_name": "Malta",
+        "facilities": 17,
+        "matched": 8,
+        "url": 8,
+        "grant": 8,
+        "median_grant_year": 2014.0,
+        "matched_pct": 47.1,
+        "url_pct": 100.0,
+        "grant_pct": 100.0
+      }
+    ],
+    "by_year": [
+      {
+        "year": 2007,
+        "facilities": 14092,
+        "matched": 0,
+        "pct": 0.0
+      },
+      {
+        "year": 2008,
+        "facilities": 14390,
+        "matched": 0,
+        "pct": 0.0
+      },
+      {
+        "year": 2009,
+        "facilities": 14253,
+        "matched": 0,
+        "pct": 0.0
+      },
+      {
+        "year": 2010,
+        "facilities": 14226,
+        "matched": 0,
+        "pct": 0.0
+      },
+      {
+        "year": 2011,
+        "facilities": 14339,
+        "matched": 0,
+        "pct": 0.0
+      },
+      {
+        "year": 2012,
+        "facilities": 14265,
+        "matched": 0,
+        "pct": 0.0
+      },
+      {
+        "year": 2013,
+        "facilities": 14470,
+        "matched": 0,
+        "pct": 0.0
+      },
+      {
+        "year": 2014,
+        "facilities": 14676,
+        "matched": 0,
+        "pct": 0.0
+      },
+      {
+        "year": 2015,
+        "facilities": 14877,
+        "matched": 0,
+        "pct": 0.0
+      },
+      {
+        "year": 2016,
+        "facilities": 14886,
+        "matched": 0,
+        "pct": 0.0
+      },
+      {
+        "year": 2017,
+        "facilities": 15089,
+        "matched": 11885,
+        "pct": 78.8
+      },
+      {
+        "year": 2018,
+        "facilities": 14696,
+        "matched": 12389,
+        "pct": 84.3
+      },
+      {
+        "year": 2019,
+        "facilities": 14130,
+        "matched": 12086,
+        "pct": 85.5
+      },
+      {
+        "year": 2020,
+        "facilities": 12845,
+        "matched": 11156,
+        "pct": 86.9
+      },
+      {
+        "year": 2021,
+        "facilities": 12508,
+        "matched": 10843,
+        "pct": 86.7
+      },
+      {
+        "year": 2022,
+        "facilities": 11650,
+        "matched": 10026,
+        "pct": 86.1
+      },
+      {
+        "year": 2023,
+        "facilities": 10111,
+        "matched": 8917,
+        "pct": 88.2
+      },
+      {
+        "year": 2024,
+        "facilities": 10012,
+        "matched": 8810,
+        "pct": 88.0
+      }
+    ],
+    "notes": [
+      "Permit records exist for 2017-2024 only; earlier years have no permit snapshot.",
+      "Absence of a permit row is not evidence that a facility operates without a permit.",
+      "1900-01-01 is the reporting tool's placeholder; it is reported as missing, not as a date.",
+      "One permit per facility-year: non-empty URL first, then latest dateOfLastUpdate."
+    ]
+  },
+  "population": {
+    "source": {
+      "raster": "/home/sarah/Documents/GitHub/poc-de/JRC-ESTAT_Census_Population_2021_100m/JRC-ESTAT_Census_Population_2021_100m_rev0726.tif",
+      "resolution_m": 100.0,
+      "radii_m": [
+        500,
+        1000,
+        3000,
+        5000
+      ],
+      "projection": "EPSG:3035 (closed-form LAEA, no PROJ dependency)"
+    },
+    "generated": "2026-10-20",
+    "facilities": 32155,
+    "plotted": 31956,
+    "unique_points": 30430,
+    "status_counts": {
+      "outside": 4535,
+      "partial": 2135,
+      "covered": 25286,
+      "no_coordinate": 199
+    },
+    "covered_pct": 78.6,
+    "median_pop_3km": 3409.0,
+    "p90_pop_3km": 36607.0,
+    "median_density_3km": 120.6,
+    "dense_1000_per_km2": 3329,
+    "monotonic_violations": 0,
+    "notes": [
+      "The 2021 JRC-ESTAT grid covers the EU-27 plus Norway and Switzerland.",
+      "Coverage below 50 % of the 3 km disc is reported as outside, not as zero population.",
+      "Unique coordinates are profiled once; facilities sharing a coordinate share the value.",
+      "Population is a model output for 2021, not a count at the facility gate."
+    ],
+    "by_country": [
+      {
+        "cc": "ES",
+        "country_name": "Spain",
+        "facilities": 5450,
+        "covered": 5153,
+        "partial": 248,
+        "outside": 49,
+        "no_coordinate": 0,
+        "median_pop_3km": 1002.0,
+        "covered_pct": 94.6
+      },
+      {
+        "cc": "FR",
+        "country_name": "France",
+        "facilities": 4304,
+        "covered": 4040,
+        "partial": 199,
+        "outside": 7,
+        "no_coordinate": 58,
+        "median_pop_3km": 2855.0,
+        "covered_pct": 93.9
+      },
+      {
+        "cc": "IT",
+        "country_name": "Italy",
+        "facilities": 3632,
+        "covered": 3323,
+        "partial": 230,
+        "outside": 64,
+        "no_coordinate": 15,
+        "median_pop_3km": 5935.0,
+        "covered_pct": 91.5
+      },
+      {
+        "cc": "DE",
+        "country_name": "Germany",
+        "facilities": 3027,
+        "covered": 2941,
+        "partial": 79,
+        "outside": 1,
+        "no_coordinate": 6,
+        "median_pop_3km": 6687.0,
+        "covered_pct": 97.2
+      },
+      {
+        "cc": "GB",
+        "country_name": "United Kingdom",
+        "facilities": 2713,
+        "covered": 0,
+        "partial": 0,
+        "outside": 2712,
+        "no_coordinate": 1,
+        "median_pop_3km": 0.0,
+        "covered_pct": 0.0
+      },
+      {
+        "cc": "NO",
+        "country_name": "Norway",
+        "facilities": 1736,
+        "covered": 59,
+        "partial": 551,
+        "outside": 1126,
+        "no_coordinate": 0,
+        "median_pop_3km": 70.0,
+        "covered_pct": 3.4
+      },
+      {
+        "cc": "PL",
+        "country_name": "Poland",
+        "facilities": 1437,
+        "covered": 1425,
+        "partial": 12,
+        "outside": 0,
+        "no_coordinate": 0,
+        "median_pop_3km": 7507.0,
+        "covered_pct": 99.2
+      },
+      {
+        "cc": "CZ",
+        "country_name": "Czechia",
+        "facilities": 1074,
+        "covered": 1072,
+        "partial": 0,
+        "outside": 0,
+        "no_coordinate": 2,
+        "median_pop_3km": 3548.0,
+        "covered_pct": 99.8
+      },
+      {
+        "cc": "HU",
+        "country_name": "Hungary",
+        "facilities": 954,
+        "covered": 951,
+        "partial": 3,
+        "outside": 0,
+        "no_coordinate": 0,
+        "median_pop_3km": 2099.0,
+        "covered_pct": 99.7
+      },
+      {
+        "cc": "BE",
+        "country_name": "Belgium",
+        "facilities": 928,
+        "covered": 809,
+        "partial": 7,
+        "outside": 0,
+        "no_coordinate": 112,
+        "median_pop_3km": 10850.0,
+        "covered_pct": 87.2
+      },
+      {
+        "cc": "DK",
+        "country_name": "Denmark",
+        "facilities": 913,
+        "covered": 626,
+        "partial": 251,
+        "outside": 35,
+        "no_coordinate": 1,
+        "median_pop_3km": 1356.0,
+        "covered_pct": 68.6
+      },
+      {
+        "cc": "NL",
+        "country_name": "Netherlands",
+        "facilities": 864,
+        "covered": 798,
+        "partial": 62,
+        "outside": 4,
+        "no_coordinate": 0,
+        "median_pop_3km": 10906.0,
+        "covered_pct": 92.4
+      },
+      {
+        "cc": "RO",
+        "country_name": "Romania",
+        "facilities": 864,
+        "covered": 839,
+        "partial": 24,
+        "outside": 1,
+        "no_coordinate": 0,
+        "median_pop_3km": 3333.0,
+        "covered_pct": 97.1
+      },
+      {
+        "cc": "PT",
+        "country_name": "Portugal",
+        "facilities": 719,
+        "covered": 615,
+        "partial": 90,
+        "outside": 14,
+        "no_coordinate": 0,
+        "median_pop_3km": 3709.0,
+        "covered_pct": 85.5
+      },
+      {
+        "cc": "FI",
+        "country_name": "Finland",
+        "facilities": 544,
+        "covered": 437,
+        "partial": 90,
+        "outside": 17,
+        "no_coordinate": 0,
+        "median_pop_3km": 1226.0,
+        "covered_pct": 80.3
+      },
+      {
+        "cc": "SE",
+        "country_name": "Sweden",
+        "facilities": 487,
+        "covered": 369,
+        "partial": 110,
+        "outside": 8,
+        "no_coordinate": 0,
+        "median_pop_3km": 2629.0,
+        "covered_pct": 75.8
+      },
+      {
+        "cc": "RS",
+        "country_name": "Serbia",
+        "facilities": 403,
+        "covered": 0,
+        "partial": 0,
+        "outside": 403,
+        "no_coordinate": 0,
+        "median_pop_3km": 0.0,
+        "covered_pct": 0.0
+      },
+      {
+        "cc": "BG",
+        "country_name": "Bulgaria",
+        "facilities": 305,
+        "covered": 297,
+        "partial": 5,
+        "outside": 0,
+        "no_coordinate": 3,
+        "median_pop_3km": 1548.0,
+        "covered_pct": 97.4
+      },
+      {
+        "cc": "IE",
+        "country_name": "Ireland",
+        "facilities": 291,
+        "covered": 239,
+        "partial": 34,
+        "outside": 18,
+        "no_coordinate": 0,
+        "median_pop_3km": 1384.0,
+        "covered_pct": 82.1
+      },
+      {
+        "cc": "AT",
+        "country_name": "Austria",
+        "facilities": 238,
+        "covered": 238,
+        "partial": 0,
+        "outside": 0,
+        "no_coordinate": 0,
+        "median_pop_3km": 8770.0,
+        "covered_pct": 100.0
+      },
+      {
+        "cc": "LT",
+        "country_name": "Lithuania",
+        "facilities": 234,
+        "covered": 221,
+        "partial": 13,
+        "outside": 0,
+        "no_coordinate": 0,
+        "median_pop_3km": 1824.0,
+        "covered_pct": 94.4
+      },
+      {
+        "cc": "SK",
+        "country_name": "Slovakia",
+        "facilities": 208,
+        "covered": 207,
+        "partial": 1,
+        "outside": 0,
+        "no_coordinate": 0,
+        "median_pop_3km": 4950.0,
+        "covered_pct": 99.5
+      },
+      {
+        "cc": "GR",
+        "country_name": "Greece",
+        "facilities": 153,
+        "covered": 86,
+        "partial": 56,
+        "outside": 11,
+        "no_coordinate": 0,
+        "median_pop_3km": 1814.0,
+        "covered_pct": 56.2
+      },
+      {
+        "cc": "CH",
+        "country_name": "Switzerland",
+        "facilities": 149,
+        "covered": 149,
+        "partial": 0,
+        "outside": 0,
+        "no_coordinate": 0,
+        "median_pop_3km": 26434.0,
+        "covered_pct": 100.0
+      },
+      {
+        "cc": "SI",
+        "country_name": "Slovenia",
+        "facilities": 124,
+        "covered": 123,
+        "partial": 1,
+        "outside": 0,
+        "no_coordinate": 0,
+        "median_pop_3km": 7064.0,
+        "covered_pct": 99.2
+      },
+      {
+        "cc": "EE",
+        "country_name": "Estonia",
+        "facilities": 95,
+        "covered": 75,
+        "partial": 18,
+        "outside": 2,
+        "no_coordinate": 0,
+        "median_pop_3km": 731.0,
+        "covered_pct": 78.9
+      },
+      {
+        "cc": "CY",
+        "country_name": "Cyprus",
+        "facilities": 87,
+        "covered": 57,
+        "partial": 22,
+        "outside": 8,
+        "no_coordinate": 0,
+        "median_pop_3km": 1937.0,
+        "covered_pct": 65.5
+      },
+      {
+        "cc": "LV",
+        "country_name": "Latvia",
+        "facilities": 71,
+        "covered": 61,
+        "partial": 10,
+        "outside": 0,
+        "no_coordinate": 0,
+        "median_pop_3km": 4363.0,
+        "covered_pct": 85.9
+      },
+      {
+        "cc": "HR",
+        "country_name": "Croatia",
+        "facilities": 47,
+        "covered": 32,
+        "partial": 11,
+        "outside": 4,
+        "no_coordinate": 0,
+        "median_pop_3km": 10136.0,
+        "covered_pct": 68.1
+      },
+      {
+        "cc": "LU",
+        "country_name": "Luxembourg",
+        "facilities": 44,
+        "covered": 44,
+        "partial": 0,
+        "outside": 0,
+        "no_coordinate": 0,
+        "median_pop_3km": 10553.0,
+        "covered_pct": 100.0
+      },
+      {
+        "cc": "IS",
+        "country_name": "Iceland",
+        "facilities": 43,
+        "covered": 0,
+        "partial": 0,
+        "outside": 42,
+        "no_coordinate": 1,
+        "median_pop_3km": 0.0,
+        "covered_pct": 0.0
+      },
+      {
+        "cc": "MT",
+        "country_name": "Malta",
+        "facilities": 17,
+        "covered": 0,
+        "partial": 8,
+        "outside": 9,
+        "no_coordinate": 0,
+        "median_pop_3km": 24198.0,
+        "covered_pct": 0.0
+      }
+    ]
+  }
 }

@@ -1,0 +1,111 @@
+---
+title: "Map"
+description: "The same EPRTR map engine as the full explorer, embedded in the atlas."
+page-layout: full
+toc: false
+---
+
+```{=html}
+<div id="atlas-map-page" class="map-page">
+  <div id="pm-notice" class="map-notice" hidden></div>
+
+  <div class="map-toolbar" role="group" aria-label="Map filters">
+    <div class="map-field">
+      <label for="pm-year">Year</label>
+      <select id="pm-year"></select>
+    </div>
+    <div class="map-field">
+      <label for="pm-metric">Circle size</label>
+      <select id="pm-metric"></select>
+    </div>
+    <div class="map-field">
+      <label for="pm-media">Medium</label>
+      <select id="pm-media">
+        <option value="both">Air + water</option>
+        <option value="air">Air</option>
+        <option value="water">Water</option>
+      </select>
+    </div>
+    <div class="map-field">
+      <label for="pm-level">Minimum level</label>
+      <select id="pm-level">
+        <option value="0">All</option>
+        <option value="2">≥ 2 hazard-listed</option>
+        <option value="3">≥ 3 high hazard</option>
+        <option value="4">≥ 4 very high</option>
+        <option value="5">5 known carcinogen</option>
+      </select>
+    </div>
+    <div class="map-field map-field--check">
+      <label><input type="checkbox" id="pm-dense"> Dense areas only (≥ 1,000 people/km²)</label>
+    </div>
+    <div class="map-field">
+      <button type="button" id="pm-reset" class="map-btn">Reset view</button>
+    </div>
+  </div>
+
+  <p id="pm-status" class="map-status" aria-live="polite">Loading the map…</p>
+
+  <div class="map-page__grid">
+    <div class="map-panel">
+      <div class="map-wrap">
+        <div class="map" id="pm-map"></div>
+        <div class="map__zoom-controls">
+          <button type="button" id="pm-zoom-in" class="map-btn map-btn--icon" aria-label="Zoom in" title="Zoom in">+</button>
+          <button type="button" id="pm-zoom-out" class="map-btn map-btn--icon" aria-label="Zoom out" title="Zoom out">−</button>
+        </div>
+      </div>
+      <div class="map__footer">
+        <span>EEA IED/E-PRTR v16 · EPSG:3035 · GISCO LAU</span>
+        <span>Population: JRC-ESTAT 2021 · Permits: EEA IED 2017–2024</span>
+      </div>
+    </div>
+
+    <aside class="map-side" aria-label="Facility detail and legend">
+      <section class="panel">
+        <div class="panel__head">
+          <h2 class="panel__title">Facility</h2>
+          <a class="map-link" href="map/frontend/">Full explorer ↗</a>
+        </div>
+        <div class="panel__body" id="pm-detail"></div>
+      </section>
+      <section class="panel">
+        <div class="panel__head"><h2 class="panel__title">Hazard level</h2></div>
+        <div class="panel__body" id="pm-legend"></div>
+      </section>
+    </aside>
+  </div>
+</div>
+<script src="js/page-map.js"></script>
+```
+
+## Reading this map
+
+Each circle is one E-PRTR facility. **Colour** is the highest hazard level among
+the substances that facility reported; **size** is the mass you select. Colour
+and size answer different questions: a large pale circle (much mass, little
+classified hazard) and a small dark circle (little mass, high hazard) are both
+worth a look.
+
+The population layer counts residents of 100 m census cells within 0.5, 1, 3
+and 5 km of the facility. It is a model for 2021, it covers the EU-27 plus
+Norway and Switzerland (not the UK, Serbia or Iceland), and residents near
+several facilities are counted once per facility. The atlas never turns a
+missing raster cell into zero people.
+
+Use the query string to share a view, for example:
+
+- [carcinogenic mass, level ≥ 3](map.html?metric=carc&media=both&level=3)
+- [only dense areas](map.html?metric=haz&dense=1)
+- [a single facility](map.html?focus=24748&metric=carc)
+
+Every row in [Findings](findings.html) links back to this page with the right
+year, metric and facility.
+
+::: {.callout-note}
+**This map is hazard screening, not a risk assessment.** A dark circle means
+"this facility reported substances that appear on a hazard list". It says
+nothing about dose, exposure pathways, local meteorology or actual harm.
+See [Methodology](methodology.html#hazard-classification) for the level
+definitions.
+:::

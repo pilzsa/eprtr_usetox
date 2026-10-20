@@ -1,0 +1,91 @@
+---
+title: "EPRTR Atlas"
+subtitle: "European industrial pollutant releases, hazard, population and permits, 2007–2024"
+toc: false
+---
+
+The European Pollutant Release and Transfer Register (E-PRTR) records what
+industrial facilities report releasing to air and water. This atlas joins those
+reports with a hazard screening of every reported substance, the 2021 census
+population around each site, and the IED permit record. It is built to answer
+eight questions about industrial pollution in Europe — and to be explicit about
+what the data cannot say.
+
+{{< include data/tables/headline.md >}}
+
+## Three ways in
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+### [Map](map.qmd)
+
+One circle per facility, 2007–2024. Colour is the highest hazard level the
+facility reported, size is the mass you choose. Click a circle for the
+population within 5 km and the permit document.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### [Findings](findings.qmd)
+
+Eight questions, eight answers: the largest total releases, the most hazardous
+and most carcinogenic masses, the trend since 2007, the countries that carry
+the most, who lives nearby, and whether the permits are up to date.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### [Data checks](data-checks.qmd)
+
+What was removed, what was joined, and what is missing. Every cleaning decision
+and every coverage gap is counted, not waved away.
+:::
+
+:::
+
+## What makes this different
+
+- **Mass is not toxicity.** The largest reported mass is carbon dioxide; the
+  largest *classified* mass is carbon monoxide from steel works; the largest
+  *carcinogenic* mass is a phthalate discharge from one wastewater plant. The
+  atlas keeps the three rankings separate and shows how little they overlap.
+- **Hazard is not exposure.** A facility can report a lot and sit in a field, or
+  report little and sit in a city. Population within 3 km is a separate layer,
+  not a weight applied to the mass.
+- **Missing is not zero.** Where the census grid has no cells, the atlas says so
+  instead of printing "0 people". Permit coverage is reported per country, not
+  assumed.
+
+## Read this first
+
+::: {.callout-warning}
+This is a screening atlas, not a risk assessment and not a compliance verdict.
+A dark circle means "this facility reported substances that appear on a hazard
+list", not "this facility is dangerous". A missing permit record in the EEA
+table is not evidence that a facility operates without a permit.
+:::
+
+- Release masses are self-reported by operators under the E-PRTR Regulation.
+- Permit records cover **2017–2024** only, and only **64.6 %** of the 32,155
+  facilities could be linked; Norway, Serbia and Switzerland have no records in
+  the table at all.
+- Population is a **2021** model on 100 m cells, covering the EU-27 plus Norway
+  and Switzerland. The United Kingdom, Serbia, Iceland and overseas territories
+  are outside the grid.
+- The latest reporting year is **2024**; it may still be revised upstream.
+
+## Data
+
+| Layer | Source | Coverage |
+|:--|:--|:--|
+| Air and water releases | EEA IED/E-PRTR v16 (2007–2024) | 32,155 facilities, 32 countries |
+| Hazard screening | IARC, CLP, ECHA SVHC, EPA HAP, WFD priority lists | 94 E-PRTR labels |
+| Population | JRC-ESTAT census grid 2021, 100 m | EU-27 + NO + CH |
+| Permits | EEA IED installations table F6_1 | 2017–2024, 20,788 facilities |
+| Municipalities | GISCO LAU 2024 (EPSG:3035) | 27,574 facilities joined |
+
+Files: [facilities](data/facilities_latest.csv) ·
+[countries](data/countries_latest.csv) ·
+[trend](data/trend.csv) ·
+[findings](data/findings.json) ·
+the full explorer's [JSON data](map/data/facilities.json) ·
+[methodology](methodology.qmd).

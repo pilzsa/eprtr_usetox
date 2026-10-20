@@ -1,0 +1,14 @@
+- Mass sums exclude missing and negative values; zero is kept as a reported zero.
+- CO2 excluding biomass is nested in total CO2; the smaller label is counted once per facility-year to avoid double counting.
+- Classified mass includes only substances with a hazard level >= 2 (CLP/IARC/EPA HAP/WFD).
+- Aggregate indicators (NOx, SOx, PM, TOC, total N/P, AOX, chlorides) and climate gases are not assessed.
+- LAU join is a strict point-in-polygon test against 2024 LAU boundaries; unmatched facilities stay unlabelled.
+- The 2024 LAU layer is used for every year because the dashboard needs one stable geographic reference.
+- Permit records exist for 2017-2024 only; earlier years have no permit snapshot.
+- Absence of a permit row is not evidence that a facility operates without a permit.
+- 1900-01-01 is the reporting tool's placeholder; it is reported as missing, not as a date.
+- One permit per facility-year: non-empty URL first, then latest dateOfLastUpdate.
+- The 2021 JRC-ESTAT grid covers the EU-27 plus Norway and Switzerland.
+- Coverage below 50 % of the 3 km disc is reported as outside, not as zero population.
+- Unique coordinates are profiled once; facilities sharing a coordinate share the value.
+- Population is a model output for 2021, not a count at the facility gate.

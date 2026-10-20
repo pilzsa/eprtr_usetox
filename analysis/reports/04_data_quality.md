@@ -282,7 +282,7 @@ Other invariants verified by the build:
 * **Hazard levels are screening flags, not risk.** IARC, CLP, SVHC, EPA HAP and
   WFD evidence says a substance appears on a list; it does not measure exposure,
   dose, bioavailability or local impact. See
-  [`03_hazard_classification.md`](03_hazard_classification.md).
+  `reports/03_hazard_classification.md`.
 * **Confidential releases are omitted.** The 53 suppressed rows make affected
   facility-year totals lower bounds. Their pollutant identity is unavailable, so
   their hazard class cannot be recovered.

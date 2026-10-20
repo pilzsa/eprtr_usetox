@@ -1,0 +1,108 @@
+---
+title: "Methodology"
+subtitle: "How the atlas is built, and what it deliberately does not do"
+toc: true
+---
+
+## Pipeline at a glance
+
+| Step | Script | Output |
+|:--|:--|:--|
+| Releases, hazard levels, LAU join | `analysis/build_dataset.py` | `dashboard/data/*.json`, `analysis/outputs/*.csv` |
+| Permit linkage | `analysis/build_permits.py` | `permits.json`, `permits_facility.csv` |
+| Population within 0.5/1/3/5 km | `analysis/population_profile.py` | `population.json`, `facility_population.csv` |
+| Tables, figures, headline numbers | `analysis/build_findings.py` | `analysis/data/tables/*.md`, `analysis/data/figures/*.svg` |
+| Stage the explorer for the site | `scripts/stage_web.sh` | `analysis/map/` (gitignored) |
+| Render | `quarto render analysis` | `analysis/_site/` |
+
+The Quarto site copies the React explorer into `analysis/map/` and loads the
+same `lib/map.js`, `lib/data.js` and tokens as the full explorer. The map page
+in this site is a second shell over one engine, not a second implementation.
+
+## Definitions
+
+### Three mass definitions
+
+| Name | Definition | 2024 value |
+|:--|:--|--:|
+| Total mass | Every reported air + water release, CO₂ counted once | 1,013 Mt |
+| Classified mass | Substances with hazard level ≥ 2 | 1.98 Mt |
+| Carcinogenic mass | IARC 1/2A/2B or CLP Carc. 1A/1B/2 (IARC 3 excluded) | 8,244 t |
+
+The first is mostly CO₂. The second still weighs kilograms equally, so a
+low-potency gas can outrank a potent one. Only the third is a toxicity-defined
+subset, and it is the narrowest.
+
+### Hazard levels {#hazard-classification}
+
+| Level | Name | Meaning |
+|--:|:--|:--|
+| 0 | Unassessed | Climate gas, aggregate indicator, confidential, or no classification possible |
+| 1 | Reported, unclassified | CAS known, no hit in the supplied lists |
+| 2 | Hazard-listed | CLP health or environmental classification |
+| 3 | High hazard | IARC 2B, CLP Carc. 2, EPA HAP (air), WFD priority (water), or IARC group 3 alone |
+| 4 | Very high hazard | IARC 2A, CLP Carc. 1B, ECHA SVHC |
+| 5 | Known carcinogen | IARC 1 or CLP Carc. 1A |
+
+The level is intrinsic to the substance, not to the facility, the quantity or
+the location. Level 3 is deliberately broad: it includes every IARC-flagged
+substance, which is why hydrogen chloride reaches level 3. That is a screening
+choice, documented in report 03 below, and it is the reason the site publishes
+both a classified mass (level ≥ 2) and a strict carcinogenic mass.
+
+### Population {#population}
+
+For each unique facility coordinate the 5 km window of the JRC-ESTAT 2021 100 m
+grid is read once and the 0.5/1/3/5 km discs are evaluated on the same array.
+Coverage is `valid cells × cell area / (π r²)`; **less than 50 % valid cells is
+"outside", not zero**. A facility on a coastline or outside the grid therefore
+has no population number at all, rather than a misleading 0.
+
+### Permits {#permits}
+
+* Exact match on `parent_facilityInspireId`; no fuzzy matching.
+* One row per facility-year, preferring a non-empty `permitURL`, then the
+  latest `dateOfLastUpdate`, then `dateOfGranting`.
+* `1900-01-01` (the reporting tool's placeholder) becomes null and is counted
+  as missing; dates outside 1990–2026 become null.
+* Absence from the table is **not** evidence that a facility has no permit.
+  Norway, Serbia and Switzerland are not in the table at all.
+
+## Decisions worth arguing about
+
+1. **Mass is not weighted by toxicity.** A kilogram of CO and a kilogram of
+   dioxin count the same in "classified mass". This is why the atlas shows
+   level, population and carcinogenic mass next to it.
+2. **The latest year is not final.** 2024 is the newest year in v16 and may be
+   revised. Comparisons to 2007 also inherit changes in thresholds, annexes and
+   membership.
+3. **Population is a model.** 2021 counts in 100 m cells, not a register at the
+   gate; residents near several facilities are counted once per facility.
+4. **The carcinogenic definition is narrower than the dashboard's count.** The
+   facility panel's `n_carc` includes IARC group 3; the findings do not. The
+   sensitivity (+15.8 kt, mostly HCl) is stated on the Findings page.
+5. **No imputation.** Missing masses are excluded, not estimated; missing
+   coordinates are kept in the data but not plotted; missing census cells are
+   reported, not filled.
+
+## Reports
+
+The four reports below are the long-form documentation behind the counts. They
+are included verbatim from `analysis/reports/`; the same files are readable on
+GitHub under [`analysis/reports/`](https://github.com/pilzsa/eprtr_usetox/tree/main/analysis/reports).
+
+<div class="report">
+{{< include reports/01_data_sources_and_scope.md >}}
+</div>
+
+<div class="report">
+{{< include reports/02_data_cleaning.md >}}
+</div>
+
+<div class="report">
+{{< include reports/03_hazard_classification.md >}}
+</div>
+
+<div class="report">
+{{< include reports/04_data_quality.md >}}
+</div>
