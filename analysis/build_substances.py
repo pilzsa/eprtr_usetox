@@ -25,17 +25,19 @@ A substance is *hazard-classified* when its level for the reported medium is
 2 or higher, exactly the rule used for the "classified mass" metric.  The
 browser derives the same split from ``pollutants.json``; this script records
 the totals so the split can be audited without a browser.
+
+The script uses the standard library only, because `scripts/build_site.sh` and
+the Pages workflow run it before rendering; neither installs numpy/pandas.
 """
 
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 import math
 from collections import defaultdict
 from pathlib import Path
-
-import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "analysis" / "outputs"
@@ -61,46 +63,48 @@ def clean_mass(value: float) -> float:
     return 0.0 if number == 0 else number
 
 
+def number_or_none(value):
+    """`float(value)`, or None for blanks, NaN and infinities (pandas parity)."""
+    try:
+        number = float(value)
+    except (TypeError, ValueError):
+        return None
+    return number if math.isfinite(number) else None
+
+
 def build_rows(pollutant_year: Path, pollutants: dict[int, dict]) -> list[list]:
     """Return [year, p_idx, air_kg, water_kg, air_facilities, water_facilities]."""
-    frame = pd.read_csv(
-        pollutant_year,
-        usecols=["p_idx", "year", "medium", "kg_counted", "facilities_counted"],
-    )
-    frame = frame[frame["medium"].isin(MEDIA)].copy()
-    frame["p_idx"] = pd.to_numeric(frame["p_idx"], errors="raise").astype(int)
-    frame["year"] = pd.to_numeric(frame["year"], errors="raise").astype(int)
-    frame["kg_counted"] = (
-        pd.to_numeric(frame["kg_counted"], errors="coerce").fillna(0.0).clip(lower=0.0)
-    )
-    frame["facilities_counted"] = (
-        pd.to_numeric(frame["facilities_counted"], errors="coerce").fillna(0).astype(int)
-    )
+    cells: dict[tuple[int, int], list] = {}
+    with pollutant_year.open(newline="", encoding="utf-8") as handle:
+        for record in csv.DictReader(handle):
+            medium = (record.get("medium") or "").strip()
+            if medium not in MEDIA:
+                continue
+            try:
+                year = int(float(record["year"]))
+                p_idx = int(float(record["p_idx"]))
+            except (KeyError, TypeError, ValueError) as exc:
+                raise SystemExit(f"{pollutant_year}: bad year/p_idx: {exc}")
+            kg = number_or_none(record.get("kg_counted")) or 0.0
+            facilities = number_or_none(record.get("facilities_counted")) or 0.0
+            slot = cells.setdefault((year, p_idx), [0.0, 0.0, 0, 0])
+            if medium == "air":
+                slot[0] += max(kg, 0.0)
+                slot[2] += int(facilities)
+            else:
+                slot[1] += max(kg, 0.0)
+                slot[3] += int(facilities)
 
-    unknown = sorted(set(frame["p_idx"]) - set(pollutants))
+    unknown = sorted({p_idx for _, p_idx in cells} - set(pollutants))
     if unknown:
         raise SystemExit(f"pollutant ids missing from pollutants.json: {unknown}")
 
-    wide = None
-    for medium in MEDIA:
-        part = (frame[frame["medium"].eq(medium)]
-                .set_index(["year", "p_idx"])[["kg_counted", "facilities_counted"]]
-                .rename(columns={
-                    "kg_counted": f"{medium}_kg",
-                    "facilities_counted": f"{medium}_facilities",
-                }))
-        wide = part if wide is None else wide.join(part, how="outer")
-    wide = wide.fillna({"air_kg": 0.0, "water_kg": 0.0,
-                        "air_facilities": 0, "water_facilities": 0})
-    wide = wide[(wide["air_kg"] > 0) | (wide["water_kg"] > 0)]
-
     rows = [
-        [
-            int(year), int(p_idx),
-            clean_mass(row["air_kg"]), clean_mass(row["water_kg"]),
-            int(row["air_facilities"]), int(row["water_facilities"]),
-        ]
-        for (year, p_idx), row in wide.sort_index().iterrows()
+        [year, p_idx, clean_mass(air_kg), clean_mass(water_kg),
+         air_facilities, water_facilities]
+        for (year, p_idx), (air_kg, water_kg, air_facilities, water_facilities)
+        in sorted(cells.items())
+        if air_kg > 0 or water_kg > 0
     ]
     if not rows:
         raise SystemExit(f"{pollutant_year} produced no substance rows")
